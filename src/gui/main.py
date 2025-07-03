@@ -1,356 +1,303 @@
 import tkinter as tk
 from tkinter import ttk, messagebox, simpledialog
-import os
-import asyncio
-import threading
-import sys
-import yaml
 import queue
+import threading
+import logging
+import sys
+from scraper.config_manager import ConfigManager
+from scraper.worker import ScraperWorker
 
-# Adiciona o diretório raiz do projeto ao caminho de busca do Python
-project_root = os.path.abspath(os.path.join(os.path.dirname(__file__), "../.."))
-sys.path.append(project_root)
-
-# Adiciona o diretório 'src' ao caminho de busca
-src_dir = os.path.join(project_root, "src")
-sys.path.append(src_dir)
-
-# Importa os módulos necessários
-try:
-    from scraper.client import TelegramScraper
-    from scraper.id_exporter import TelegramIDExporter
-except ImportError:
-    print("Erro ao importar módulos. Caminho de busca do Python:")
-    for path in sys.path:
-        print(path)
-    raise
+# Configuração básica de logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.FileHandler(
+            "gui.log", encoding="utf-8"
+        ),  # Garante UTF-8 para o arquivo de log
+        logging.StreamHandler(
+            sys.stdout
+        ),  # Usar sys.stdout para garantir que o encoding do terminal seja respeitado
+    ],
+)
+# Configurar o encoding do console para UTF-8, se possível
+if sys.stdout.encoding != "utf-8":
+    sys.stdout = open(sys.stdout.fileno(), mode="w", encoding="utf-8", buffering=1)
+    sys.stderr = open(sys.stderr.fileno(), mode="w", encoding="utf-8", buffering=1)
 
 
 class TelegramScraperGUI:
     def __init__(self, root):
         self.root = root
         self.root.title("Telegram Scraper")
-        self.root.geometry("600x400")
-        self.scraper = None
-        self.id_exporter = None
-        self.config_path = os.path.join(project_root, "config", "config.yaml")
-        self.setup_gui()
-        self.loop = (
-            asyncio.new_event_loop()
-        )  # Cria um novo loop de eventos para evitar conflitos com o loop principal do Tkinter
-        threading.Thread(
-            target=self.start_loop, daemon=True
-        ).start()  # Inicia o loop em uma thread separada
+        self.root.geometry("700x500")
 
-    def start_loop(self):
-        asyncio.set_event_loop(self.loop)
-        self.loop.run_forever()
+        self.config_manager = ConfigManager()
+        self.request_queue = queue.Queue()
+        self.response_queue = queue.Queue()
+
+        self.worker = ScraperWorker(
+            self.config_manager, self.request_queue, self.response_queue
+        )
+        self.worker_thread = threading.Thread(target=self.worker.run, daemon=True)
+        self.worker_thread.start()
+
+        self.controls = {}  # Dicionário para guardar os widgets
+        self.setup_gui()
+        self.process_responses()
+
+        self.root.protocol("WM_DELETE_WINDOW", self.on_closing)
 
     def setup_gui(self):
-        # Frame principal
         main_frame = ttk.Frame(self.root, padding="10")
         main_frame.grid(row=0, column=0, sticky=(tk.W, tk.E, tk.N, tk.S))
+        self.root.columnconfigure(0, weight=1)
+        self.root.rowconfigure(0, weight=1)
 
-        # Botões para ações
-        ttk.Button(
-            main_frame, text="Conectar ao Telegram", command=self.connect_telegram
-        ).grid(row=0, column=0, pady=5, padx=5, sticky=tk.W)
-        ttk.Button(main_frame, text="Listar Canais", command=self.list_channels).grid(
-            row=1, column=0, pady=5, padx=5, sticky=tk.W
+        # --- Coluna de Ações ---
+        actions_frame = ttk.LabelFrame(main_frame, text="Ações", padding="10")
+        actions_frame.grid(row=0, column=0, sticky=(tk.N, tk.S))
+
+        self.controls["connect_button"] = ttk.Button(
+            actions_frame, text="Conectar ao Telegram", command=self.connect_telegram
         )
-        ttk.Button(main_frame, text="Adicionar Canal", command=self.add_channel).grid(
-            row=2, column=0, pady=5, padx=5, sticky=tk.W
+        self.controls["connect_button"].pack(fill=tk.X, pady=5)
+
+        self.controls["list_channels_button"] = ttk.Button(
+            actions_frame,
+            text="Listar Canais",
+            command=lambda: self.send_command("list_channels"),
         )
-        ttk.Button(main_frame, text="Remover Canal", command=self.remove_channel).grid(
-            row=3, column=0, pady=5, padx=5, sticky=tk.W
+        self.controls["list_channels_button"].pack(fill=tk.X, pady=5)
+
+        self.controls["add_channel_button"] = ttk.Button(
+            actions_frame, text="Adicionar Canal", command=self.add_channel
         )
-        ttk.Button(main_frame, text="Raspar Canais", command=self.scrape_channels).grid(
-            row=4, column=0, pady=5, padx=5, sticky=tk.W
+        self.controls["add_channel_button"].pack(fill=tk.X, pady=5)
+
+        self.controls["remove_channel_button"] = ttk.Button(
+            actions_frame, text="Remover Canal", command=self.remove_channel
         )
-        ttk.Button(main_frame, text="Exportar Dados", command=self.export_data).grid(
-            row=5, column=0, pady=5, padx=5, sticky=tk.W
+        self.controls["remove_channel_button"].pack(fill=tk.X, pady=5)
+
+        self.controls["scrape_channels_button"] = ttk.Button(
+            actions_frame,
+            text="Raspar Canais",
+            command=lambda: self.send_command("scrape_channels"),
         )
-        ttk.Button(
-            main_frame,
-            text="Ativar Raspagem Contínua",
+        self.controls["scrape_channels_button"].pack(fill=tk.X, pady=5)
+
+        self.controls["export_data_button"] = ttk.Button(
+            actions_frame,
+            text="Exportar Dados",
+            command=lambda: self.send_command("export_data"),
+        )
+        self.controls["export_data_button"].pack(fill=tk.X, pady=5)
+
+        self.controls["export_ids_button"] = ttk.Button(
+            actions_frame,
+            text="Exportar IDs",
+            command=lambda: self.send_command("export_ids"),
+        )
+        self.controls["export_ids_button"].pack(fill=tk.X, pady=5)
+
+        # --- Coluna de Configurações ---
+        settings_frame = ttk.LabelFrame(main_frame, text="Configurações", padding="10")
+        settings_frame.grid(row=1, column=0, sticky=(tk.W, tk.E))
+
+        self.continuous_scraping_var = tk.BooleanVar(
+            value=self.config_manager.get("scraping.continuous_scraping", False)
+        )
+        self.controls["continuous_scraping_check"] = ttk.Checkbutton(
+            settings_frame,
+            text="Raspagem Contínua",
+            variable=self.continuous_scraping_var,
             command=self.toggle_continuous_scraping,
-        ).grid(row=6, column=0, pady=5, padx=5, sticky=tk.W)
-        ttk.Button(
-            main_frame,
-            text="Ativar/Desativar Download de Mídia",
-            command=self.toggle_media_download,
-        ).grid(row=7, column=0, pady=5, padx=5, sticky=tk.W)
-        ttk.Button(
-            main_frame,
-            text="Exportar IDs de Grupos e Tópicos",
-            command=self.export_groups_and_topics,
-        ).grid(row=8, column=0, pady=5, padx=5, sticky=tk.W)
+        )
+        self.controls["continuous_scraping_check"].pack(anchor=tk.W)
 
-        # Área de texto para logs
-        self.log_text = tk.Text(main_frame, height=10, width=50)
-        self.log_text.grid(row=0, column=1, rowspan=9, pady=5, padx=5)
-        self.log_text.insert(tk.END, "Bem-vindo ao Telegram Scraper!\n")
+        self.download_media_var = tk.BooleanVar(
+            value=self.config_manager.get("scraping.download_media", False)
+        )
+        self.controls["download_media_check"] = ttk.Checkbutton(
+            settings_frame,
+            text="Download de Mídia",
+            variable=self.download_media_var,
+            command=self.toggle_media_download,
+        )
+        self.controls["download_media_check"].pack(anchor=tk.W)
+
+        self.toggle_controls(False)  # Desabilitar controles na inicialização
+
+        # --- Área de Logs ---
+        log_frame = ttk.LabelFrame(main_frame, text="Logs", padding="10")
+        log_frame.grid(row=0, column=1, rowspan=2, sticky=(tk.W, tk.E, tk.N, tk.S))
+        main_frame.columnconfigure(1, weight=1)
+        main_frame.rowconfigure(0, weight=1)
+
+        self.log_text = tk.Text(log_frame, height=20, width=60)
+        self.log_text.pack(fill=tk.BOTH, expand=True)
+        self.log("Bem-vindo ao Telegram Scraper!")
 
     def log(self, message):
         self.log_text.insert(tk.END, message + "\n")
         self.log_text.see(tk.END)
+        logging.info(message)
 
-    def run_async(self, coro):
-        future = asyncio.run_coroutine_threadsafe(coro, self.loop)
-        return future.result()
+    def send_command(self, command, **kwargs):
+        self.request_queue.put({"command": command, "args": kwargs})
+
+    def process_responses(self):
+        try:
+            response = self.response_queue.get_nowait()
+            status = response.get("status")
+            message = response.get("message")
+            data = response.get("data")
+
+            if status == "log":
+                self.log(message)
+            elif status == "error":
+                self.log(f"ERRO: {message}")
+                messagebox.showerror("Erro", message)
+            elif status == "success":
+                self.log(f"SUCESSO: {message}")
+                if message == "Conectado com sucesso!":
+                    self.toggle_controls(True)
+            elif status == "channels_list":
+                self.log("Canais e Grupos disponíveis:")
+                for item in data:
+                    self.log(f"Canal/Grupo: {item['name']} (ID: {item['id']})")
+                    if "topics" in item and item["topics"]:
+                        for topic in item["topics"]:
+                            self.log(f"  - Tópico: {topic['name']} (ID: {topic['id']})")
+                self.log(
+                    "Extração de canais e grupos concluída."
+                )  # Adicionado mensagem de conclusão
+            elif status == "request_2fa_code":
+                self.prompt_for_2fa_code()
+            elif status == "request_password":
+                self.prompt_for_password()
+
+        except queue.Empty:
+            pass
+        finally:
+            self.root.after(100, self.process_responses)
+
+    def prompt_for_password(self):
+        """Pede a senha de 2FA ao usuário e a envia para o worker."""
+        password = simpledialog.askstring(
+            "Senha de Verificação",
+            "Por favor, insira sua senha de autenticação de dois fatores:",
+            parent=self.root,
+            show="*",  # Esconde a senha
+        )
+        self.worker.password_queue.put(password)
+
+    def toggle_controls(self, enabled):
+        """Habilita ou desabilita os controles da GUI, exceto o de conexão."""
+        state = tk.NORMAL if enabled else tk.DISABLED
+        for name, widget in self.controls.items():
+            if name != "connect_button":
+                widget.config(state=state)
+
+    def prompt_for_2fa_code(self):
+        """Pede o código 2FA ao usuário e o envia para o worker."""
+        code = simpledialog.askstring(
+            "Código de Verificação",
+            "Por favor, insira o código que você recebeu no Telegram:",
+            parent=self.root,
+        )
+        # Envia o código (ou None se o usuário cancelar) para a fila do worker
+        self.worker.code_queue.put(code)
 
     def connect_telegram(self):
-        # Sempre abre o diálogo para permitir novas tentativas de conexão.
-        self.show_credentials_dialog()
-
-    def show_credentials_dialog(self):
         dialog = tk.Toplevel(self.root)
         dialog.title("Credenciais do Telegram")
-
-        # Centralizar a janela de pop-up
-        x = self.root.winfo_x()
-        y = self.root.winfo_y()
-        w = self.root.winfo_width()
-        h = self.root.winfo_height()
-        dialog.geometry(f"300x200+{x + w // 2 - 150}+{y + h // 2 - 100}")
-
+        dialog.geometry("350x200")
         dialog.transient(self.root)
         dialog.grab_set()
+
+        # Carregar credenciais existentes para preencher os campos
+        api_id = self.config_manager.get("telegram.api_id", "")
+        api_hash = self.config_manager.get("telegram.api_hash", "")
+        phone = self.config_manager.get("telegram.phone_number", "")
 
         ttk.Label(dialog, text="API ID:").grid(
             row=0, column=0, padx=5, pady=5, sticky=tk.W
         )
         api_id_entry = ttk.Entry(dialog)
         api_id_entry.grid(row=0, column=1, padx=5, pady=5)
+        api_id_entry.insert(0, api_id)
 
         ttk.Label(dialog, text="API Hash:").grid(
             row=1, column=0, padx=5, pady=5, sticky=tk.W
         )
         api_hash_entry = ttk.Entry(dialog)
         api_hash_entry.grid(row=1, column=1, padx=5, pady=5)
+        api_hash_entry.insert(0, api_hash)
 
         ttk.Label(dialog, text="Número de Telefone:").grid(
             row=2, column=0, padx=5, pady=5, sticky=tk.W
         )
         phone_entry = ttk.Entry(dialog)
         phone_entry.grid(row=2, column=1, padx=5, pady=5)
+        phone_entry.insert(0, phone)
 
         def confirm():
             try:
-                api_id = int(api_id_entry.get())
-                api_hash = api_hash_entry.get()
-                phone_number = phone_entry.get()
+                api_id_val = int(api_id_entry.get())
+                api_hash_val = api_hash_entry.get()
+                phone_val = phone_entry.get()
 
-                # Atualizar configuração
-                config = {
-                    "telegram": {
-                        "api_id": api_id,
-                        "api_hash": api_hash,
-                        "phone_number": phone_number,
-                        "session_file": "session.session",
-                    },
-                    "scraping": {
-                        "channels": [],
-                        "message_limit": 100,
-                        "continuous_scraping": False,
-                        "interval_seconds": 300,
-                        "download_media": False,
-                    },
-                }
-                with open(self.config_path, "w") as f:
-                    yaml.safe_dump(config, f, default_flow_style=False)
+                if not all([api_id_val, api_hash_val, phone_val]):
+                    messagebox.showerror("Erro", "Todos os campos são obrigatórios.")
+                    return
 
-                # Conectar de forma assíncrona e tratar o resultado
-                def connect_async():
-                    # Define o event loop para esta thread específica.
-                    asyncio.set_event_loop(asyncio.new_event_loop())
-                    try:
-                        # Cria uma nova instância do scraper para cada tentativa.
-                        scraper_instance = TelegramScraper(self.config_path)
-
-                        # Esta função será chamada pelo Telethon quando precisar do código.
-                        def get_code_from_dialog():
-                            self.log(
-                                "Um código de verificação é necessário. Abrindo pop-up..."
-                            )
-                            q = queue.Queue()
-
-                            def ask_on_main_thread():
-                                code = simpledialog.askstring(
-                                    "Código de Verificação",
-                                    "Por favor, insira o código que você recebeu no Telegram:",
-                                    parent=dialog,
-                                )
-                                q.put(code)
-
-                            self.root.after(0, ask_on_main_thread)
-                            return q.get()
-
-                        # O método start agora é chamado diretamente, pois já estamos em uma thread.
-                        # Usamos o loop da thread atual.
-                        loop = asyncio.get_event_loop()
-                        result = loop.run_until_complete(
-                            scraper_instance.start(code_callback=get_code_from_dialog)
-                        )
-
-                        if result:
-                            # Apenas atribui à instância principal em caso de sucesso.
-                            self.scraper = scraper_instance
-                            self.id_exporter = TelegramIDExporter(self.scraper.client)
-                            self.root.after(
-                                0, lambda: self.log("Conectado com sucesso!")
-                            )
-                            self.root.after(0, dialog.destroy)
-                    except Exception as e:
-                        self.root.after(
-                            0,
-                            lambda e=e: self.log(f"Erro na conexão: {str(e)}"),
-                        )
-                        self.root.after(
-                            0,
-                            lambda e=e: messagebox.showerror(
-                                "Erro", f"Falha ao conectar: {str(e)}"
-                            ),
-                        )
-
-                threading.Thread(target=connect_async, daemon=True).start()
-                self.log("Conectando ao Telegram... Aguarde.")
+                self.send_command(
+                    "connect",
+                    api_id=api_id_val,
+                    api_hash=api_hash_val,
+                    phone_number=phone_val,
+                )
+                dialog.destroy()
             except ValueError:
                 messagebox.showerror("Erro", "API ID deve ser um número inteiro.")
             except Exception as e:
-                messagebox.showerror("Erro", f"Falha ao conectar: {str(e)}")
+                messagebox.showerror("Erro", f"Ocorreu um erro: {e}")
 
         ttk.Button(dialog, text="Confirmar", command=confirm).grid(
             row=3, column=0, columnspan=2, pady=10
         )
 
-    def list_channels(self):
-        if not self.scraper:
-            self.log("Conecte-se ao Telegram primeiro.")
-            return
-
-        def list_channels_async():
-            try:
-                channels = self.run_async(self.scraper.get_channels())
-                self.root.after(0, lambda: self.log("Canais disponíveis:"))
-                for ch in channels:
-                    self.root.after(
-                        0, lambda ch=ch: self.log(f"- {ch.name} (ID: {ch.id})")
-                    )
-            except Exception as e:
-                self.root.after(0, lambda: self.log(f"Erro ao listar canais: {str(e)}"))
-
-        threading.Thread(target=list_channels_async, daemon=True).start()
-
     def add_channel(self):
-        if not self.scraper:
-            self.log("Conecte-se ao Telegram primeiro.")
-            return
         channel_id = simpledialog.askstring(
             "Adicionar Canal", "Digite o ID ou nome do canal:"
         )
         if channel_id:
-            self.scraper.config["scraping"]["channels"].append(
-                {"id": channel_id, "name": channel_id}
+            self.send_command(
+                "add_channel", channel_id=channel_id, channel_name=channel_id
             )
-            self.log(f"Canal {channel_id} adicionado.")
-            # Salvar configuração
-            with open(self.config_path, "w") as f:
-                yaml.safe_dump(self.scraper.config, f, default_flow_style=False)
 
     def remove_channel(self):
-        if not self.scraper:
-            self.log("Conecte-se ao Telegram primeiro.")
-            return
         channel_id = simpledialog.askstring(
             "Remover Canal", "Digite o ID ou nome do canal:"
         )
         if channel_id:
-            self.scraper.config["scraping"]["channels"] = [
-                ch
-                for ch in self.scraper.config["scraping"]["channels"]
-                if ch["id"] != channel_id
-            ]
-            self.log(f"Canal {channel_id} removido.")
-            # Salvar configuração
-            with open(self.config_path, "w") as f:
-                yaml.safe_dump(self.scraper.config, f, default_flow_style=False)
-
-    def scrape_channels(self):
-        if not self.scraper:
-            self.log("Conecte-se ao Telegram primeiro.")
-            return
-        channels = [ch["id"] for ch in self.scraper.config["scraping"]["channels"]]
-        if not channels:
-            self.log("Nenhum canal configurado para raspagem.")
-            return
-        for ch_id in channels:
-            threading.Thread(
-                target=lambda: self.run_async(self.scraper.scrape_channel(ch_id)),
-                daemon=True,
-            ).start()
-            self.log(f"Iniciando raspagem do canal {ch_id}...")
-
-    def export_data(self):
-        if not self.scraper:
-            self.log("Conecte-se ao Telegram primeiro.")
-            return
-        channels = [ch["id"] for ch in self.scraper.config["scraping"]["channels"]]
-        if not channels:
-            self.log("Nenhum canal configurado para exportação.")
-            return
-        for ch_id in channels:
-            self.scraper.export_data(ch_id)
-            self.log(f"Dados exportados para o canal {ch_id}.")
+            self.send_command("remove_channel", channel_id=channel_id)
 
     def toggle_continuous_scraping(self):
-        if not self.scraper:
-            self.log("Conecte-se ao Telegram primeiro.")
-            return
-        self.scraper.config["scraping"]["continuous_scraping"] = (
-            not self.scraper.config["scraping"]["continuous_scraping"]
-        )
-        status = (
-            "ativada"
-            if self.scraper.config["scraping"]["continuous_scraping"]
-            else "desativada"
-        )
-        self.log(f"Raspagem contínua {status}.")
-        if self.scraper.config["scraping"]["continuous_scraping"]:
-            threading.Thread(
-                target=lambda: self.run_async(self.scraper.continuous_scraping()),
-                daemon=True,
-            ).start()
-        # Salvar configuração
-        with open(self.config_path, "w") as f:
-            yaml.safe_dump(self.scraper.config, f, default_flow_style=False)
+        is_enabled = self.continuous_scraping_var.get()
+        self.send_command("toggle_continuous_scraping", enabled=is_enabled)
 
     def toggle_media_download(self):
-        if not self.scraper:
-            self.log("Conecte-se ao Telegram primeiro.")
-            return
-        self.scraper.config["scraping"]["download_media"] = not self.scraper.config[
-            "scraping"
-        ]["download_media"]
-        status = (
-            "ativado"
-            if self.scraper.config["scraping"]["download_media"]
-            else "desativado"
-        )
-        self.log(f"Download de mídia {status}.")
-        # Salvar configuração
-        with open(self.config_path, "w") as f:
-            yaml.safe_dump(self.scraper.config, f, default_flow_style=False)
+        is_enabled = self.download_media_var.get()
+        self.send_command("toggle_media_download", enabled=is_enabled)
 
-    def export_groups_and_topics(self):
-        if not self.id_exporter:
-            self.log("Conecte-se ao Telegram primeiro.")
-            return
-        threading.Thread(
-            target=lambda: self.run_async(self.id_exporter.export_groups_and_topics()),
-            daemon=True,
-        ).start()
-        self.log("Iniciando exportação de IDs de grupos e tópicos...")
+    def on_closing(self):
+        self.log("Encerrando a aplicação...")
+        self.send_command("shutdown")
+        # Aguardar um pouco para o worker processar o shutdown
+        self.root.after(500, self.root.destroy)
 
 
 if __name__ == "__main__":

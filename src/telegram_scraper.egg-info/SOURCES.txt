@@ -1,0 +1,11 @@
+pyproject.toml
+src/gui/main.py
+src/scraper/client.py
+src/scraper/config_manager.py
+src/scraper/id_exporter.py
+src/scraper/worker.py
+src/telegram_scraper.egg-info/PKG-INFO
+src/telegram_scraper.egg-info/SOURCES.txt
+src/telegram_scraper.egg-info/dependency_links.txt
+src/telegram_scraper.egg-info/requires.txt
+src/telegram_scraper.egg-info/top_level.txt

@@ -1,0 +1,2692 @@
+2025-07-03 00:38:02,631 - INFO - Worker thread started.
+2025-07-03 00:38:02,661 - INFO - Bem-vindo ao Telegram Scraper!
+2025-07-03 00:38:14,831 - ERROR - Erro ao executar 'toggle_continuous_scraping': 'NoneType' object has no attribute 'continuous_scraping'
+2025-07-03 00:38:14,858 - INFO - SUCESSO: Raspagem cont�nua ativada.
+2025-07-03 00:38:14,960 - INFO - ERRO: Erro ao executar 'toggle_continuous_scraping': 'NoneType' object has no attribute 'continuous_scraping'
+2025-07-03 00:38:32,731 - INFO - SUCESSO: Download de m�dia ativado.
+2025-07-03 00:38:53,057 - INFO - Configurando credenciais...
+2025-07-03 00:38:56,373 - INFO - Connecting to 149.154.167.51:443/TcpFull...
+2025-07-03 00:38:56,470 - INFO - Conectando ao Telegram...
+2025-07-03 00:38:59,107 - INFO - Connection to 149.154.167.51:443/TcpFull complete!
+2025-07-03 00:39:00,969 - INFO - Phone migrated to 1
+2025-07-03 00:39:01,181 - INFO - Reconnecting to new data center 1
+2025-07-03 00:39:01,822 - INFO - Disconnecting from 149.154.167.51:443/TcpFull...
+2025-07-03 00:39:01,822 - INFO - Disconnection from 149.154.167.51:443/TcpFull complete!
+2025-07-03 00:39:01,823 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-07-03 00:39:04,009 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-07-03 00:39:53,337 - INFO - SUCESSO: Conectado com sucesso!
+2025-07-03 00:41:06,082 - INFO - Buscando lista de canais...
+2025-07-03 00:41:14,169 - INFO - Sleeping for 24s (0:00:24) on GetDialogsRequest flood wait
+2025-07-03 00:41:41,136 - INFO - Canais dispon�veis:
+2025-07-03 00:44:57,414 - INFO - Encerrando a aplica��o...
+2025-07-03 00:44:57,447 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-07-03 00:44:57,448 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-07-03 00:44:57,524 - INFO - Desligando o worker...
+2025-07-03 01:28:42,371 - INFO - Worker thread started.
+2025-07-03 01:28:42,388 - INFO - Bem-vindo ao Telegram Scraper!
+2025-07-03 01:28:49,878 - INFO - Configurando credenciais...
+2025-07-03 01:28:49,921 - ERROR - Falha na conex�o: TelegramScraper.start() got an unexpected keyword argument 'phone'
+2025-07-03 01:28:49,990 - INFO - Conectando ao Telegram...
+2025-07-03 01:28:50,100 - INFO - ERRO: Falha na conex�o: TelegramScraper.start() got an unexpected keyword argument 'phone'
+2025-07-03 01:29:15,493 - INFO - Encerrando a aplica��o...
+2025-07-03 01:29:15,594 - INFO - Worker thread finished.
+2025-07-03 01:29:15,594 - INFO - Desligando o worker...
+2025-07-03 01:29:40,104 - INFO - Worker thread started.
+2025-07-03 01:29:40,118 - INFO - Bem-vindo ao Telegram Scraper!
+2025-07-03 01:29:46,541 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-07-03 01:29:46,592 - INFO - Configurando credenciais...
+2025-07-03 01:29:46,672 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-07-03 01:29:46,703 - INFO - Conectando ao Telegram...
+2025-07-03 01:29:48,211 - INFO - SUCESSO: Conectado com sucesso!
+2025-07-03 01:29:52,611 - ERROR - Erro ao listar canais e grupos: 'TelegramScraper' object has no attribute 'get_channels_and_groups'
+2025-07-03 01:29:52,657 - INFO - Buscando lista de canais e grupos...
+2025-07-03 01:29:52,766 - INFO - ERRO: Erro ao listar canais e grupos: 'TelegramScraper' object has no attribute 'get_channels_and_groups'
+2025-07-03 01:30:44,347 - INFO - Encerrando a aplica��o...
+2025-07-03 01:30:44,371 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-07-03 01:30:44,372 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-07-03 01:30:44,449 - INFO - Desligando o worker...
+2025-07-03 01:30:44,890 - INFO - Worker thread finished.
+2025-07-03 01:32:03,426 - INFO - Worker thread started.
+2025-07-03 01:32:03,441 - INFO - Bem-vindo ao Telegram Scraper!
+2025-07-03 01:32:11,105 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-07-03 01:32:11,175 - INFO - Configurando credenciais...
+2025-07-03 01:32:11,236 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-07-03 01:32:11,276 - INFO - Conectando ao Telegram...
+2025-07-03 01:32:12,899 - INFO - SUCESSO: Conectado com sucesso!
+2025-07-03 01:32:15,479 - INFO - Buscando lista de canais e grupos...
+2025-07-03 01:32:22,978 - INFO - Sleeping for 25s (0:00:25) on GetDialogsRequest flood wait
+2025-07-03 01:32:50,921 - INFO - Canais e Grupos dispon�veis:
+2025-07-03 01:32:50,922 - INFO - Canal/Grupo: HARD COPY - Kishotenketsu (ID: 2162769672)
+2025-07-03 01:32:50,922 - INFO - Canal/Grupo: INEMA.N8N (ID: 2494913847)
+2025-07-03 01:32:50,922 - INFO - Canal/Grupo: radar (ID: 2370406148)
+2025-07-03 01:32:50,923 - INFO - Canal/Grupo: Consultas204 (ID: 2199888564)
+2025-07-03 01:32:50,940 - INFO - Canal/Grupo: Ferramentas Espi�s PREMIUM (ID: 1961079095)
+2025-07-03 01:32:50,941 - INFO - Canal/Grupo: 1 - Rob� de Leads - Adicione Membros no Telegram (ID: 1808506136)
+2025-07-03 01:32:50,943 - INFO - Canal/Grupo: IA Coding Club (ID: 2478485661)
+2025-07-03 01:32:50,943 - INFO - Canal/Grupo: RATEIO DE FERRAMENTAS ESPIONAGEM - ADHEART, ADMINER, DROPTOOL, OLHO DE DEUS, SEMRUSH, GURUKILLER, CHATGPT, DESIGN E+ 50 FERRAME (ID: 2050904769)
+2025-07-03 01:32:50,944 - INFO - Canal/Grupo: AFILIADOS - InstaLead Softwares (ID: 1805936238)
+2025-07-03 01:32:50,944 - INFO - Canal/Grupo: MUNDO AUTOMATIK� (ID: 1775887965)
+2025-07-03 01:32:50,945 - INFO - Canal/Grupo: CURSOS GR�TIS (ID: 1901124458)
+2025-07-03 01:32:50,946 - INFO - Canal/Grupo: INEMA.IMAGENS (ID: 2466217981)
+2025-07-03 01:32:50,946 - INFO - Canal/Grupo: INEMA.AVATARES (ID: 2471285437)
+2025-07-03 01:32:50,947 - INFO - Canal/Grupo: INEMA.TIA (ID: 2422191575)
+2025-07-03 01:32:50,947 - INFO - Canal/Grupo: INEMA.Educ (ID: 2187166710)
+2025-07-03 01:32:50,947 - INFO - Canal/Grupo: INEMA.DEV (ID: 2389955773)
+2025-07-03 01:32:50,948 - INFO - Canal/Grupo: NovaTech Hub [ Lista ] (ID: 2069902304)
+2025-07-03 01:32:50,952 - INFO - Canal/Grupo: crIAs (ID: 1930476997)
+2025-07-03 01:32:52,004 - INFO - Canal/Grupo: Coder IA Grupo (ID: 2464906396)
+2025-07-03 01:32:52,056 - INFO - Canal/Grupo: n8n Brasil (ID: 1523488185)
+2025-07-03 01:32:52,059 - INFO - Canal/Grupo: GPCR Promo - Hardware e Tecnologia (ID: 1744305155)
+2025-07-03 01:32:52,109 - INFO - Canal/Grupo: INEMA.VIP (ID: 2405283087)
+2025-07-03 01:32:52,178 - INFO - Canal/Grupo: INEMA.AGENTES (ID: 2433384436)
+2025-07-03 01:32:52,608 - INFO - Canal/Grupo: INEMA.VISION (ID: 2356666932)
+2025-07-03 01:32:52,621 - INFO - Canal/Grupo: INEMA.CPA (ID: 2390939966)
+2025-07-03 01:32:52,636 - INFO - Canal/Grupo: INEMA.MUSICAL (ID: 2286953019)
+2025-07-03 01:32:52,643 - INFO - Canal/Grupo: INEMA.ROBOT (ID: 2412734678)
+2025-07-03 01:32:52,651 - INFO - Canal/Grupo: INEMA.Make (ID: 2277358326)
+2025-07-03 01:32:52,658 - INFO - Canal/Grupo: INEMA.VIDEOS (ID: 2307181433)
+2025-07-03 01:32:52,668 - INFO - Canal/Grupo: � Cursos Drive Online Oficial - DrivedoDinheiro - dvd | GP (ID: 1465356677)
+2025-07-03 01:32:52,677 - INFO - Canal/Grupo: INEMA.IA (ID: 2238677701)
+2025-07-03 01:32:52,687 - INFO - Canal/Grupo: Comunidade Penin (ID: 1446184660)
+2025-07-03 01:32:52,695 - INFO - Canal/Grupo: INEMA.INFRA (ID: 2491219310)
+2025-07-03 01:32:52,705 - INFO - Canal/Grupo: INEMA.LLMs (ID: 2463916523)
+2025-07-03 01:32:52,711 - INFO - Canal/Grupo: INEMA.MKT (ID: 2484989243)
+2025-07-03 01:32:52,722 - INFO - Canal/Grupo: Cupons e Promo��es - Mr Zoreta (ID: 1712667311)
+2025-07-03 01:32:52,916 - INFO - Canal/Grupo: Betina Rudolph - Mentoria Digital - Copia (ID: 2144024114)
+2025-07-03 01:32:52,923 - INFO - Canal/Grupo: Escola da Automa��o - Thales (ID: 2153965019)
+2025-07-03 01:32:52,931 - INFO - Canal/Grupo: F�rmula da Produtividade - Ana Jords (ID: 2114099862)
+2025-07-03 01:32:52,939 - INFO - Canal/Grupo: Mentoria Convers�o Extrema 2023 - Tiago Tessmann (ID: 2135868479)
+2025-07-03 01:32:52,946 - INFO - Canal/Grupo: Forma��o em Social Media (Completo) - Icaro de Carvalho (ID: 1973882516)
+2025-07-03 01:32:52,951 - INFO - Canal/Grupo: Curso de Figma (ID: 1944067527)
+2025-07-03 01:32:52,955 - INFO - Canal/Grupo: INEMA.TDS (ID: 2174331656)
+2025-07-03 01:32:53,043 - INFO - Canal/Grupo: INEMA.ADULTO (ID: 2429706589)
+2025-07-03 01:32:53,051 - INFO - Canal/Grupo: OGRO PRO OFICIAL (ID: 1160877521)
+2025-07-03 01:32:53,122 - INFO - Canal/Grupo: Layer Laranjade (Vers�o pirata) (ID: 2725202835)
+2025-07-03 01:32:53,141 - INFO - Canal/Grupo: Programador Viking (ID: 1481869075)
+2025-07-03 01:32:53,153 - INFO - Canal/Grupo: Cursogratiis (ID: 1654648955)
+2025-07-03 01:32:53,169 - INFO - Canal/Grupo: Pedro Sobral - Canal dos Subidos (ID: 1448387167)
+2025-07-03 01:32:53,179 - INFO - Canal/Grupo: Dicas da Ana Tex (ID: 1483167703)
+2025-07-03 01:32:53,307 - INFO - Canal/Grupo: Studios Monkey - Top Editores Brasil (ID: 1234117731)
+2025-07-03 01:32:53,322 - INFO - Canal/Grupo: TCS SPY - PORTAL (ID: 2429087738)
+2025-07-03 01:32:53,401 - INFO - Canal/Grupo: Vamos Automatizar (ID: 1580661617)
+2025-07-03 01:32:53,657 - INFO - Canal/Grupo: Escola do Sutil Conhecimento (ID: 2311885997)
+2025-07-03 01:32:53,694 - INFO - Canal/Grupo: Contas Com Saldo Recargapay Para Pagamentos (ID: 1733354090)
+2025-07-03 01:32:53,888 - INFO - Canal/Grupo: Tiger Eye | Cursos (ID: 2169688662)
+2025-07-03 01:32:54,181 - INFO - Canal/Grupo: O Primo Rico (ID: 1188384738)
+2025-07-03 01:32:54,204 - INFO - Canal/Grupo: Extreme Cursos (ID: 1785959351)
+2025-07-03 01:32:54,224 - INFO - Canal/Grupo: Comunidade Jon Fortuna (ID: 2624431019)
+2025-07-03 01:32:54,241 - INFO - Canal/Grupo: Inside Digital - Cursos (ID: 1128986451)
+2025-07-03 01:32:54,255 - INFO - Canal/Grupo: VERDADE REVELADA - Neemias & Jemima Gomes (ID: 1340574612)
+2025-07-03 01:32:54,271 - INFO - Canal/Grupo: Android Security & Malware (ID: 1164747047)
+2025-07-03 01:32:54,281 - INFO - Canal/Grupo: INEMA.Prompts (ID: 2494987106)
+2025-07-03 01:32:54,294 - INFO - Canal/Grupo: Turma #5 - O Caminho da Ascens�o (ID: 2036825093)
+2025-07-03 01:32:54,316 - INFO - Canal/Grupo: Packs VIP | Chat (ID: 1862049146)
+2025-07-03 01:32:54,576 - INFO - Canal/Grupo: Cripto Rodrigo Souza Pro (ID: 1209765125)
+2025-07-03 01:32:54,584 - INFO - Canal/Grupo: �LTIMA CHAMADA (ID: 1274680420)
+2025-07-03 01:32:54,593 - INFO - Canal/Grupo: Manual de Birras e Mau Comportamento (ID: 1816021848)
+2025-07-03 01:32:54,650 - INFO - Canal/Grupo: Marcelo Braggion | Copy Daily Plus (ID: 1553949419)
+2025-07-03 01:32:54,656 - INFO - Canal/Grupo: Comunidade ZDG (ID: 1510327718)
+2025-07-03 01:32:54,675 - INFO - Canal/Grupo: AI Central - Trick tips and more (ID: 1832709321)
+2025-07-03 01:32:54,684 - INFO - Canal/Grupo: { access #D.er } (ID: 1947816371)
+2025-07-03 01:32:54,693 - INFO - Canal/Grupo: Blackbox Ads | FREE (ID: 2409564102)
+2025-07-03 01:32:54,700 - INFO - Canal/Grupo: Abraham (Canal Oficial) (ID: 1894347150)
+2025-07-03 01:32:54,705 - INFO - Canal/Grupo: CANAL SANDECO (ID: 1207550207)
+2025-07-03 01:32:54,713 - INFO - Canal/Grupo: Comunidade Gr�tis - Gabriel Digital - Google Ads/Design (ID: 2089706382)
+2025-07-03 01:32:54,727 - INFO - Canal/Grupo: Vida Lend�ria (ID: 1329719041)
+2025-07-03 01:32:54,744 - INFO - Canal/Grupo: Neg�cios em Mente - Chat GPT | Neg�cios | IAs | Marketing Digital (ID: 1487155520)
+2025-07-03 01:32:54,751 - INFO - Canal/Grupo: Comunidade gabesleal (ID: 2467757439)
+2025-07-03 01:32:54,757 - INFO - Canal/Grupo: RP Union Poker - SUPREMA, PPPOKER, X-Poker, CLUB GG , Poker Bros (ID: 1372783132)
+2025-07-03 01:32:54,762 - INFO - Canal/Grupo: Segredo dos Consignados (ID: 1646494056)
+2025-07-03 01:32:54,766 - INFO - Canal/Grupo: Jony Lan do Marketing ao Digital e a Intelig�ncia Artificial (ID: 1448056455)
+2025-07-03 01:32:54,801 - INFO - Canal/Grupo: Carol Capel (ID: 1304526142)
+2025-07-03 01:32:54,915 - INFO - Canal/Grupo: Canal - Marcelo Segredo (ID: 1366958123)
+2025-07-03 01:32:54,930 - INFO - Canal/Grupo: CARTAO INVESTIMENTOS PIX (ID: 2132512506)
+2025-07-03 01:32:54,945 - INFO - Canal/Grupo: Notion Money Method (ID: 2029705562)
+2025-07-03 01:32:54,954 - INFO - Canal/Grupo: Biblioteca Esot�rica (ID: 1472987312)
+2025-07-03 01:32:54,966 - INFO - Canal/Grupo: ACESSO INSTA BIO NO CANVA (ID: 2413596311)
+2025-07-03 01:32:54,988 - INFO - Canal/Grupo: Rede M. Apps (ID: 1793077451)
+2025-07-03 01:32:55,004 - INFO - Canal/Grupo: COMPARTILLY APP - 50 FERRAMENTAS PREMIUM | CANVA PRO | CHAT GPT | BAIXAR DESIGN | ENVATO ELEMENTS | CAPCUT (ID: 2042945800)
+2025-07-03 01:32:55,010 - INFO - Canal/Grupo: INEMA.NCIA (ID: 2414677686)
+2025-07-03 01:32:55,017 - INFO - Canal/Grupo: Faz com IA - [Canal oficial] (ID: 1566506391)
+2025-07-03 01:32:55,025 - INFO - Canal/Grupo: NodeMation By Nskha (ID: 1999012755)
+2025-07-03 01:32:55,031 - INFO - Canal/Grupo: Jornal Verit� (ID: 1602272531)
+2025-07-03 01:32:55,143 - INFO - Canal/Grupo: ACESSO CANVA LINK NA BIO (ID: 2162518688)
+2025-07-03 01:32:55,157 - INFO - Canal/Grupo: Spy Tools - NinjaBR (ID: 1870844617)
+2025-07-03 01:32:55,170 - INFO - Canal/Grupo: Poker Profit ClubGG Channel (ID: 1647027668)
+2025-07-03 01:32:55,181 - INFO - Canal/Grupo: Comunidade Grigoletti (ID: 1715197528)
+2025-07-03 01:32:55,194 - INFO - Canal/Grupo: ACESSO P�G. DE VENDAS CANVA (ID: 2017023412)
+2025-07-03 01:32:55,208 - INFO - Canal/Grupo: AcervoDEV - Conhecimento Acess�vel (ID: 2494286912)
+2025-07-03 01:32:55,230 - INFO - Canal/Grupo: Pratique a resolu��o de desafios de programa��o e arrebente na sua pr�xima entrevista - Algomania (ID: 2336411742)
+2025-07-03 01:32:55,240 - INFO - Canal/Grupo: Allison Lindsay PLO5 (ID: 1506299939)
+2025-07-03 01:32:55,272 - INFO - Canal/Grupo: Obstinados - "Tr�fego Org�nico" (ID: 1685266569)
+2025-07-03 01:32:55,304 - INFO - Canal/Grupo: Fa�a Sua Primeira Venda em 24 Horas � Brunna Siqueira (ID: 2640318187)
+2025-07-03 01:32:55,311 - INFO - Canal/Grupo: A Era Da M�quina De Vendas � Brunna Siqueira (ID: 2690188174)
+2025-07-03 01:32:55,318 - INFO - Canal/Grupo: TIPS JADER FIORI (ID: 1954762236)
+2025-07-03 01:32:55,323 - INFO - Canal/Grupo: Escola de Automa��o (ID: 1732818660)
+2025-07-03 01:32:55,431 - INFO - Canal/Grupo: Explica��es sobre coronav�rus - Atila (ID: 1237328358)
+2025-07-03 01:32:55,444 - INFO - Canal/Grupo: CHAT Ana Tex (ID: 1493358523)
+2025-07-03 01:32:55,459 - INFO - Canal/Grupo: INEMA.Automacao (ID: 2246269738)
+2025-07-03 01:32:55,468 - INFO - Canal/Grupo: FUTFANTASY - ROB� OVER GOLS (ID: 1263132653)
+2025-07-03 01:32:55,482 - INFO - Canal/Grupo: Intensiv�o do Poker Felipe Bueno (ID: 1404091790)
+2025-07-03 01:32:55,496 - INFO - Canal/Grupo: Metahackers � (ID: 1398518473)
+2025-07-03 01:32:55,508 - INFO - Canal/Grupo: Viveiros - Download (ID: 1443950623)
+2025-07-03 01:32:55,532 - INFO - Canal/Grupo: �Aproveite nossa oferta exclusiva para clientes especiais.� (ID: 2012646220)
+2025-07-03 01:32:55,540 - INFO - Canal/Grupo: Curso.ninja-saite.com (ID: 1916937673)
+2025-07-03 01:32:55,548 - INFO - Canal/Grupo: Stories para Enriquecer - Luana Carolina (ID: 2207124218)
+2025-07-03 01:32:55,556 - INFO - Canal/Grupo: LearnWorld - Cursos (ID: 1863930960)
+2025-07-03 01:32:55,563 - INFO - Canal/Grupo: Pula Muralha (ID: 1179568133)
+2025-07-03 01:32:55,586 - INFO - Canal/Grupo: Lista de Cursos - Inside Digital (ID: 1620704041)
+2025-07-03 01:32:55,635 - INFO - Canal/Grupo: Alertas de Trends Virais - Pedro Carvalho TikTok (ID: 1572047333)
+2025-07-03 01:32:55,645 - INFO - Canal/Grupo: Lays Rezende (ID: 2440662852)
+2025-07-03 01:32:55,663 - INFO - Canal/Grupo: Forma��o Copywriter 12k-Alexandre Viveiros (ID: 2077952119)
+2025-07-03 01:32:55,672 - INFO - Canal/Grupo: Reels Superpoderoso | Paulo Cuenca (ID: 1723996863)
+2025-07-03 01:32:55,678 - INFO - Canal/Grupo: Momento FLOW por Marcelo M�ller (ID: 1389575311)
+2025-07-03 01:32:55,755 - INFO - Canal/Grupo: Creativerse - Cursos (ID: 1869064698)
+2025-07-03 01:32:55,760 - INFO - Canal/Grupo: RocketMaster - Alunos (ID: 1499045763)
+2025-07-03 01:32:55,768 - INFO - Canal/Grupo: Hormart Metodo 4S WordPress-Marcos Bertoleti-2023 (ID: 2185523156)
+2025-07-03 01:32:55,774 - INFO - Canal/Grupo: Codirect - Marca de Valor (ID: 1385488883)
+2025-07-03 01:32:55,840 - INFO - Canal/Grupo: Indico Descontos (ID: 1684986947)
+2025-07-03 01:32:55,843 - INFO - Canal/Grupo: PPPCLUBS/POKERBROS NETWORK (ID: 1217123587)
+2025-07-03 01:32:55,848 - INFO - Canal/Grupo: Hora de Codar (ID: 1698169166)
+2025-07-03 01:32:55,897 - INFO - Canal/Grupo: Rei dos cursos (ID: 1748673789)
+2025-07-03 01:32:55,955 - INFO - Canal/Grupo: C�digo Viral - Oney Araujo (ID: 2029537480)
+2025-07-03 01:32:55,959 - INFO - Canal/Grupo: Canal do Fred Costa (ID: 1236324263)
+2025-07-03 01:32:55,968 - INFO - Canal/Grupo: Viver de Renda Cripto - Felipe Santana e Bruno Perini (ID: 2108623675)
+2025-07-03 01:32:55,972 - INFO - Canal/Grupo: �Aproveite nossa oferta exclusiva para clientes especiais.� (ID: 4195297026)
+2025-07-03 01:32:55,976 - INFO - Canal/Grupo: Plo5 Poker (ID: 1460404421)
+2025-07-03 01:32:55,981 - INFO - Canal/Grupo: UniCanva: Escola de Design com o Canva � Rob Boliver (ID: 2135790201)
+2025-07-03 01:32:55,984 - INFO - Canal/Grupo: Mestres AI - Tiago Lemos (ID: 1994603681)
+2025-07-03 01:32:55,988 - INFO - Canal/Grupo: CCN Pessoal Novo � Carlos, Leonardo (ID: 2041192576)
+2025-07-03 01:32:55,992 - INFO - Canal/Grupo: Curso de Poker - O Mais Completo do Brasil - Felipe Carmanhani (ID: 1864749072)
+2025-07-03 01:32:55,996 - INFO - Canal/Grupo: Hashtag Treinamentos - @DevWorldHub (ID: 1758893027)
+2025-07-03 01:32:56,001 - INFO - Canal/Grupo: Landing Page do Zero-Alef Miranda-2023 (ID: 2082345531)
+2025-07-03 01:32:56,006 - INFO - Canal/Grupo: B2X GROUP (ID: 1244516701)
+2025-07-03 01:32:56,008 - INFO - Canal/Grupo: Tiffany (vazado) (ID: 1806380884)
+2025-07-03 01:32:56,010 - INFO - Canal/Grupo: Arnaldo Junior - Trader (ID: 1314088491)
+2025-07-03 01:32:56,014 - INFO - Canal/Grupo: Afiliado Full Stack (ID: 1955694801)
+2025-07-03 01:32:56,030 - INFO - Canal/Grupo: Tik Tok Ads Academy-Edu Maia-2022 (ID: 1989626482)
+2025-07-03 01:32:56,038 - INFO - Canal/Grupo: TURBO LEADS # 1 (ID: 1864103762)
+2025-07-03 01:32:56,042 - INFO - Canal/Grupo: Engenharia de Software (ID: 1877449273)
+2025-07-03 01:32:56,046 - INFO - Canal/Grupo: AMANDA SERV���S BOT (ID: 1962340375)
+2025-07-03 01:32:56,049 - INFO - Canal/Grupo: Mem�ria_360_CME_Renato_Alves-2022 (ID: 1962788821)
+2025-07-03 01:32:56,053 - INFO - Canal/Grupo: Putinha vazada @Packsmega (ID: 1801543679)
+2025-07-03 01:32:56,058 - INFO - Canal/Grupo: LOGO ANIMATION - Levy Motion (ID: 1978794349)
+2025-07-03 01:32:56,060 - INFO - Canal/Grupo: FO.CO Forma��o para Co-Produtores - Ana Paula Perci (ID: 1719977104)
+2025-07-03 01:32:56,064 - INFO - Canal/Grupo: Landing Canva (ID: 1852232639)
+2025-07-03 01:32:56,067 - INFO - Canal/Grupo: Master Criativos - Felipe Ferini (ID: 1837344595)
+2025-07-03 01:32:56,106 - INFO - Canal/Grupo: Creativerse - Convite (ID: 1657314902)
+2025-07-03 01:32:56,201 - INFO - Canal/Grupo: Scarlett Jones (ID: 1763360711)
+2025-07-03 01:32:56,204 - INFO - Canal/Grupo: Asi�ticas (ID: 1763474904)
+2025-07-03 01:32:56,210 - INFO - Canal/Grupo: Eletricista_Profissional-2022-Engehall (ID: 1709707496)
+2025-07-03 01:32:56,272 - INFO - Canal/Grupo: *THE ROCKETS* M.C UDIA (ID: 574965680)
+2025-07-03 01:32:56,278 - INFO - Canal/Grupo: Hackeando Tudo 2 0-Raiam Santos-2022 (ID: 1767619801)
+2025-07-03 01:32:56,283 - INFO - Canal/Grupo: Libras Intensive - Libras Academy (ID: 1618177277)
+2025-07-03 01:32:56,287 - INFO - Canal/Grupo: Kkcacheta (ID: 1778272963)
+2025-07-03 01:32:56,294 - INFO - Canal/Grupo: Fish Nunca Mais! (ID: 1290591390)
+2025-07-03 01:32:56,298 - INFO - Canal/Grupo: Android Hacking - GuardWeb (ID: 1569204689)
+2025-07-03 01:32:56,302 - INFO - Canal/Grupo: Melhor metatodo marketing digital do mundo (ID: 709148372)
+2025-07-03 01:32:56,312 - INFO - Canal/Grupo: Allison Lindsay-M�o do dia (ID: 639312591)
+2025-07-03 01:32:56,315 - INFO - Canal/Grupo: Profissao Gestora de Trafego - Ana Clara Neves Cardoso (ID: 1513078954)
+2025-07-03 01:32:56,319 - INFO - Canal/Grupo: PokerBotAI Net (ID: 1567917862)
+2025-07-03 01:32:56,322 - INFO - Canal/Grupo: 5- ChinesBravo (238025) (158113) (810287) (ID: 407989358)
+2025-07-03 01:32:56,327 - INFO - Canal/Grupo: CASA DAS FAMOSAS PR�VIAS (ID: 1724157074)
+2025-07-03 01:32:56,330 - INFO - Canal/Grupo: Cursagram (ID: 1045967856)
+2025-07-03 01:32:56,332 - INFO - Canal/Grupo: Jogo Lucrativo (ID: 1358612767)
+2025-07-03 01:32:56,335 - INFO - Canal/Grupo: Leo in Fat Stacks (ID: 737185371)
+2025-07-03 01:32:56,337 - INFO - Canal/Grupo: Pokerdogs - Bodog Brasil (ID: 1460204019)
+2025-07-03 01:32:56,341 - INFO - Canal/Grupo: Jovem Grinder (ID: 1539828067)
+2025-07-03 01:32:56,344 - INFO - Canal/Grupo: Comunidade Reg Life (ID: 1478904508)
+2025-07-03 01:32:56,346 - INFO - Canal/Grupo: Comunidade Funnel Makers (ID: 1239978025)
+2025-07-03 01:32:56,350 - INFO - Canal/Grupo: Maratona Elite Online (ID: 1404783408)
+2025-07-03 01:32:56,353 - INFO - Canal/Grupo: Jean Paulo - Job Content Academy (ID: 1463470382)
+2025-07-03 01:32:56,355 - INFO - Canal/Grupo: Mathews Azevedo (ID: 1489039431)
+2025-07-03 01:32:56,356 - INFO - Canal/Grupo: Gus/Bede/Shayne (ID: 527109951)
+2025-07-03 01:32:56,358 - INFO - Canal/Grupo: Test Period PPPoker Club id 670454 (ID: 1284238900)
+2025-07-03 01:32:56,359 - INFO - Canal/Grupo: Caminhada com o Jo�o (ID: 1468578844)
+2025-07-03 01:32:56,361 - INFO - Canal/Grupo: Test Period PPPoker Club id 670454 (ID: 368098570)
+2025-07-03 01:32:56,362 - INFO - Canal/Grupo: Test period Upoker (ID: 361884652)
+2025-07-03 01:32:56,365 - INFO - Canal/Grupo: �udioLivros - �udioBooks Gratuitos (ID: 1421984939)
+2025-07-03 01:32:56,390 - INFO - Canal/Grupo: Seu Curso Online com Ana Martha Tex (ID: 1473063388)
+2025-07-03 01:32:56,392 - INFO - Canal/Grupo: Nerds de neg�cios (ID: 1375585807)
+2025-07-03 01:32:56,395 - INFO - Canal/Grupo: PPPORVA - VIP (ID: 1338102835)
+2025-07-03 01:32:56,397 - INFO - Canal/Grupo: Cerrado poker (ID: 393366342)
+2025-07-03 01:32:56,400 - INFO - Canal/Grupo: AUSTRALIAN UNION - PPPFISH (ID: 496378096)
+2025-07-03 01:32:56,404 - INFO - Canal/Grupo: RPUNION [channel eng] (ID: 1291300931)
+2025-07-03 01:32:56,406 - INFO - Canal/Grupo: T�cnicas de Invas�o (ID: 1040036603)
+2025-07-03 01:36:16,469 - INFO - Got difference for channel 2050904769 updates
+2025-07-03 01:42:20,212 - INFO - Got difference for channel 2199888564 updates
+2025-07-03 01:42:20,362 - INFO - Got difference for channel 2370406148 updates
+2025-07-03 01:42:20,512 - INFO - Got difference for channel 2494913847 updates
+2025-07-03 01:42:31,924 - INFO - Encerrando a aplica��o...
+2025-07-03 01:42:31,957 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-07-03 01:42:31,957 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-07-03 01:42:32,036 - INFO - Desligando o worker...
+2025-07-03 01:42:32,405 - INFO - Worker thread finished.
+2025-07-03 01:56:03,255 - INFO - Worker thread started.
+2025-07-03 01:56:03,277 - INFO - Bem-vindo ao Telegram Scraper!
+2025-07-03 01:56:42,710 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-07-03 01:56:42,733 - INFO - Configurando credenciais...
+2025-07-03 01:56:42,833 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-07-03 01:56:42,835 - INFO - Conectando ao Telegram...
+2025-07-03 01:56:44,236 - INFO - SUCESSO: Conectado com sucesso!
+2025-07-03 01:56:47,750 - INFO - Buscando lista de canais e grupos...
+2025-07-03 01:57:05,042 - INFO - Sleeping for 23s (0:00:23) on GetDialogsRequest flood wait
+2025-07-03 01:57:30,489 - INFO - Canais e Grupos disponíveis:
+2025-07-03 01:57:30,490 - INFO - Canal/Grupo: HARD COPY - Kishotenketsu (ID: 2162769672)
+2025-07-03 01:57:30,490 - INFO - Canal/Grupo: RATEIO DE FERRAMENTAS ESPIONAGEM - ADHEART, ADMINER, DROPTOOL, OLHO DE DEUS, SEMRUSH, GURUKILLER, CHATGPT, DESIGN E+ 50 FERRAME (ID: 2050904769)
+2025-07-03 01:57:30,491 - INFO - Canal/Grupo: 1 - Robô de Leads - Adicione Membros no Telegram (ID: 1808506136)
+2025-07-03 01:57:30,492 - INFO - Canal/Grupo: radar (ID: 2370406148)
+2025-07-03 01:57:30,492 - INFO - Canal/Grupo: Consultas204 (ID: 2199888564)
+2025-07-03 01:57:31,178 - INFO - Canal/Grupo: ONLY FANS FB 🔞 (ID: 2067785660)
+2025-07-03 01:57:31,179 - INFO - Canal/Grupo: MUNDO AUTOMATIK® (ID: 1775887965)
+2025-07-03 01:57:31,180 - INFO -   - Tópico: Tópico 228246 (ID: 228246)
+2025-07-03 01:57:31,180 - INFO - Canal/Grupo: INEMA.VIP (ID: 2405283087)
+2025-07-03 01:57:31,180 - INFO -   - Tópico: Tópico 11141 (ID: 11141)
+2025-07-03 01:57:31,181 - INFO -   - Tópico: Tópico 11140 (ID: 11140)
+2025-07-03 01:57:31,181 - INFO -   - Tópico: Tópico 11139 (ID: 11139)
+2025-07-03 01:57:31,181 - INFO -   - Tópico: Tópico 11137 (ID: 11137)
+2025-07-03 01:57:31,182 - INFO -   - Tópico: Tópico 11135 (ID: 11135)
+2025-07-03 01:57:31,182 - INFO -   - Tópico: Tópico 11125 (ID: 11125)
+2025-07-03 01:57:31,182 - INFO -   - Tópico: /myprojects (ID: 11123)
+2025-07-03 01:57:31,183 - INFO -   - Tópico: /myprojects (ID: 11116)
+2025-07-03 01:57:31,185 - INFO -   - Tópico: Tópico 11115 (ID: 11115)
+2025-07-03 01:57:31,186 - INFO -   - Tópico: Tópico 11114 (ID: 11114)
+2025-07-03 01:57:31,189 - INFO -   - Tópico: Tópico 11111 (ID: 11111)
+2025-07-03 01:57:31,190 - INFO -   - Tópico: Tópico 11102 (ID: 11102)
+2025-07-03 01:57:31,192 - INFO -   - Tópico: Tópico 11101 (ID: 11101)
+2025-07-03 01:57:31,194 - INFO -   - Tópico: Tópico 11099 (ID: 11099)
+2025-07-03 01:57:31,197 - INFO - Canal/Grupo: INEMA.N8N (ID: 2494913847)
+2025-07-03 01:57:31,199 - INFO -   - Tópico: Tópico 10862 (ID: 10862)
+2025-07-03 01:57:31,201 - INFO -   - Tópico: Tópico 10861 (ID: 10861)
+2025-07-03 01:57:31,202 - INFO -   - Tópico: Tópico 10860 (ID: 10860)
+2025-07-03 01:57:31,205 - INFO -   - Tópico: Tópico 10859 (ID: 10859)
+2025-07-03 01:57:31,208 - INFO -   - Tópico: Tópico 10858 (ID: 10858)
+2025-07-03 01:57:31,210 - INFO -   - Tópico: Tópico 10857 (ID: 10857)
+2025-07-03 01:57:31,211 - INFO -   - Tópico: Tópico 10856 (ID: 10856)
+2025-07-03 01:57:31,213 - INFO - Canal/Grupo: INEMA.MUSICAL (ID: 2286953019)
+2025-07-03 01:57:31,214 - INFO -   - Tópico: /start (ID: 1192)
+2025-07-03 01:57:31,217 - INFO -   - Tópico: /start (ID: 1191)
+2025-07-03 01:57:31,219 - INFO -   - Tópico: Tópico 1190 (ID: 1190)
+2025-07-03 01:57:31,220 - INFO -   - Tópico: Tópico 1189 (ID: 1189)
+2025-07-03 01:57:31,222 - INFO -   - Tópico: Tópico 1188 (ID: 1188)
+2025-07-03 01:57:31,223 - INFO -   - Tópico: Tópico 1186 (ID: 1186)
+2025-07-03 01:57:31,225 - INFO -   - Tópico: Tópico 1185 (ID: 1185)
+2025-07-03 01:57:31,226 - INFO -   - Tópico: /start (ID: 1184)
+2025-07-03 01:57:31,227 - INFO -   - Tópico: /start (ID: 1183)
+2025-07-03 01:57:31,228 - INFO -   - Tópico: /start (ID: 1182)
+2025-07-03 01:57:31,231 - INFO -   - Tópico: /start (ID: 1181)
+2025-07-03 01:57:31,232 - INFO -   - Tópico: Tópico 1180 (ID: 1180)
+2025-07-03 01:57:31,234 - INFO -   - Tópico: Tópico 1179 (ID: 1179)
+2025-07-03 01:57:31,238 - INFO -   - Tópico: Tópico 1178 (ID: 1178)
+2025-07-03 01:57:31,240 - INFO -   - Tópico: Tópico 1177 (ID: 1177)
+2025-07-03 01:57:31,241 - INFO -   - Tópico: Tópico 1176 (ID: 1176)
+2025-07-03 01:57:31,243 - INFO -   - Tópico: Tópico 1175 (ID: 1175)
+2025-07-03 01:57:31,244 - INFO -   - Tópico: Tópico 1174 (ID: 1174)
+2025-07-03 01:57:31,245 - INFO -   - Tópico: Tópico 1173 (ID: 1173)
+2025-07-03 01:57:31,247 - INFO -   - Tópico: Tópico 1172 (ID: 1172)
+2025-07-03 01:57:31,249 - INFO - Canal/Grupo: Ferramentas Espiãs PREMIUM (ID: 1961079095)
+2025-07-03 01:57:31,251 - INFO - Canal/Grupo: IA Coding Club (ID: 2478485661)
+2025-07-03 01:57:31,253 - INFO -   - Tópico: Tópico 26529 (ID: 26529)
+2025-07-03 01:57:31,255 - INFO -   - Tópico: Tópico 26524 (ID: 26524)
+2025-07-03 01:57:31,257 - INFO -   - Tópico: alguém de voces estão usando a evolution no easypanel? (ID: 26512)
+2025-07-03 01:57:31,259 - INFO -   - Tópico: Tópico 26511 (ID: 26511)
+2025-07-03 01:57:31,261 - INFO -   - Tópico: Tópico 26510 (ID: 26510)
+2025-07-03 01:57:31,263 - INFO -   - Tópico: Tópico 26509 (ID: 26509)
+2025-07-03 01:57:31,265 - INFO -   - Tópico: Tópico 26508 (ID: 26508)
+2025-07-03 01:57:31,268 - INFO -   - Tópico: Tópico 26507 (ID: 26507)
+2025-07-03 01:57:31,270 - INFO -   - Tópico: Tópico 26506 (ID: 26506)
+2025-07-03 01:57:31,273 - INFO -   - Tópico: Tópico 26505 (ID: 26505)
+2025-07-03 01:57:31,280 - INFO -   - Tópico: obrigada (ID: 26503)
+2025-07-03 01:57:31,283 - INFO -   - Tópico: ah ja resolvi rs (ID: 26502)
+2025-07-03 01:57:31,285 - INFO -   - Tópico: onde eu pego essa api...é a que cadastrei no documento? (ID: 26501)
+2025-07-03 01:57:31,288 - INFO -   - Tópico: Boa noite pessoal..alguem pode me ajudar
+fiz todo o processo e pede api key: (ID: 26500)
+2025-07-03 01:57:31,292 - INFO -   - Tópico: Tópico 26497 (ID: 26497)
+2025-07-03 01:57:31,294 - INFO -   - Tópico: Pog (ID: 26496)
+2025-07-03 01:57:31,300 - INFO -   - Tópico: o galera, para de usar um pouquinho ai pra parar de travar aqui kkkk (ID: 26494)
+2025-07-03 01:57:31,305 - INFO -   - Tópico: Tópico 26493 (ID: 26493)
+2025-07-03 01:57:31,310 - INFO -   - Tópico: Tópico 26492 (ID: 26492)
+2025-07-03 01:57:31,314 - INFO -   - Tópico: Tópico 26490 (ID: 26490)
+2025-07-03 01:57:31,318 - INFO - Canal/Grupo: AFILIADOS - InstaLead Softwares (ID: 1805936238)
+2025-07-03 01:57:31,321 - INFO - Canal/Grupo: CURSOS GRÁTIS (ID: 1901124458)
+2025-07-03 01:57:31,324 - INFO - Canal/Grupo: INEMA.IMAGENS (ID: 2466217981)
+2025-07-03 01:57:31,328 - INFO -   - Tópico: Tópico 1672 (ID: 1672)
+2025-07-03 01:57:31,333 - INFO -   - Tópico: Tópico 1671 (ID: 1671)
+2025-07-03 01:57:31,338 - INFO -   - Tópico: Tópico 1670 (ID: 1670)
+2025-07-03 01:57:31,340 - INFO -   - Tópico: Tópico 1669 (ID: 1669)
+2025-07-03 01:57:31,342 - INFO -   - Tópico: Tópico 1668 (ID: 1668)
+2025-07-03 01:57:31,346 - INFO -   - Tópico: Tópico 1667 (ID: 1667)
+2025-07-03 01:57:31,348 - INFO -   - Tópico: Tópico 1666 (ID: 1666)
+2025-07-03 01:57:31,349 - INFO -   - Tópico: Tópico 1665 (ID: 1665)
+2025-07-03 01:57:31,351 - INFO -   - Tópico: Tópico 1664 (ID: 1664)
+2025-07-03 01:57:31,353 - INFO -   - Tópico: Tópico 1663 (ID: 1663)
+2025-07-03 01:57:31,355 - INFO -   - Tópico: Tópico 1662 (ID: 1662)
+2025-07-03 01:57:31,357 - INFO -   - Tópico: Tópico 1661 (ID: 1661)
+2025-07-03 01:57:31,361 - INFO -   - Tópico: Tópico 1660 (ID: 1660)
+2025-07-03 01:57:31,363 - INFO -   - Tópico: Tópico 1659 (ID: 1659)
+2025-07-03 01:57:31,365 - INFO -   - Tópico: Tópico 1658 (ID: 1658)
+2025-07-03 01:57:31,367 - INFO -   - Tópico: Tópico 1657 (ID: 1657)
+2025-07-03 01:57:31,368 - INFO -   - Tópico: Tópico 1656 (ID: 1656)
+2025-07-03 01:57:31,369 - INFO -   - Tópico: Tópico 1655 (ID: 1655)
+2025-07-03 01:57:31,371 - INFO -   - Tópico: Tópico 1654 (ID: 1654)
+2025-07-03 01:57:31,376 - INFO -   - Tópico: Tópico 1653 (ID: 1653)
+2025-07-03 01:57:31,377 - INFO - Canal/Grupo: INEMA.AVATARES (ID: 2471285437)
+2025-07-03 01:57:31,378 - INFO -   - Tópico: Tópico 1217 (ID: 1217)
+2025-07-03 01:57:31,379 - INFO -   - Tópico: Tópico 1216 (ID: 1216)
+2025-07-03 01:57:31,381 - INFO -   - Tópico: Tópico 1215 (ID: 1215)
+2025-07-03 01:57:31,383 - INFO -   - Tópico: Tópico 1214 (ID: 1214)
+2025-07-03 01:57:31,385 - INFO -   - Tópico: Tópico 1213 (ID: 1213)
+2025-07-03 01:57:31,386 - INFO -   - Tópico: Tópico 1211 (ID: 1211)
+2025-07-03 01:57:31,388 - INFO -   - Tópico: Tópico 1210 (ID: 1210)
+2025-07-03 01:57:31,389 - INFO -   - Tópico: Tópico 1209 (ID: 1209)
+2025-07-03 01:57:31,390 - INFO -   - Tópico: Tópico 1208 (ID: 1208)
+2025-07-03 01:57:31,392 - INFO -   - Tópico: Tópico 1205 (ID: 1205)
+2025-07-03 01:57:31,393 - INFO -   - Tópico: Tópico 1202 (ID: 1202)
+2025-07-03 01:57:31,396 - INFO -   - Tópico: Tópico 1201 (ID: 1201)
+2025-07-03 01:57:31,397 - INFO -   - Tópico: Tópico 1200 (ID: 1200)
+2025-07-03 01:57:31,398 - INFO -   - Tópico: Tópico 1199 (ID: 1199)
+2025-07-03 01:57:31,400 - INFO -   - Tópico: Tópico 1198 (ID: 1198)
+2025-07-03 01:57:31,400 - INFO -   - Tópico: Tópico 1197 (ID: 1197)
+2025-07-03 01:57:31,403 - INFO -   - Tópico: Tópico 1196 (ID: 1196)
+2025-07-03 01:57:31,404 - INFO -   - Tópico: Tópico 1195 (ID: 1195)
+2025-07-03 01:57:31,405 - INFO -   - Tópico: Tópico 1194 (ID: 1194)
+2025-07-03 01:57:31,407 - INFO -   - Tópico: Tópico 1193 (ID: 1193)
+2025-07-03 01:57:31,409 - INFO - Canal/Grupo: INEMA.TIA (ID: 2422191575)
+2025-07-03 01:57:31,410 - INFO -   - Tópico: Tópico 969 (ID: 969)
+2025-07-03 01:57:31,411 - INFO -   - Tópico: Tópico 968 (ID: 968)
+2025-07-03 01:57:31,413 - INFO -   - Tópico: Tópico 967 (ID: 967)
+2025-07-03 01:57:31,414 - INFO -   - Tópico: Tópico 966 (ID: 966)
+2025-07-03 01:57:31,417 - INFO -   - Tópico: Tópico 965 (ID: 965)
+2025-07-03 01:57:31,418 - INFO -   - Tópico: Tópico 964 (ID: 964)
+2025-07-03 01:57:31,419 - INFO -   - Tópico: Tópico 963 (ID: 963)
+2025-07-03 01:57:31,421 - INFO -   - Tópico: Tópico 962 (ID: 962)
+2025-07-03 01:57:31,422 - INFO -   - Tópico: Tópico 961 (ID: 961)
+2025-07-03 01:57:31,423 - INFO -   - Tópico: Tópico 960 (ID: 960)
+2025-07-03 01:57:31,426 - INFO -   - Tópico: Tópico 959 (ID: 959)
+2025-07-03 01:57:31,427 - INFO -   - Tópico: Tópico 958 (ID: 958)
+2025-07-03 01:57:31,429 - INFO -   - Tópico: Tópico 957 (ID: 957)
+2025-07-03 01:57:31,431 - INFO -   - Tópico: Tópico 956 (ID: 956)
+2025-07-03 01:57:31,432 - INFO -   - Tópico: Tópico 955 (ID: 955)
+2025-07-03 01:57:31,434 - INFO -   - Tópico: Tópico 953 (ID: 953)
+2025-07-03 01:57:31,435 - INFO -   - Tópico: Tópico 952 (ID: 952)
+2025-07-03 01:57:31,437 - INFO -   - Tópico: Tópico 951 (ID: 951)
+2025-07-03 01:57:31,439 - INFO -   - Tópico: Tópico 950 (ID: 950)
+2025-07-03 01:57:31,440 - INFO -   - Tópico: Ola (ID: 946)
+2025-07-03 01:57:31,442 - INFO - Canal/Grupo: INEMA.Educ (ID: 2187166710)
+2025-07-03 01:57:31,444 - INFO -   - Tópico: Tópico 1907 (ID: 1907)
+2025-07-03 01:57:31,446 - INFO -   - Tópico: Tópico 1906 (ID: 1906)
+2025-07-03 01:57:31,447 - INFO -   - Tópico: Tópico 1905 (ID: 1905)
+2025-07-03 01:57:31,449 - INFO -   - Tópico: Tópico 1904 (ID: 1904)
+2025-07-03 01:57:31,451 - INFO -   - Tópico: Tópico 1903 (ID: 1903)
+2025-07-03 01:57:31,452 - INFO -   - Tópico: Tópico 1902 (ID: 1902)
+2025-07-03 01:57:31,454 - INFO -   - Tópico: Tópico 1901 (ID: 1901)
+2025-07-03 01:57:31,455 - INFO -   - Tópico: Tópico 1900 (ID: 1900)
+2025-07-03 01:57:31,456 - INFO -   - Tópico: Tópico 1899 (ID: 1899)
+2025-07-03 01:57:31,458 - INFO -   - Tópico: Tópico 1898 (ID: 1898)
+2025-07-03 01:57:31,459 - INFO -   - Tópico: Tópico 1897 (ID: 1897)
+2025-07-03 01:57:31,460 - INFO -   - Tópico: Tópico 1896 (ID: 1896)
+2025-07-03 01:57:31,462 - INFO -   - Tópico: Tópico 1895 (ID: 1895)
+2025-07-03 01:57:31,464 - INFO -   - Tópico: Tópico 1894 (ID: 1894)
+2025-07-03 01:57:31,465 - INFO -   - Tópico: Tópico 1893 (ID: 1893)
+2025-07-03 01:57:31,468 - INFO -   - Tópico: Tópico 1892 (ID: 1892)
+2025-07-03 01:57:31,470 - INFO -   - Tópico: Tópico 1891 (ID: 1891)
+2025-07-03 01:57:31,471 - INFO -   - Tópico: Tópico 1890 (ID: 1890)
+2025-07-03 01:57:31,472 - INFO -   - Tópico: Tópico 1889 (ID: 1889)
+2025-07-03 01:57:31,474 - INFO -   - Tópico: Tópico 1888 (ID: 1888)
+2025-07-03 01:57:31,475 - INFO - Canal/Grupo: INEMA.DEV (ID: 2389955773)
+2025-07-03 01:57:31,477 - INFO -   - Tópico: Tópico 2481 (ID: 2481)
+2025-07-03 01:57:31,478 - INFO -   - Tópico: Tópico 2480 (ID: 2480)
+2025-07-03 01:57:31,480 - INFO -   - Tópico: Tópico 2467 (ID: 2467)
+2025-07-03 01:57:31,481 - INFO -   - Tópico: Tópico 2466 (ID: 2466)
+2025-07-03 01:57:31,483 - INFO -   - Tópico: Tópico 2465 (ID: 2465)
+2025-07-03 01:57:31,484 - INFO -   - Tópico: /start@InviteMemberBot (ID: 2464)
+2025-07-03 01:57:31,486 - INFO -   - Tópico: Tópico 2463 (ID: 2463)
+2025-07-03 01:57:31,488 - INFO -   - Tópico: Tópico 2462 (ID: 2462)
+2025-07-03 01:57:31,490 - INFO -   - Tópico: Tópico 2461 (ID: 2461)
+2025-07-03 01:57:31,491 - INFO -   - Tópico: Tópico 2460 (ID: 2460)
+2025-07-03 01:57:31,492 - INFO -   - Tópico: Tópico 2459 (ID: 2459)
+2025-07-03 01:57:31,493 - INFO -   - Tópico: Tópico 2458 (ID: 2458)
+2025-07-03 01:57:31,495 - INFO -   - Tópico: Tópico 2456 (ID: 2456)
+2025-07-03 01:57:31,497 - INFO -   - Tópico: Tópico 2455 (ID: 2455)
+2025-07-03 01:57:31,499 - INFO -   - Tópico: Tópico 2454 (ID: 2454)
+2025-07-03 01:57:31,501 - INFO -   - Tópico: Tópico 2453 (ID: 2453)
+2025-07-03 01:57:31,503 - INFO -   - Tópico: Tópico 2452 (ID: 2452)
+2025-07-03 01:57:31,505 - INFO -   - Tópico: Tópico 2449 (ID: 2449)
+2025-07-03 01:57:31,506 - INFO -   - Tópico: /start@InviteMemberBot (ID: 2448)
+2025-07-03 01:57:31,508 - INFO -   - Tópico: Tópico 2444 (ID: 2444)
+2025-07-03 01:57:31,509 - INFO - Canal/Grupo: NovaTech Hub [ Lista ] (ID: 2069902304)
+2025-07-03 01:57:31,714 - INFO -   - Tópico: 💥 Oferta Exclusiva: Apenas R$29,90! 💥
+
+Por só R$29,90 você entra no nosso Grupo VIP e libera o acesso ao Mago 🧙‍♂️, o bot que gera contas de ferramentas TOP do mercado!
+
+O que você recebe:
+
+🔑 Ferramentas como SEMrush, BigSpy, Freepik, ChatGPT-4 e +
+🤖 Automação para redes sociais
+🎓 Cursos e tutoriais atualizados
+💾 +1000GB de conteúdo exclusivo
+🎬 Plataformas de streaming como bônus
+
+Por que aproveitar?
+
+✅ Preço simbólico de R$29,90
+✅ Acesso instantâneo ao gerador Mago🧙‍♂️ 
+✅ Oferta por tempo limitado!
+
+⚠️ Clique abaixo e garanta sua vaga no grupo agora! (ID: 11009)
+2025-07-03 01:57:31,716 - INFO -   - Tópico: /cpf (ID: 10957)
+2025-07-03 01:57:31,718 - INFO -   - Tópico: /tel (ID: 10956)
+2025-07-03 01:57:31,720 - INFO -   - Tópico: /tel (ID: 10898)
+2025-07-03 01:57:31,723 - INFO -   - Tópico: 💥 Oferta Exclusiva: Apenas R$29,90! 💥
+
+Por só R$29,90 você entra no nosso Grupo VIP e libera o acesso ao Mago 🧙‍♂️, o bot que gera contas de ferramentas TOP do mercado!
+
+O que você recebe:
+
+🔑 Ferramentas como SEMrush, BigSpy, Freepik, ChatGPT-4 e +
+🤖 Automação para redes sociais
+🎓 Cursos e tutoriais atualizados
+💾 +1000GB de conteúdo exclusivo
+🎬 Plataformas de streaming como bônus
+
+Por que aproveitar?
+
+✅ Preço simbólico de R$29,90
+✅ Acesso instantâneo ao gerador Mago🧙‍♂️ 
+✅ Oferta por tempo limitado!
+
+⚠️ Clique abaixo e garanta sua vaga no grupo agora! (ID: 10629)
+2025-07-03 01:57:31,916 - INFO -   - Tópico: 🎥 GOOGLE VEO 3 + GEMINI 2.5 PRO – CONTA PRIVADA 🔥
+(Ativação na sua conta pessoal)
+
+🚀 Acesse o melhor da IA em vídeo e automação
+🎞️ Veo 3 – Geração de vídeos por IA em alta qualidade
+🧠 Gemini 2.5 Pro – Escrita, produtividade e automação
+☁️ 2TB no Google One + Flow e Whisk
+📦 Conta com 15 meses de duração
+🛠️ Ativação manual + entrega em até 24h úteis
+🛡️ Garantia de 30 dias
+
+Desbloqueie o poder total das ferramentas mais avançadas do Google! 💡 (ID: 10587)
+2025-07-03 01:57:31,927 - INFO -   - Tópico: 🎥 GOOGLE VEO 3 + GEMINI 2.5 PRO – CONTA PRIVADA 🔥
+(Ativação na sua conta pessoal)
+
+🚀 Acesse o melhor da IA em vídeo e automação
+🎞️ Veo 3 – Geração de vídeos por IA em alta qualidade
+🧠 Gemini 2.5 Pro – Escrita, produtividade e automação
+☁️ 2TB no Google One + Flow e Whisk
+📦 Conta com 15 meses de duração
+🛠️ Ativação manual + entrega em até 24h úteis
+🛡️ Garantia de 30 dias
+
+Desbloqueie o poder total das ferramentas mais avançadas do Google! 💡 (ID: 10561)
+2025-07-03 01:57:31,992 - INFO -   - Tópico: 📺 UniTV – Streaming Vitalício com Canais, Filmes e Séries!
+💥 Pague uma vez. Use pra sempre. Sem mensalidades!
+
+Cansado de pagar todo mês pra assistir o mesmo conteúdo?
+Com o UniTV, você libera um universo de entretenimento direto na sua TV, celular ou PC — com qualidade até 4K Ultra HD! 🎬🔥
+
+✨ O que você recebe:
+✅ Canais ao vivo (abertos e fechados)
+✅ Filmes, séries e desenhos atualizados
+✅ Reality shows e variedades
+✅ Compatível com Android, TV Box, Smart TV, TV Stick e PC
+
+🎁 Acesso vitalício com entrega automática e suporte no chat! (ID: 10514)
+2025-07-03 01:57:32,003 - INFO -   - Tópico: Canva equipes? Alguém.? (ID: 10506)
+2025-07-03 01:57:32,016 - INFO -   - Tópico: 🎥 GOOGLE VEO 3 + GEMINI 2.5 PRO – CONTA PRIVADA 🔥
+(Ativação na sua conta pessoal)
+
+🚀 Acesse o melhor da IA em vídeo e automação
+🎞️ Veo 3 – Geração de vídeos por IA em alta qualidade
+🧠 Gemini 2.5 Pro – Escrita, produtividade e automação
+☁️ 2TB no Google One + Flow e Whisk
+📦 Conta com 15 meses de duração
+🛠️ Ativação manual + entrega em até 24h úteis
+🛡️ Garantia de 30 dias
+
+Desbloqueie o poder total das ferramentas mais avançadas do Google! 💡 (ID: 10500)
+2025-07-03 01:57:32,025 - INFO - Canal/Grupo: crIAs (ID: 1930476997)
+2025-07-03 01:57:32,033 - INFO - Canal/Grupo: Coder IA Grupo (ID: 2464906396)
+2025-07-03 01:57:32,084 - INFO -   - Tópico: Bem-vindo Samuel ao Grupo Coder IA!
+
+Aqui você já começa a explorar o poder da inteligência artificial e descobrir como criar ferramentas incríveis sem saber programar.
+
+📢 O Grupo VIP já está ativo! 
+Nele, você terá acesso a:
+✅ Ferramentas exclusivas e atualizadas.
+✅ Tutoriais práticos para aplicar IA no dia a dia.
+✅ As últimas novidades antes de todo mundo.
+
+Fique ligado – 🔍 Desbloqueie Novidades! Acesse Agora (ID: 15668)
+2025-07-03 01:57:32,093 - INFO - Canal/Grupo: ✨ NetDez Oficial | Internet Ilimitada 🚀 (ID: 2455739821)
+2025-07-03 01:57:32,100 - INFO - Canal/Grupo: n8n Brasil (ID: 1523488185)
+2025-07-03 01:57:32,112 - INFO -   - Tópico: Gente, preciso usar a info de um node tipo, uns 7 nodes dps, alguém sabe se tem como guardar ela? O n8n tá dando pau aparentemente pq é mt node (ID: 46965)
+2025-07-03 01:57:32,212 - INFO -   - Tópico: Galera boa tarde, me tirem uma dúvida, Eu consigo criar isso? 1. 🔁 Fluxo pronto do chatbot (ManyChat)
+ • Compra ou aluguel
+ • Bairro e faixa de preço
+ • Agendamento de visita
+ • Apresentação do corretor (CRECI)
+ • Envio de dados para planilha automática
+ 2. 📑 Google Sheets (CRM leve)
+ • Leads captados direto do bot
+ • Nome, WhatsApp, bairro, valor e data da visita
+ 3. 🧪 Ambiente de teste real
+ • Você simula o cliente
+ • Recebe tudo no seu WhatsApp e planilha
+ • Valida a experiência final
+ 4. 🧲 Script de vendas pronto
+ • Texto profissional para oferecer o sistema às imobiliárias
+ • Argumentos, benefícios e CTA
+ • Pode usar no WhatsApp, e-mail ou pessoalmente
+ 5. (Bônus) 💻 Mini landing page de apresentação (opcional)
+ • Demonstração + botão “Quero para minha imobiliária” sou novo aqui (ID: 46962)
+2025-07-03 01:57:32,217 - INFO -   - Tópico: Boa tarde pessoal, estou com um fluxo que está fazendo meu servidor cair direto, já aumente CPU e RAM mais de 3 vezes além de tentar diminuir o peso do fluxo, alguém tem alguma dica para fazer ele rodar por completo? (ID: 46959)
+2025-07-03 01:57:32,223 - INFO -   - Tópico: pessoal, alguem teve problema com o agendamento do n8n ? não funciona no horario correto, mesmo colocando TZ no docker compose, ativando o fluxo, etc... (ID: 46958)
+2025-07-03 01:57:32,228 - INFO -   - Tópico: Não consigo importar arquivos JSON , (ID: 46957)
+2025-07-03 01:57:32,236 - INFO -   - Tópico: Bom dia  senhores ! existe alguma limitação para importação de fluxos .jason no n8n dev ? instalei localmente na minah maquina pelo npx n8n (ID: 46956)
+2025-07-03 01:57:32,242 - INFO -   - Tópico: gente, alguém sabe se é possivel criar um modelo de IA que lê um g sheets e retorna informacao? (ID: 46953)
+2025-07-03 01:57:32,249 - INFO -   - Tópico: vou te recomendar uma outra, boa e bem barata, excelente custo x benefício: pesquise por cloudfanatic (ID: 46950)
+2025-07-03 01:57:32,254 - INFO -   - Tópico: Fala, pessoal!
+Gostaria de saber se é possível usar o n8n para publicar uma mesma postagem simultaneamente em várias redes sociais, como *WhatsApp, Twitter, Telegram, Facebook, entre outras.*
+Alguém já fez algo parecido ou recomenda uma ferramenta mais eficiente para esse tipo de automação? (ID: 46947)
+2025-07-03 01:57:32,260 - INFO -   - Tópico: acho que tem algo de errado com a minha conta, pq eu não consigo mais mudar a imagem e só aparece isso (ID: 46946)
+2025-07-03 01:57:32,269 - INFO -   - Tópico: realmente não aparece nada, que estranho (ID: 46945)
+2025-07-03 01:57:32,277 - INFO -   - Tópico: agora eu não consigo mais nem criar nada, não sei o que ta acontecendo co messa minha conta, as coisas na oracle são confusas demais (ID: 46942)
+2025-07-03 01:57:32,283 - INFO -   - Tópico: O mal que é ser leigo rs
+
+Vou tentar criar uma com AMD aqui
+
+Vlw (ID: 46941)
+2025-07-03 01:57:32,287 - INFO -   - Tópico: AMD 1gb tá funcionado então? (ID: 46939)
+2025-07-03 01:57:32,292 - INFO -   - Tópico: Única vps que está esgotada é a arm, de 24gb... As vps com 1vpc e 1gb de ram, vc cria normal. (ID: 46937)
+2025-07-03 01:57:32,298 - INFO -   - Tópico: Ai outro cara disse que eu deveria ter escolhido phoenix, e agora eu travei minha conta e não dá pra mudar (ID: 46935)
+2025-07-03 01:57:32,303 - INFO -   - Tópico: Na vdd no plano free são...
+
+2x vps 1gb
+1x vps até 24gb com processador arm. (ID: 46932)
+2025-07-03 01:57:32,307 - INFO -   - Tópico: Onde vejo os valores de 1gb da oracle? (ID: 46929)
+2025-07-03 01:57:32,314 - INFO -   - Tópico: Não consegui fazer nada além disso, pq simplesmente não dá pra digitar nada, trava (ID: 46927)
+2025-07-03 01:57:32,318 - INFO -   - Tópico: Esse é meu fluxo básico (ID: 46926)
+2025-07-03 01:57:32,322 - INFO - Canal/Grupo: GPCR Promo - Hardware e Tecnologia (ID: 1744305155)
+2025-07-03 01:57:32,334 - INFO - Canal/Grupo: 🤖 Biblioteca de Bots | Filmes e Séries (ID: 1451624128)
+2025-07-03 01:57:32,376 - INFO - Canal/Grupo: Guerreiros da LUZ chat 💜✨🛸 (ID: 1796043536)
+2025-07-03 01:57:32,383 - INFO - Canal/Grupo: INEMA.AGENTES (ID: 2433384436)
+2025-07-03 01:57:32,392 - INFO -   - Tópico: Tópico 2880 (ID: 2880)
+2025-07-03 01:57:32,400 - INFO -   - Tópico: Tópico 2879 (ID: 2879)
+2025-07-03 01:57:32,407 - INFO -   - Tópico: Tópico 2878 (ID: 2878)
+2025-07-03 01:57:32,414 - INFO -   - Tópico: Tópico 2877 (ID: 2877)
+2025-07-03 01:57:32,422 - INFO -   - Tópico: Tópico 2876 (ID: 2876)
+2025-07-03 01:57:32,432 - INFO -   - Tópico: Tópico 2875 (ID: 2875)
+2025-07-03 01:57:32,437 - INFO -   - Tópico: Tópico 2874 (ID: 2874)
+2025-07-03 01:57:32,441 - INFO -   - Tópico: Tópico 2873 (ID: 2873)
+2025-07-03 01:57:32,447 - INFO -   - Tópico: Tópico 2869 (ID: 2869)
+2025-07-03 01:57:32,452 - INFO -   - Tópico: Tópico 2868 (ID: 2868)
+2025-07-03 01:57:32,457 - INFO -   - Tópico: Tópico 2867 (ID: 2867)
+2025-07-03 01:57:32,463 - INFO -   - Tópico: Tópico 2866 (ID: 2866)
+2025-07-03 01:57:32,467 - INFO -   - Tópico: Tópico 2865 (ID: 2865)
+2025-07-03 01:57:32,473 - INFO -   - Tópico: Tópico 2864 (ID: 2864)
+2025-07-03 01:57:32,476 - INFO -   - Tópico: Tópico 2863 (ID: 2863)
+2025-07-03 01:57:32,482 - INFO -   - Tópico: Tópico 2862 (ID: 2862)
+2025-07-03 01:57:32,487 - INFO -   - Tópico: Tópico 2861 (ID: 2861)
+2025-07-03 01:57:32,490 - INFO -   - Tópico: Tópico 2860 (ID: 2860)
+2025-07-03 01:57:32,495 - INFO -   - Tópico: Tópico 2859 (ID: 2859)
+2025-07-03 01:57:32,500 - INFO -   - Tópico: Tópico 2858 (ID: 2858)
+2025-07-03 01:57:32,729 - INFO - Canal/Grupo: 𝗙𝗢𝗥𝗡𝗘𝗖𝗘𝗗𝗢𝗥𝗘𝗦 𝗗𝗥𝗢𝗣 𝗕𝗥𝗔𝗦𝗜𝗟 (ID: 1689170705)
+2025-07-03 01:57:32,784 - INFO - Canal/Grupo: 𝗜𝗙𝗢𝗢𝗗 𝗗𝗢𝗦 𝗦𝗧𝗥𝗘𝗔𝗠𝗜𝗡𝗚𝗦 (ID: 2020415034)
+2025-07-03 01:57:32,840 - INFO -   - Tópico: Alguém saiu do grupo... 😕
+
+🕊Adeus! @leoleao4.
+
+Infelizmente, nem todos chegam ao resultado que querem. Muitas vezes, isso acontece pela falta de ação ou desistência no meio do caminho. Mas é importante lembrar: quem fica e continua, sempre tem mais chances de crescer e conseguir o que quer. 🚀
+
+Por isso, temos nosso grupo VIP, para quem está pronto pra ir além e conquistar resultados de verdade.
+
+Desejamos sucesso a quem saiu, mas se você quer mesmo chegar lá, continue aqui e se precisar, o grupo VIP está de portas abertas. 😉
+
+O sucesso está a um passo, só depende de você! (ID: 17826)
+2025-07-03 01:57:32,916 - INFO -   - Tópico: 🚨 ATUALIZAÇÃO NO SISTEMA
+Tudo no jeito. Sem enrolação.
+
+🌀 PLACA COMPLETA ATIVADA
+Agora puxando info direto da PRF
+ • Histórico de emplacamentos
+ • Dados relevantes
+
+🌀 Bases de fotos 100%
+Consulta de fotos por dados básicos tá de volta mais rápida e precisa do que nunca.
+
+🌀 Módulo CNPJ PRO no ar
+Consulta completa puxando tudo que realmente importa
+
+🌀 Sistema redondo, otimizado, rápido.
+Só chegar e usar. Tá tudo liberado.
+
+Adquira agora seu plano e tenha acesso as novidades👇
+@blackconsultaasbot (ID: 17794)
+2025-07-03 01:57:32,983 - INFO -   - Tópico: 🔎 PLANO DE CONSULTAS GRÁTIS PARA GRUPOS – BLACK CONSULTAS!
+
+🤝 Isso mesmo! Seu grupo pode ter 1 ano gratuito sem cobranças adicionais!
+
+✔️Como ativar:
+1️⃣Adicione o bot @blackconsultaasbot ao grupo e dê admin (exceto permissão para dar admin).
+2️⃣Use o comando /free e pronto! Plano ativado com todas as bases comuns disponíveis
+3️⃣O grupo precisa ter no mínimo 200 membros.
+
+✅ Nada de cobranças
+⚙️ 100% gratuito por 1 ano!
+
+🟩Ative agora com: /free
+
+✅Bot: @blackconsultaasbot (ID: 17786)
+2025-07-03 01:57:32,989 - INFO -   - Tópico: Это бот для работы с актуальными моделями нейросетей в Telegram. Чтобы задать вопрос, просто напишите его.
+
+Команды
+/start - перезапуск
+/mode - выбрать нейросеть
+/profile - профиль пользователя
+/pay - купить подписку
+/reset - сброс контекста
+/img - генерация изображений
+/help - помощь
+/ask - задать вопрос (в группах)
+
+Наш Telegram-канал про технологии: NN
+
+Пользовательское соглашение 
+Политика конфиденциальности
+Реквизиты (ID: 17775)
+2025-07-03 01:57:32,995 - INFO -   - Tópico: Hey there FORNERAJA, and welcome to 𝗜𝗙𝗢𝗢𝗗 𝗗𝗢𝗦 𝗦𝗧𝗥𝗘𝗔𝗠𝗜𝗡𝗚𝗦! How are you? (ID: 17770)
+2025-07-03 01:57:33,086 - INFO -   - Tópico: 👋Olá, FORNERAJA Seja bem vindo(a)! ao grupo  gratuito da 𝗖𝗩𝗢 𝗗𝗜𝗚𝗜𝗧𝗔𝗟!
+
+👾 Venha conhecer os conteúdos exclusivos no GRUPO VIP (ID: 17769)
+2025-07-03 01:57:33,100 - INFO - Canal/Grupo: INEMA.VISION (ID: 2356666932)
+2025-07-03 01:57:33,115 - INFO -   - Tópico: Tópico 1522 (ID: 1522)
+2025-07-03 01:57:33,133 - INFO -   - Tópico: Tópico 1521 (ID: 1521)
+2025-07-03 01:57:33,148 - INFO -   - Tópico: Tópico 1520 (ID: 1520)
+2025-07-03 01:57:33,163 - INFO -   - Tópico: Tópico 1519 (ID: 1519)
+2025-07-03 01:57:33,175 - INFO -   - Tópico: Tópico 1517 (ID: 1517)
+2025-07-03 01:57:33,187 - INFO -   - Tópico: Tópico 1516 (ID: 1516)
+2025-07-03 01:57:33,201 - INFO -   - Tópico: Tópico 1515 (ID: 1515)
+2025-07-03 01:57:33,209 - INFO -   - Tópico: Tópico 1514 (ID: 1514)
+2025-07-03 01:57:33,220 - INFO -   - Tópico: Tópico 1513 (ID: 1513)
+2025-07-03 01:57:33,228 - INFO -   - Tópico: Tópico 1512 (ID: 1512)
+2025-07-03 01:57:33,237 - INFO -   - Tópico: Tópico 1511 (ID: 1511)
+2025-07-03 01:57:33,245 - INFO -   - Tópico: Tópico 1510 (ID: 1510)
+2025-07-03 01:57:33,254 - INFO -   - Tópico: Tópico 1509 (ID: 1509)
+2025-07-03 01:57:33,264 - INFO -   - Tópico: Tópico 1508 (ID: 1508)
+2025-07-03 01:57:33,272 - INFO -   - Tópico: Tópico 1507 (ID: 1507)
+2025-07-03 01:57:33,281 - INFO -   - Tópico: Tópico 1506 (ID: 1506)
+2025-07-03 01:57:33,289 - INFO -   - Tópico: Tópico 1505 (ID: 1505)
+2025-07-03 01:57:33,297 - INFO -   - Tópico: Tópico 1504 (ID: 1504)
+2025-07-03 01:57:33,306 - INFO -   - Tópico: Tópico 1503 (ID: 1503)
+2025-07-03 01:57:33,315 - INFO -   - Tópico: Tópico 1502 (ID: 1502)
+2025-07-03 01:57:33,323 - INFO - Canal/Grupo: INEMA.CPA (ID: 2390939966)
+2025-07-03 01:57:33,332 - INFO -   - Tópico: Tópico 1451 (ID: 1451)
+2025-07-03 01:57:33,336 - INFO -   - Tópico: Tópico 1450 (ID: 1450)
+2025-07-03 01:57:33,342 - INFO -   - Tópico: Tópico 1449 (ID: 1449)
+2025-07-03 01:57:33,349 - INFO -   - Tópico: Tópico 1448 (ID: 1448)
+2025-07-03 01:57:33,352 - INFO -   - Tópico: Tópico 1447 (ID: 1447)
+2025-07-03 01:57:33,354 - INFO -   - Tópico: Tópico 1446 (ID: 1446)
+2025-07-03 01:57:33,355 - INFO -   - Tópico: Tópico 1445 (ID: 1445)
+2025-07-03 01:57:33,357 - INFO -   - Tópico: Tópico 1443 (ID: 1443)
+2025-07-03 01:57:33,359 - INFO -   - Tópico: Tópico 1442 (ID: 1442)
+2025-07-03 01:57:33,361 - INFO -   - Tópico: Tópico 1441 (ID: 1441)
+2025-07-03 01:57:33,362 - INFO -   - Tópico: Tópico 1440 (ID: 1440)
+2025-07-03 01:57:33,364 - INFO -   - Tópico: Tópico 1435 (ID: 1435)
+2025-07-03 01:57:33,366 - INFO -   - Tópico: Tópico 1434 (ID: 1434)
+2025-07-03 01:57:33,368 - INFO -   - Tópico: Tópico 1433 (ID: 1433)
+2025-07-03 01:57:33,369 - INFO -   - Tópico: Tópico 1432 (ID: 1432)
+2025-07-03 01:57:33,370 - INFO -   - Tópico: Tópico 1431 (ID: 1431)
+2025-07-03 01:57:33,373 - INFO -   - Tópico: Tópico 1430 (ID: 1430)
+2025-07-03 01:57:33,374 - INFO -   - Tópico: Tópico 1429 (ID: 1429)
+2025-07-03 01:57:33,376 - INFO -   - Tópico: Tópico 1428 (ID: 1428)
+2025-07-03 01:57:33,377 - INFO -   - Tópico: Tópico 1427 (ID: 1427)
+2025-07-03 01:57:33,379 - INFO - Canal/Grupo: INEMA.ROBOT (ID: 2412734678)
+2025-07-03 01:57:33,380 - INFO -   - Tópico: Tópico 1859 (ID: 1859)
+2025-07-03 01:57:33,382 - INFO -   - Tópico: Tópico 1858 (ID: 1858)
+2025-07-03 01:57:33,384 - INFO -   - Tópico: Tópico 1857 (ID: 1857)
+2025-07-03 01:57:33,386 - INFO -   - Tópico: Tópico 1856 (ID: 1856)
+2025-07-03 01:57:33,388 - INFO -   - Tópico: Tópico 1855 (ID: 1855)
+2025-07-03 01:57:33,389 - INFO -   - Tópico: Tópico 1853 (ID: 1853)
+2025-07-03 01:57:33,390 - INFO -   - Tópico: Tópico 1852 (ID: 1852)
+2025-07-03 01:57:33,392 - INFO -   - Tópico: Tópico 1851 (ID: 1851)
+2025-07-03 01:57:33,393 - INFO -   - Tópico: Tópico 1850 (ID: 1850)
+2025-07-03 01:57:33,397 - INFO -   - Tópico: Tópico 1849 (ID: 1849)
+2025-07-03 01:57:33,398 - INFO -   - Tópico: Tópico 1848 (ID: 1848)
+2025-07-03 01:57:33,400 - INFO -   - Tópico: Tópico 1847 (ID: 1847)
+2025-07-03 01:57:33,401 - INFO -   - Tópico: Tópico 1846 (ID: 1846)
+2025-07-03 01:57:33,403 - INFO -   - Tópico: Tópico 1845 (ID: 1845)
+2025-07-03 01:57:33,404 - INFO -   - Tópico: Tópico 1844 (ID: 1844)
+2025-07-03 01:57:33,406 - INFO -   - Tópico: Tópico 1843 (ID: 1843)
+2025-07-03 01:57:33,408 - INFO -   - Tópico: Tópico 1842 (ID: 1842)
+2025-07-03 01:57:33,409 - INFO -   - Tópico: Tópico 1841 (ID: 1841)
+2025-07-03 01:57:33,411 - INFO -   - Tópico: Tópico 1840 (ID: 1840)
+2025-07-03 01:57:33,412 - INFO -   - Tópico: Tópico 1839 (ID: 1839)
+2025-07-03 01:57:33,414 - INFO - Canal/Grupo: INEMA.Make (ID: 2277358326)
+2025-07-03 01:57:33,416 - INFO -   - Tópico: Tópico 9622 (ID: 9622)
+2025-07-03 01:57:33,419 - INFO -   - Tópico: Tópico 9621 (ID: 9621)
+2025-07-03 01:57:33,420 - INFO -   - Tópico: Tópico 9593 (ID: 9593)
+2025-07-03 01:57:33,422 - INFO -   - Tópico: Tópico 9592 (ID: 9592)
+2025-07-03 01:57:33,423 - INFO -   - Tópico: Tópico 9591 (ID: 9591)
+2025-07-03 01:57:33,425 - INFO -   - Tópico: Tópico 9590 (ID: 9590)
+2025-07-03 01:57:33,426 - INFO -   - Tópico: Tópico 9589 (ID: 9589)
+2025-07-03 01:57:33,428 - INFO -   - Tópico: Tópico 9588 (ID: 9588)
+2025-07-03 01:57:33,432 - INFO -   - Tópico: Tópico 9587 (ID: 9587)
+2025-07-03 01:57:33,433 - INFO -   - Tópico: Tópico 9581 (ID: 9581)
+2025-07-03 01:57:33,435 - INFO -   - Tópico: Tópico 9580 (ID: 9580)
+2025-07-03 01:57:33,436 - INFO -   - Tópico: Tópico 9579 (ID: 9579)
+2025-07-03 01:57:33,438 - INFO -   - Tópico: boa noite, aonde consigo os video aula do make? novo aqui (ID: 9576)
+2025-07-03 01:57:33,440 - INFO -   - Tópico: Tópico 9575 (ID: 9575)
+2025-07-03 01:57:33,443 - INFO -   - Tópico: Tópico 9574 (ID: 9574)
+2025-07-03 01:57:33,445 - INFO -   - Tópico: Tópico 9572 (ID: 9572)
+2025-07-03 01:57:33,448 - INFO -   - Tópico: Tópico 9571 (ID: 9571)
+2025-07-03 01:57:33,450 - INFO - Canal/Grupo: INEMA.VIDEOS (ID: 2307181433)
+2025-07-03 01:57:33,452 - INFO -   - Tópico: Tópico 2329 (ID: 2329)
+2025-07-03 01:57:33,453 - INFO -   - Tópico: Tópico 2328 (ID: 2328)
+2025-07-03 01:57:33,455 - INFO -   - Tópico: Tópico 2327 (ID: 2327)
+2025-07-03 01:57:33,457 - INFO -   - Tópico: Tópico 2325 (ID: 2325)
+2025-07-03 01:57:33,459 - INFO -   - Tópico: Tópico 2324 (ID: 2324)
+2025-07-03 01:57:33,460 - INFO -   - Tópico: Tópico 2323 (ID: 2323)
+2025-07-03 01:57:33,463 - INFO -   - Tópico: Tópico 2322 (ID: 2322)
+2025-07-03 01:57:33,466 - INFO -   - Tópico: Tópico 2321 (ID: 2321)
+2025-07-03 01:57:33,468 - INFO -   - Tópico: Tópico 2320 (ID: 2320)
+2025-07-03 01:57:33,470 - INFO -   - Tópico: Tópico 2319 (ID: 2319)
+2025-07-03 01:57:33,471 - INFO -   - Tópico: Tópico 2318 (ID: 2318)
+2025-07-03 01:57:33,473 - INFO -   - Tópico: Tópico 2317 (ID: 2317)
+2025-07-03 01:57:33,475 - INFO -   - Tópico: Tópico 2316 (ID: 2316)
+2025-07-03 01:57:33,477 - INFO -   - Tópico: Tópico 2315 (ID: 2315)
+2025-07-03 01:57:33,480 - INFO -   - Tópico: Tópico 2314 (ID: 2314)
+2025-07-03 01:57:33,482 - INFO -   - Tópico: Tópico 2313 (ID: 2313)
+2025-07-03 01:57:33,484 - INFO -   - Tópico: Tópico 2312 (ID: 2312)
+2025-07-03 01:57:33,487 - INFO -   - Tópico: Tópico 2311 (ID: 2311)
+2025-07-03 01:57:33,488 - INFO -   - Tópico: Tópico 2310 (ID: 2310)
+2025-07-03 01:57:33,491 - INFO -   - Tópico: Tópico 2309 (ID: 2309)
+2025-07-03 01:57:33,493 - INFO - Canal/Grupo: » Cursos Drive Online Oficial - DrivedoDinheiro - dvd | GP (ID: 1465356677)
+2025-07-03 01:57:33,495 - INFO -   - Tópico: essa mulher é muito boa! já to dentro da coleta (ID: 35727)
+2025-07-03 01:57:33,499 - INFO -   - Tópico: Bora pessoal 🚀 (ID: 35712)
+2025-07-03 01:57:33,502 - INFO -   - Tópico: Curso Marca Pessoal Tay Dantas - COLETA ATIVA
+Entre no grupo para participar:
+
+https://t.me/+wD5Q6CzN3eo1MzAx (ID: 35710)
+2025-07-03 01:57:33,504 - INFO -   - Tópico: Queria o Financiamento Pro, alguém tem? (ID: 35695)
+2025-07-03 01:57:33,509 - INFO - Canal/Grupo: INEMA.IA (ID: 2238677701)
+2025-07-03 01:57:33,512 - INFO -   - Tópico: Tópico 2726 (ID: 2726)
+2025-07-03 01:57:33,515 - INFO -   - Tópico: Tópico 2725 (ID: 2725)
+2025-07-03 01:57:33,518 - INFO -   - Tópico: Tópico 2724 (ID: 2724)
+2025-07-03 01:57:33,521 - INFO -   - Tópico: Tópico 2723 (ID: 2723)
+2025-07-03 01:57:33,523 - INFO -   - Tópico: Tópico 2722 (ID: 2722)
+2025-07-03 01:57:33,527 - INFO -   - Tópico: Tópico 2721 (ID: 2721)
+2025-07-03 01:57:33,529 - INFO -   - Tópico: Tópico 2720 (ID: 2720)
+2025-07-03 01:57:33,532 - INFO -   - Tópico: Tópico 2719 (ID: 2719)
+2025-07-03 01:57:33,534 - INFO -   - Tópico: Tópico 2718 (ID: 2718)
+2025-07-03 01:57:33,537 - INFO -   - Tópico: Tópico 2717 (ID: 2717)
+2025-07-03 01:57:33,539 - INFO -   - Tópico: Tópico 2716 (ID: 2716)
+2025-07-03 01:57:33,542 - INFO -   - Tópico: Tópico 2715 (ID: 2715)
+2025-07-03 01:57:33,544 - INFO -   - Tópico: Tópico 2714 (ID: 2714)
+2025-07-03 01:57:33,546 - INFO -   - Tópico: Tópico 2713 (ID: 2713)
+2025-07-03 01:57:33,550 - INFO -   - Tópico: Tópico 2712 (ID: 2712)
+2025-07-03 01:57:33,552 - INFO -   - Tópico: Tópico 2711 (ID: 2711)
+2025-07-03 01:57:33,554 - INFO -   - Tópico: Tópico 2710 (ID: 2710)
+2025-07-03 01:57:33,556 - INFO -   - Tópico: Tópico 2709 (ID: 2709)
+2025-07-03 01:57:33,559 - INFO -   - Tópico: Tópico 2708 (ID: 2708)
+2025-07-03 01:57:33,561 - INFO -   - Tópico: Tópico 2707 (ID: 2707)
+2025-07-03 01:57:33,563 - INFO - Canal/Grupo: Comunidade Penin (ID: 1446184660)
+2025-07-03 01:57:33,565 - INFO - Canal/Grupo: INEMA.INFRA (ID: 2491219310)
+2025-07-03 01:57:33,566 - INFO -   - Tópico: Tópico 972 (ID: 972)
+2025-07-03 01:57:33,569 - INFO -   - Tópico: Tópico 971 (ID: 971)
+2025-07-03 01:57:33,571 - INFO -   - Tópico: Tópico 970 (ID: 970)
+2025-07-03 01:57:33,572 - INFO -   - Tópico: Tópico 969 (ID: 969)
+2025-07-03 01:57:33,575 - INFO -   - Tópico: Tópico 968 (ID: 968)
+2025-07-03 01:57:33,576 - INFO -   - Tópico: Tópico 967 (ID: 967)
+2025-07-03 01:57:33,578 - INFO -   - Tópico: Tópico 966 (ID: 966)
+2025-07-03 01:57:33,579 - INFO -   - Tópico: Tópico 964 (ID: 964)
+2025-07-03 01:57:33,581 - INFO -   - Tópico: Tópico 963 (ID: 963)
+2025-07-03 01:57:33,583 - INFO -   - Tópico: Tópico 962 (ID: 962)
+2025-07-03 01:57:33,584 - INFO -   - Tópico: Tópico 961 (ID: 961)
+2025-07-03 01:57:33,586 - INFO -   - Tópico: Tópico 960 (ID: 960)
+2025-07-03 01:57:33,588 - INFO -   - Tópico: Tópico 959 (ID: 959)
+2025-07-03 01:57:33,589 - INFO -   - Tópico: Tópico 958 (ID: 958)
+2025-07-03 01:57:33,591 - INFO -   - Tópico: Tópico 957 (ID: 957)
+2025-07-03 01:57:33,592 - INFO -   - Tópico: Tópico 956 (ID: 956)
+2025-07-03 01:57:33,594 - INFO -   - Tópico: Tópico 955 (ID: 955)
+2025-07-03 01:57:33,596 - INFO -   - Tópico: Tópico 954 (ID: 954)
+2025-07-03 01:57:33,598 - INFO -   - Tópico: Tópico 953 (ID: 953)
+2025-07-03 01:57:33,600 - INFO -   - Tópico: Tópico 952 (ID: 952)
+2025-07-03 01:57:33,601 - INFO - Canal/Grupo: INEMA.LLMs (ID: 2463916523)
+2025-07-03 01:57:33,603 - INFO -   - Tópico: Tópico 2157 (ID: 2157)
+2025-07-03 01:57:33,604 - INFO -   - Tópico: Tópico 2156 (ID: 2156)
+2025-07-03 01:57:33,606 - INFO -   - Tópico: Tópico 2155 (ID: 2155)
+2025-07-03 01:57:33,607 - INFO -   - Tópico: Tópico 2154 (ID: 2154)
+2025-07-03 01:57:33,609 - INFO -   - Tópico: Tópico 2153 (ID: 2153)
+2025-07-03 01:57:33,612 - INFO -   - Tópico: Tópico 2152 (ID: 2152)
+2025-07-03 01:57:33,613 - INFO -   - Tópico: Tópico 2151 (ID: 2151)
+2025-07-03 01:57:33,615 - INFO -   - Tópico: Tópico 2150 (ID: 2150)
+2025-07-03 01:57:33,617 - INFO -   - Tópico: Tópico 2149 (ID: 2149)
+2025-07-03 01:57:33,619 - INFO -   - Tópico: Tópico 2147 (ID: 2147)
+2025-07-03 01:57:33,620 - INFO -   - Tópico: Tópico 2146 (ID: 2146)
+2025-07-03 01:57:33,622 - INFO -   - Tópico: Tópico 2145 (ID: 2145)
+2025-07-03 01:57:33,624 - INFO -   - Tópico: /Vendas (ID: 2144)
+2025-07-03 01:57:33,626 - INFO -   - Tópico: /Vendas (ID: 2143)
+2025-07-03 01:57:33,627 - INFO -   - Tópico: /Vendas (ID: 2142)
+2025-07-03 01:57:33,628 - INFO -   - Tópico: Tópico 2141 (ID: 2141)
+2025-07-03 01:57:33,630 - INFO -   - Tópico: Tópico 2140 (ID: 2140)
+2025-07-03 01:57:33,632 - INFO -   - Tópico: Tópico 2139 (ID: 2139)
+2025-07-03 01:57:33,634 - INFO -   - Tópico: Tópico 2138 (ID: 2138)
+2025-07-03 01:57:33,636 - INFO -   - Tópico: Tópico 2137 (ID: 2137)
+2025-07-03 01:57:33,637 - INFO - Canal/Grupo: INEMA.MKT (ID: 2484989243)
+2025-07-03 01:57:33,639 - INFO -   - Tópico: Tópico 2237 (ID: 2237)
+2025-07-03 01:57:33,640 - INFO -   - Tópico: Tópico 2236 (ID: 2236)
+2025-07-03 01:57:33,642 - INFO -   - Tópico: Tópico 2235 (ID: 2235)
+2025-07-03 01:57:33,643 - INFO -   - Tópico: Tópico 2234 (ID: 2234)
+2025-07-03 01:57:33,647 - INFO -   - Tópico: Tópico 2233 (ID: 2233)
+2025-07-03 01:57:33,648 - INFO -   - Tópico: Tópico 2232 (ID: 2232)
+2025-07-03 01:57:33,650 - INFO -   - Tópico: Tópico 2231 (ID: 2231)
+2025-07-03 01:57:33,652 - INFO -   - Tópico: Tópico 2230 (ID: 2230)
+2025-07-03 01:57:33,654 - INFO -   - Tópico: Tópico 2229 (ID: 2229)
+2025-07-03 01:57:33,655 - INFO -   - Tópico: Tópico 2228 (ID: 2228)
+2025-07-03 01:57:33,656 - INFO -   - Tópico: Tópico 2227 (ID: 2227)
+2025-07-03 01:57:33,658 - INFO -   - Tópico: Tópico 2226 (ID: 2226)
+2025-07-03 01:57:33,659 - INFO -   - Tópico: Tópico 2225 (ID: 2225)
+2025-07-03 01:57:33,664 - INFO -   - Tópico: Tópico 2224 (ID: 2224)
+2025-07-03 01:57:33,666 - INFO -   - Tópico: Tópico 2223 (ID: 2223)
+2025-07-03 01:57:33,669 - INFO -   - Tópico: Tópico 2222 (ID: 2222)
+2025-07-03 01:57:33,670 - INFO -   - Tópico: Tópico 2220 (ID: 2220)
+2025-07-03 01:57:33,672 - INFO -   - Tópico: Tópico 2219 (ID: 2219)
+2025-07-03 01:57:33,673 - INFO -   - Tópico: Tópico 2218 (ID: 2218)
+2025-07-03 01:57:33,674 - INFO -   - Tópico: Tópico 2217 (ID: 2217)
+2025-07-03 01:57:33,677 - INFO - Canal/Grupo: Cupons e Promoções - Mr Zoreta (ID: 1712667311)
+2025-07-03 01:57:33,720 - INFO - Canal/Grupo: 👑 King Of Marketing 💰 (ID: 1958381983)
+2025-07-03 01:57:33,750 - INFO -   - Tópico: 🎁 ATUALIZAÇÃO!
+
+Como prometido, agora suportamos 3 sites:
+
+✔️  Freepik • Baixar Design • Vecteezy
+
+❔ Como usar: Entre no site, pegue o link envie aqui no grupo e aguarde seu arquivo!
+
+✔️  5 downloads GRÁTIS por dia
+
+Use !limite para ver quantos restam.
+
+Aproveitem e se gostou, manda no seu grupo, pro seu amigo e até pro seu cachorro deixa mais pessoas aproveitarem!  🤣 (ID: 16898)
+2025-07-03 01:57:33,756 - INFO -   - Tópico: 🎁 ATUALIZAÇÃO!
+
+Como prometido, agora suportamos 3 sites:
+
+✔️  Freepik • Baixar Design • Vecteezy
+
+❔ Como usar: Entre no site, pegue o link envie aqui no grupo e aguarde seu arquivo!
+
+✔️  5 downloads GRÁTIS por dia
+
+Use !limite para ver quantos restam.
+
+Aproveitem e se gostou, manda no seu grupo, pro seu amigo e até pro seu cachorro deixa mais pessoas aproveitarem!  🤣 (ID: 16897)
+2025-07-03 01:57:33,761 - INFO -   - Tópico: 🎁 ATUALIZAÇÃO!
+
+Como prometido, agora suportamos 3 sites:
+
+✔️  Freepik • Baixar Design • Vecteezy
+
+❔ Como usar: Entre no site, pegue o link envie aqui no grupo e aguarde seu arquivo!
+
+✔️  5 downloads GRÁTIS por dia
+
+Use !limite para ver quantos restam.
+
+Aproveitem e se gostou, manda no seu grupo, pro seu amigo e até pro seu cachorro deixa mais pessoas aproveitarem!  🤣 (ID: 16896)
+2025-07-03 01:57:33,767 - INFO -   - Tópico: 🎁 ATUALIZAÇÃO!
+
+Como prometido, agora suportamos 3 sites:
+
+✔️  Freepik • Baixar Design • Vecteezy
+
+❔ Como usar: Entre no site, pegue o link envie aqui no grupo e aguarde seu arquivo!
+
+✔️  5 downloads GRÁTIS por dia
+
+Use !limite para ver quantos restam.
+
+Aproveitem e se gostou, manda no seu grupo, pro seu amigo e até pro seu cachorro deixa mais pessoas aproveitarem!  🤣 (ID: 16891)
+2025-07-03 01:57:33,772 - INFO -   - Tópico: 🎁 ATUALIZAÇÃO!
+
+Como prometido, agora suportamos 3 sites:
+
+✔️  Freepik • Baixar Design • Vecteezy
+
+❔ Como usar: Entre no site, pegue o link envie aqui no grupo e aguarde seu arquivo!
+
+✔️  5 downloads GRÁTIS por dia
+
+Use !limite para ver quantos restam.
+
+Aproveitem e se gostou, manda no seu grupo, pro seu amigo e até pro seu cachorro deixa mais pessoas aproveitarem!  🤣 (ID: 16890)
+2025-07-03 01:57:33,778 - INFO -   - Tópico: 🎁 ATUALIZAÇÃO!
+
+Como prometido, agora suportamos 3 sites:
+
+✔️  Freepik • Baixar Design • Vecteezy
+
+❔ Como usar: Entre no site, pegue o link envie aqui no grupo e aguarde seu arquivo!
+
+✔️  5 downloads GRÁTIS por dia
+
+Use !limite para ver quantos restam.
+
+Aproveitem e se gostou, manda no seu grupo, pro seu amigo e até pro seu cachorro deixa mais pessoas aproveitarem!  🤣 (ID: 16889)
+2025-07-03 01:57:33,864 - INFO -   - Tópico: ⚠️ Novidade incrível no ar!
+
+Agora você pode baixar arquivos PREMIUM do Freepik totalmente GRÁTIS! 😯
+
+É só entrar no grupo pelo botão abaixo, enviar o link do arquivo que deseja e o bot vai te entregar o arquivo dentro do grupo. Simples assim! 📁
+
+✔️ Cada usuário pode baixar até 5 arquivos por dia
+
+🆓 Sem pagar nada, 100% gratuito!
+
+Curtiu? Indica pra um amigo e bora aproveitar juntos! 😍👇 (ID: 16888)
+2025-07-03 01:57:33,871 - INFO -   - Tópico: ⚠️ Novidade incrível no ar!
+
+Agora você pode baixar arquivos PREMIUM do Freepik totalmente GRÁTIS! 😯
+
+É só entrar no grupo pelo botão abaixo, enviar o link do arquivo que deseja e o bot vai te entregar o arquivo dentro do grupo. Simples assim! 📁
+
+✔️ Cada usuário pode baixar até 5 arquivos por dia
+
+🆓 Sem pagar nada, 100% gratuito!
+
+Curtiu? Indica pra um amigo e bora aproveitar juntos! 😍👇 (ID: 16887)
+2025-07-03 01:57:33,876 - INFO -   - Tópico: A lenda da liberando pra geral “lá ele” método de graça pra criar vídeos veo3 ilimitado (ID: 16886)
+2025-07-03 01:57:33,881 - INFO -   - Tópico: https://www.instagram.com/spyhacker.pro?igsh=cWxmendqcGlseWE4 (ID: 16885)
+2025-07-03 01:57:33,888 - INFO -   - Tópico: ⚠️ Novidade incrível no ar!
+
+Agora você pode baixar arquivos PREMIUM do Freepik totalmente GRÁTIS! 😯
+
+É só entrar no grupo pelo botão abaixo, enviar o link do arquivo que deseja e o bot vai te entregar o arquivo dentro do grupo. Simples assim! 📁
+
+✔️ Cada usuário pode baixar até 5 arquivos por dia
+
+🆓 Sem pagar nada, 100% gratuito!
+
+Curtiu? Indica pra um amigo e bora aproveitar juntos! 😍👇 (ID: 16884)
+2025-07-03 01:57:33,893 - INFO -   - Tópico: https://t.me/superlinksbr
+
+https://t.me/mgflixgratis
+
+Quer coisas de graça?
+Entra varios links de packs grátis (ID: 16881)
+2025-07-03 01:57:33,897 - INFO -   - Tópico: oiie pessoal, se alguém tiver receita 'marcos maluf cpa20' para compartilhar comigo agradecerei imensamente! tinha no drive mas caiu, eu estava em período de provas da facul e vacilei em não salvar antes. (ID: 16879)
+2025-07-03 01:57:33,901 - INFO -   - Tópico: Bom dia alguém tem o curso do pedro sobral ai? (ID: 16860)
+2025-07-03 01:57:33,906 - INFO -   - Tópico: Vendo conta Tik tok 100k+ seguidores.. (ID: 16856)
+2025-07-03 01:57:33,909 - INFO -   - Tópico: Acadmeia? (ID: 16854)
+2025-07-03 01:57:33,914 - INFO -   - Tópico: De treino (ID: 16853)
+2025-07-03 01:57:33,917 - INFO -   - Tópico: Alguém tem planilha (ID: 16852)
+2025-07-03 01:57:33,981 - INFO -   - Tópico: ⚠️ VAGAS ENCERRANDO
+
+Temos apenas 7 vagas para o Perplexity Pro Anual! Adquiram antes que encerre, acesse @DevWorldSBot para garantir sua vaga.
+
+🙂 O que uma assinatura PRO te beneficia? 👇
+✔️ GPT-4.5 – O novo modelo mais poderoso da OpenAI.
+✔️ Claude 3.7 Sonnet – A IA que promete superar o ChatGPT o3 em programação com sua cadeia de pensamento!
+✔️ Grok-2 (breve Grok-3) – A tecnologia de Elon Musk para desafios complexos.
+✔️ Llama 3 – O modelo open-source da Meta, ultra eficiente.
+✔️ DeepSeek R1 – Com capacidade de "pensar" este é o especialista ideal para solução de problemas.
+✔️ Sonar Large – IA exclusiva da Perplexity, turbinada para buscas.
+
+➕ E MAIS:
+✨ Geração de imagens com DALL-E 3, Playground v3 e FLUX 1!
+
+❌ No site oficial, assinar durante 1 ano o Perplexity Pro, custa R$1.375,00 + Impostos.
+💵 No @DevWorldSBot, o preço cai para R$247,00 são MAIS de 80% DE DESCONTO. 😱🔥
+
+⚠️ Acesse o @DevWorldSBot agora mesmo, escolha a opção Perplexity e garanta sua vaga!!!
+
+✉️ Vagas ENCERRANDO assine antes que acabe🔥 (ID: 16851)
+2025-07-03 01:57:33,991 - INFO - Canal/Grupo: Betina Rudolph - Mentoria Digital - Copia (ID: 2144024114)
+2025-07-03 01:57:34,001 - INFO - Canal/Grupo: Escola da Automação - Thales (ID: 2153965019)
+2025-07-03 01:57:34,008 - INFO - Canal/Grupo: Fórmula da Produtividade - Ana Jords (ID: 2114099862)
+2025-07-03 01:57:34,014 - INFO - Canal/Grupo: Mentoria Conversão Extrema 2023 - Tiago Tessmann (ID: 2135868479)
+2025-07-03 01:57:34,021 - INFO - Canal/Grupo: Formação em Social Media (Completo) - Icaro de Carvalho (ID: 1973882516)
+2025-07-03 01:57:34,030 - INFO - Canal/Grupo: Curso de Figma (ID: 1944067527)
+2025-07-03 01:57:34,040 - INFO - Canal/Grupo: INEMA.TDS (ID: 2174331656)
+2025-07-03 01:57:34,048 - INFO -   - Tópico: Tópico 3665 (ID: 3665)
+2025-07-03 01:57:34,095 - INFO - Canal/Grupo: 3D 👉🏻 5D - Novo Mundo - Matrix Escape (ID: 1948975492)
+2025-07-03 01:57:34,105 - INFO - Canal/Grupo: INEMA.ADULTO (ID: 2429706589)
+2025-07-03 01:57:34,115 - INFO -   - Tópico: Tópico 3499 (ID: 3499)
+2025-07-03 01:57:34,125 - INFO -   - Tópico: Tópico 3495 (ID: 3495)
+2025-07-03 01:57:34,137 - INFO -   - Tópico: Tópico 3491 (ID: 3491)
+2025-07-03 01:57:34,147 - INFO -   - Tópico: /start@InviteMemberBot (ID: 3490)
+2025-07-03 01:57:34,156 - INFO -   - Tópico: /start (ID: 3489)
+2025-07-03 01:57:34,171 - INFO -   - Tópico: Tópico 3488 (ID: 3488)
+2025-07-03 01:57:34,182 - INFO -   - Tópico: Tópico 3487 (ID: 3487)
+2025-07-03 01:57:34,186 - INFO -   - Tópico: Tópico 3486 (ID: 3486)
+2025-07-03 01:57:34,191 - INFO -   - Tópico: Tópico 3485 (ID: 3485)
+2025-07-03 01:57:34,197 - INFO -   - Tópico: Tópico 3484 (ID: 3484)
+2025-07-03 01:57:34,201 - INFO -   - Tópico: Tópico 3483 (ID: 3483)
+2025-07-03 01:57:34,205 - INFO -   - Tópico: Tópico 3482 (ID: 3482)
+2025-07-03 01:57:34,210 - INFO -   - Tópico: Tópico 3481 (ID: 3481)
+2025-07-03 01:57:34,215 - INFO -   - Tópico: Tópico 3480 (ID: 3480)
+2025-07-03 01:57:34,221 - INFO -   - Tópico: /start@InviteMemberBot (ID: 3479)
+2025-07-03 01:57:34,225 - INFO -   - Tópico: Tópico 3478 (ID: 3478)
+2025-07-03 01:57:34,229 - INFO -   - Tópico: Tópico 3477 (ID: 3477)
+2025-07-03 01:57:34,234 - INFO -   - Tópico: Tópico 3476 (ID: 3476)
+2025-07-03 01:57:34,238 - INFO -   - Tópico: Tópico 3475 (ID: 3475)
+2025-07-03 01:57:34,243 - INFO -   - Tópico: Tópico 3474 (ID: 3474)
+2025-07-03 01:57:34,247 - INFO - Canal/Grupo: OGRO PRO OFICIAL (ID: 1160877521)
+2025-07-03 01:57:34,259 - INFO - Canal/Grupo: 🔥 Diego Araújo | Grabovoi Na Prática (ID: 1431906062)
+2025-07-03 01:57:34,268 - INFO - Canal/Grupo: Layer Laranjade (Versão pirata) (ID: 2725202835)
+2025-07-03 01:57:34,279 - INFO -   - Tópico: Tópico 345 (ID: 345)
+2025-07-03 01:57:34,285 - INFO -   - Tópico: Tópico 344 (ID: 344)
+2025-07-03 01:57:34,293 - INFO -   - Tópico: Tópico 343 (ID: 343)
+2025-07-03 01:57:34,300 - INFO -   - Tópico: Tópico 342 (ID: 342)
+2025-07-03 01:57:34,309 - INFO -   - Tópico: Tópico 341 (ID: 341)
+2025-07-03 01:57:34,316 - INFO -   - Tópico: Tópico 340 (ID: 340)
+2025-07-03 01:57:34,324 - INFO -   - Tópico: Tópico 339 (ID: 339)
+2025-07-03 01:57:34,329 - INFO -   - Tópico: Tópico 338 (ID: 338)
+2025-07-03 01:57:34,334 - INFO -   - Tópico: Tópico 337 (ID: 337)
+2025-07-03 01:57:34,339 - INFO -   - Tópico: Tópico 336 (ID: 336)
+2025-07-03 01:57:34,343 - INFO -   - Tópico: Tópico 335 (ID: 335)
+2025-07-03 01:57:34,347 - INFO -   - Tópico: Tópico 324 (ID: 324)
+2025-07-03 01:57:34,352 - INFO -   - Tópico: Tópico 323 (ID: 323)
+2025-07-03 01:57:34,356 - INFO -   - Tópico: Tópico 310 (ID: 310)
+2025-07-03 01:57:34,359 - INFO -   - Tópico: Tópico 309 (ID: 309)
+2025-07-03 01:57:34,364 - INFO -   - Tópico: Tópico 306 (ID: 306)
+2025-07-03 01:57:34,369 - INFO -   - Tópico: Tópico 304 (ID: 304)
+2025-07-03 01:57:34,372 - INFO -   - Tópico: Tópico 303 (ID: 303)
+2025-07-03 01:57:34,376 - INFO -   - Tópico: Tópico 302 (ID: 302)
+2025-07-03 01:57:34,381 - INFO -   - Tópico: Tópico 301 (ID: 301)
+2025-07-03 01:57:34,385 - INFO - Canal/Grupo: Programador Viking (ID: 1481869075)
+2025-07-03 01:57:34,388 - INFO - Canal/Grupo: Cursogratiis (ID: 1654648955)
+2025-07-03 01:57:34,392 - INFO - Canal/Grupo: Pedro Sobral - Canal dos Subidos (ID: 1448387167)
+2025-07-03 01:57:34,397 - INFO - Canal/Grupo: Dicas da Ana Tex (ID: 1483167703)
+2025-07-03 01:57:34,428 - INFO - Canal/Grupo: 🥷1-Ferramentas Premium SPY NinjaBR Adminer Adheart Semrush Gurukiller PiPiADS BigSpy DROPTOOL CHATGPT 4 PLUS VoiceMaker ADSEREA (ID: 2120619556)
+2025-07-03 01:57:34,452 - INFO - Canal/Grupo: LIVROS DE PSICOLOGIA, PSICANÁLISE, PEDAGOGIA E FILOSOFIA! 📚⏳ (ID: 1362823704)
+2025-07-03 01:57:34,459 - INFO - Canal/Grupo: Studios Monkey - Top Editores Brasil (ID: 1234117731)
+2025-07-03 01:57:34,469 - INFO -   - Tópico: Obrigado Daniel pela informação.
+Embora não tenha sido a que eu esperava, mas ao menos fico sabendo.  Grato. (ID: 59862)
+2025-07-03 01:57:34,475 - INFO -   - Tópico: Estamos removendo links e pacotes sem relevância! Com poucos downloads. (ID: 59861)
+2025-07-03 01:57:34,481 - INFO -   - Tópico: Peço ao Daniel Cardoso Monkey que troque o link do grupo e bole um codigo de validação contra essa pratica. acabei de receber essa denuncia. (ID: 59857)
+2025-07-03 01:57:34,488 - INFO -   - Tópico: ESSE LINK É ILEGAL e quem entrou por ele siaba, esse serviço é pago, não gratuito! Caso você não tenha comprado o seu acesso ao Pack o mesmo não terá suporte algum. (ID: 59856)
+2025-07-03 01:57:34,496 - INFO -   - Tópico: pessoal!!!  Quem aqui acessou por esse link? (ID: 59855)
+2025-07-03 01:57:34,507 - INFO -   - Tópico: Tô numa gripe danada! Por isso suporte está demorando mais que previsto nos últimos dias. E tem coisa que somente eu consigo resolver. Em breve estarei 100% e irei atender todos. (ID: 59854)
+2025-07-03 01:57:34,515 - INFO -   - Tópico: Preciso de um Freela para animar um logotipo! chamar no privado! (ID: 59849)
+2025-07-03 01:57:34,522 - INFO -   - Tópico: Bom dia, instalei o atomx seguindo o tutorial, ele ate aparece na aba extensões, porem quando clico não abre nada, alguem sabe como resolver? (ID: 59848)
+2025-07-03 01:57:34,529 - INFO -   - Tópico: O meu está dando isso , já chamei o suporte e nada de alguém responder (ID: 59846)
+2025-07-03 01:57:34,535 - INFO -   - Tópico: Tópico 59845 (ID: 59845)
+2025-07-03 01:57:34,542 - INFO -   - Tópico: Alguém teria o link novo de acesso do Pack do editor 4.0 (ID: 59844)
+2025-07-03 01:57:34,550 - INFO -   - Tópico: Boa noite, instalei o atomx seguindo o tutorial, ele ate aparece na aba extensões, porem quando clico não abre nada, alguem sabe como resolver? (ID: 59841)
+2025-07-03 01:57:34,557 - INFO -   - Tópico: Proprietario: Daniel Cardoso Monkey (ID: 59840)
+2025-07-03 01:57:34,564 - INFO -   - Tópico: Esse seria o unico meio de suporte (ID: 59839)
+2025-07-03 01:57:34,570 - INFO -   - Tópico: como sou apenas um adm aqui do telegram, nao tenho acesso a usuarios para tentar ajudar; (ID: 59838)
+2025-07-03 01:57:34,575 - INFO -   - Tópico: Horário de Suporte:
+
+Segunda a Sexta: das 9h00 às 18h00
+Sábado Domingo e Feriados: Fechado
+Canais de Suporte:
+
+WhatsApp: (38) 98858-1098
+E-mail: contato@studiosmonkey.com.br
+Tempo de Resposta: A depender da fila e Horário (ID: 59837)
+2025-07-03 01:57:34,579 - INFO -   - Tópico: Usuário certo e senha tbm , já troquei se navegador,  já tentei acessa em outro PC,  pelo meu celular e da a mesma coisa (ID: 59836)
+2025-07-03 01:57:34,584 - INFO -   - Tópico: Está assim (ID: 59835)
+2025-07-03 01:57:34,588 - INFO -   - Tópico: Tópico 59834 (ID: 59834)
+2025-07-03 01:57:34,592 - INFO -   - Tópico: Chamei, mas ninguém responde! (ID: 59833)
+2025-07-03 01:57:34,596 - INFO - Canal/Grupo: TCS SPY - PORTAL (ID: 2429087738)
+2025-07-03 01:57:34,618 - INFO - Canal/Grupo: TecnoArt (Promoções) 🖥️⚡ (ID: 1493914605)
+2025-07-03 01:57:34,621 - INFO - Canal/Grupo: Vamos Automatizar (ID: 1580661617)
+2025-07-03 01:57:34,650 - INFO - Canal/Grupo: 🎯🔎 SolluSaaS - Automação e IA🎓💡 (ID: 2319689627)
+2025-07-03 01:57:34,659 - INFO -   - Tópico: Tópico 564 (ID: 564)
+2025-07-03 01:57:34,667 - INFO -   - Tópico: Tópico 563 (ID: 563)
+2025-07-03 01:57:34,674 - INFO -   - Tópico: Tópico 562 (ID: 562)
+2025-07-03 01:57:34,680 - INFO -   - Tópico: Tópico 561 (ID: 561)
+2025-07-03 01:57:34,688 - INFO -   - Tópico: Tópico 558 (ID: 558)
+2025-07-03 01:57:34,696 - INFO -   - Tópico: Tópico 557 (ID: 557)
+2025-07-03 01:57:34,702 - INFO -   - Tópico: Tópico 556 (ID: 556)
+2025-07-03 01:57:34,707 - INFO -   - Tópico: Precisa de um servidor de HOSPEDAGEM WEB confiável e seguro, para colocar seus domínios, configurar seus emails e subir seu Site? 
+Minha recomendação é uma só: 
+
+https://kangaroohost.com.br/central/aff.php?aff=24 (ID: 555)
+2025-07-03 01:57:34,713 - INFO -   - Tópico: Tópico 554 (ID: 554)
+2025-07-03 01:57:34,718 - INFO -   - Tópico: Tópico 540 (ID: 540)
+2025-07-03 01:57:34,724 - INFO -   - Tópico: Tópico 532 (ID: 532)
+2025-07-03 01:57:34,730 - INFO -   - Tópico: Tópico 523 (ID: 523)
+2025-07-03 01:57:34,737 - INFO -   - Tópico: Tópico 507 (ID: 507)
+2025-07-03 01:57:34,745 - INFO -   - Tópico: "Eu estou estudando NoCode/LowCode... Eu deveria aprender Python?" 
+
+COM CERTEZA! 
+
+A linguagem Python é fácil de aprender, muito parecida com o JSON que usamos muito nas automações e nos ajuda a evoluir rapidamente dentro do universo das automações, até porque automação não é só Make e N8N e um programador Python, mesmo que Junior, pode fazer automações MUITO MAIS AVANÇADAS, com pouquíssimas linhas de código. 
+
+Quer aprender Python de um jeito simples, GRATUITO e divertido? 
+
+Faça como eu: instale o Mimo e dedique 30 minutos por dia. 
+
+Em 3 ou 4 meses vocês já serão capazes de criar scripts Python realmente significativos para suas automações. 
+
+Sim, eu ESTOU ESTUDANDO PYTHON e digo: é simples! 
+
+https://getmimo.com/invite/jcqopz (ID: 493)
+2025-07-03 01:57:34,749 - INFO -   - Tópico: Tópico 492 (ID: 492)
+2025-07-03 01:57:34,752 - INFO -   - Tópico: Aprenda a delegar. 
+Aprenda a fazer parcerias.
+Aprenda a focar no que realmente importa! (ID: 490)
+2025-07-03 01:57:34,755 - INFO -   - Tópico: Tópico 482 (ID: 482)
+2025-07-03 01:57:34,758 - INFO -   - Tópico: Tópico 481 (ID: 481)
+2025-07-03 01:57:34,760 - INFO -   - Tópico: Tópico 480 (ID: 480)
+2025-07-03 01:57:34,763 - INFO -   - Tópico: Tópico 477 (ID: 477)
+2025-07-03 01:57:34,765 - INFO - Canal/Grupo: Escola do Sutil Conhecimento (ID: 2311885997)
+2025-07-03 01:57:34,769 - INFO -   - Tópico: Tópico 10810 (ID: 10810)
+2025-07-03 01:57:34,771 - INFO - Canal/Grupo: Contas Com Saldo Recargapay Para Pagamentos (ID: 1733354090)
+2025-07-03 01:57:34,814 - INFO - Canal/Grupo: webguild - українська IT-спільнота 🇺🇦 (ID: 1583102419)
+2025-07-03 01:57:34,818 - INFO - Canal/Grupo: Tiger Eye | Cursos (ID: 2169688662)
+2025-07-03 01:57:34,821 - INFO - Canal/Grupo: O Primo Rico (ID: 1188384738)
+2025-07-03 01:57:34,825 - INFO - Canal/Grupo: Extreme Cursos (ID: 1785959351)
+2025-07-03 01:57:34,830 - INFO - Canal/Grupo: Comunidade Jon Fortuna (ID: 2624431019)
+2025-07-03 01:57:34,833 - INFO -   - Tópico: Tópico 4040 (ID: 4040)
+2025-07-03 01:57:34,836 - INFO -   - Tópico: Boa tarde galera!
+Pra quem se interessar!
+Segue CapCut Pro para Desktop gratuito https://www.capcut.com/capcut_pc_web/fission_receive?code=tsVT6l04333761&lng=pt-BR (ID: 4039)
+2025-07-03 01:57:34,839 - INFO -   - Tópico: Vende tudo não tem nada de graça (ID: 4036)
+2025-07-03 01:57:34,843 - INFO -   - Tópico: eu acho o google studio muito lenta e aqui tambem da muitos erros, porem é o que tem hoje, então paciencia é a palavra da hora, tentar, e tentar que uma hora funciona. ou alguem sabe de alguma ia para gerar audio sem limites de caracteres? (ID: 4035)
+2025-07-03 01:57:34,846 - INFO -   - Tópico: Alguém pode me passar os prompts dessa aula:
+
+https://youtu.be/8uzJoYb5czY?si=_KLwWsLRqD7MLn1O (ID: 4034)
+2025-07-03 01:57:34,851 - INFO -   - Tópico: Eu uso o VIDU.. quando acaba os créditos é só usar um email provisório... (ID: 4031)
+2025-07-03 01:57:34,857 - INFO -   - Tópico: Pixverse mas são poucos crédito ao dia (ID: 4029)
+2025-07-03 01:57:34,861 - INFO -   - Tópico: Quais as melhores ferramentas de preferência gratuita para gerar movimento nas imagens? O Veo2 não ta rolando mais (ID: 4028)
+2025-07-03 01:57:34,865 - INFO -   - Tópico: Já tentei de tudo nesse Google Studio...não quer gerar mesmo e tenho crédito pra gastar (ID: 4027)
+2025-07-03 01:57:34,870 - INFO -   - Tópico: Meu canal está dando sempre que eu posto um vídeo novo, revisão em até 24 horas...e as vizualizaçoes dele caíram muito o que será que está acontecendo e o que eu posso fazer? Vc pode me ajudar por favor? (ID: 4025)
+2025-07-03 01:57:34,877 - INFO -   - Tópico: Tópico 4024 (ID: 4024)
+2025-07-03 01:57:34,881 - INFO -   - Tópico: Tópico 4023 (ID: 4023)
+2025-07-03 01:57:34,886 - INFO -   - Tópico: Como faço pra obter os prompts? (ID: 4020)
+2025-07-03 01:57:34,891 - INFO -   - Tópico: Boa noite (ID: 4019)
+2025-07-03 01:57:34,897 - INFO -   - Tópico: Galera o Jon Fortuna liberou uma nova ia de gravar vozes, algum pode enviar o link? (ID: 4018)
+2025-07-03 01:57:34,903 - INFO -   - Tópico: Tópico 4017 (ID: 4017)
+2025-07-03 01:57:34,910 - INFO -   - Tópico: Tópico 4015 (ID: 4015)
+2025-07-03 01:57:34,915 - INFO -   - Tópico: Cria o botão no cava (ID: 4014)
+2025-07-03 01:57:34,921 - INFO -   - Tópico: bom dia gente, alguem tem botão de inscreva-se? eu so achei em inglês (ID: 4008)
+2025-07-03 01:57:34,926 - INFO -   - Tópico: Boa noite, acabei de fazer um video e funcionou bem (ID: 4006)
+2025-07-03 01:57:34,931 - INFO - Canal/Grupo: Inside Digital - Cursos (ID: 1128986451)
+2025-07-03 01:57:34,936 - INFO - Canal/Grupo: VERDADE REVELADA - Neemias & Jemima Gomes (ID: 1340574612)
+2025-07-03 01:57:34,939 - INFO - Canal/Grupo: Android Security & Malware (ID: 1164747047)
+2025-07-03 01:57:34,943 - INFO - Canal/Grupo: INEMA.Prompts (ID: 2494987106)
+2025-07-03 01:57:34,948 - INFO -   - Tópico: Tópico 3898 (ID: 3898)
+2025-07-03 01:57:34,952 - INFO -   - Tópico: Tópico 3882 (ID: 3882)
+2025-07-03 01:57:34,955 - INFO -   - Tópico: Tópico 3866 (ID: 3866)
+2025-07-03 01:57:34,959 - INFO - Canal/Grupo: Turma #5 - O Caminho da Ascensão (ID: 2036825093)
+2025-07-03 01:57:34,963 - INFO - Canal/Grupo: Vibe Dev: Comunidade de Micro-SaaS para Devs 🚀 (ID: 2082346078)
+2025-07-03 01:57:34,967 - INFO - Canal/Grupo: Packs VIP | Chat (ID: 1862049146)
+2025-07-03 01:57:35,222 - INFO - Canal/Grupo: 𝐕𝐈𝐏 | 𝐉𝐄𝐒𝐓𝐄𝐑 𝐏𝐀𝐂𝐊𝐒 (ID: 1935667401)
+2025-07-03 01:57:35,225 - INFO - Canal/Grupo: Vip Ju Oliveira ☕️ (ID: 1201305537)
+2025-07-03 01:57:35,229 - INFO - Canal/Grupo: Cripto Rodrigo Souza Pro (ID: 1209765125)
+2025-07-03 01:57:35,234 - INFO - Canal/Grupo: ÚLTIMA CHAMADA (ID: 1274680420)
+2025-07-03 01:57:35,239 - INFO - Canal/Grupo: Manual de Birras e Mau Comportamento (ID: 1816021848)
+2025-07-03 01:57:35,272 - INFO - Canal/Grupo: X Cursos Web - Downloads 💎 (ID: 1303952272)
+2025-07-03 01:57:35,275 - INFO - Canal/Grupo: HUBAI.IO ️ (ID: 1718227373)
+2025-07-03 01:57:35,278 - INFO - Canal/Grupo: Canal do Sheiik 🚀 (ID: 1224255131)
+2025-07-03 01:57:35,281 - INFO - Canal/Grupo: Marcelo Braggion | Copy Daily Plus (ID: 1553949419)
+2025-07-03 01:57:35,285 - INFO - Canal/Grupo: Comunidade ZDG (ID: 1510327718)
+2025-07-03 01:57:35,288 - INFO - Canal/Grupo: AI Central - Trick tips and more (ID: 1832709321)
+2025-07-03 01:57:35,291 - INFO - Canal/Grupo: { access #D.er } (ID: 1947816371)
+2025-07-03 01:57:35,293 - INFO - Canal/Grupo: Blackbox Ads | FREE (ID: 2409564102)
+2025-07-03 01:57:35,296 - INFO - Canal/Grupo: Abraham (Canal Oficial) (ID: 1894347150)
+2025-07-03 01:57:35,299 - INFO - Canal/Grupo: CANAL SANDECO (ID: 1207550207)
+2025-07-03 01:57:35,302 - INFO - Canal/Grupo: Comunidade Grátis - Gabriel Digital - Google Ads/Design (ID: 2089706382)
+2025-07-03 01:57:35,337 - INFO -   - Tópico: 🚫 O membro @Nanayaw_JuniorJunior foi silenciado por 30 minutos por compartilhar um link. (ID: 3094)
+2025-07-03 01:57:35,348 - INFO -   - Tópico: 🎥 Inscreva-se no nosso canal no YouTube!
+👉 https://www.youtube.com/@GabrielLuizDigital (ID: 3092)
+2025-07-03 01:57:35,369 - INFO -   - Tópico: 🚫 O membro @jorkosakyan190195 foi silenciado por 30 minutos por compartilhar um link. (ID: 3091)
+2025-07-03 01:57:35,394 - INFO -   - Tópico: 🚫 O membro @SSHG3Tech foi silenciado por 30 minutos por compartilhar um link. (ID: 3089)
+2025-07-03 01:57:35,417 - INFO -   - Tópico: 🎥 Inscreva-se no nosso canal no YouTube!
+👉 https://www.youtube.com/@GabrielLuizDigital (ID: 3087)
+2025-07-03 01:57:35,431 - INFO -   - Tópico: 🎥 Inscreva-se no nosso canal no YouTube!
+👉 https://www.youtube.com/@GabrielLuizDigital (ID: 3085)
+2025-07-03 01:57:35,453 - INFO -   - Tópico: 🎥 Inscreva-se no nosso canal no YouTube!
+👉 https://www.youtube.com/@GabrielLuizDigital (ID: 3084)
+2025-07-03 01:57:35,475 - INFO -   - Tópico: 🎥 Inscreva-se no nosso canal no YouTube!
+👉 https://www.youtube.com/@GabrielLuizDigital (ID: 3080)
+2025-07-03 01:57:35,487 - INFO -   - Tópico: Tópico 2945 (ID: 2945)
+2025-07-03 01:57:35,500 - INFO -   - Tópico: Tópico 2944 (ID: 2944)
+2025-07-03 01:57:35,509 - INFO -   - Tópico: Tópico 2936 (ID: 2936)
+2025-07-03 01:57:35,520 - INFO -   - Tópico: Tópico 626 (ID: 626)
+2025-07-03 01:57:35,531 - INFO -   - Tópico: Tópico 1 (ID: 1)
+2025-07-03 01:57:35,541 - INFO - Canal/Grupo: Comunidade de Tráfego do Mineiro no Telegram 💡 (ID: 1329340117)
+2025-07-03 01:57:35,552 - INFO - Canal/Grupo: Vida Lendária (ID: 1329719041)
+2025-07-03 01:57:35,564 - INFO - Canal/Grupo: Negócios em Mente - Chat GPT | Negócios | IAs | Marketing Digital (ID: 1487155520)
+2025-07-03 01:57:35,575 - INFO - Canal/Grupo: Comunidade gabesleal (ID: 2467757439)
+2025-07-03 01:57:35,583 - INFO - Canal/Grupo: RP Union Poker - SUPREMA, PPPOKER, X-Poker, CLUB GG , Poker Bros (ID: 1372783132)
+2025-07-03 01:57:35,592 - INFO - Canal/Grupo: Segredo dos Consignados (ID: 1646494056)
+2025-07-03 01:57:35,602 - INFO - Canal/Grupo: Jony Lan do Marketing ao Digital e a Inteligência Artificial (ID: 1448056455)
+2025-07-03 01:57:35,620 - INFO - Canal/Grupo: Mestre Lucas Centini ∴ (ID: 1266792532)
+2025-07-03 01:57:35,631 - INFO - Canal/Grupo: Carol Capel (ID: 1304526142)
+2025-07-03 01:57:35,680 - INFO - Canal/Grupo: Sabedoria é Poder 🔮 by ameninaveneno 🦋 | Q+Anons | Revelação | Justiça | WWG1WGA | Gados Despertados | Transição Planetária | (ID: 1471021851)
+2025-07-03 01:57:35,686 - INFO - Canal/Grupo: Canal - Marcelo Segredo (ID: 1366958123)
+2025-07-03 01:57:35,693 - INFO - Canal/Grupo: CARTAO INVESTIMENTOS PIX (ID: 2132512506)
+2025-07-03 01:57:35,699 - INFO - Canal/Grupo: Notion Money Method (ID: 2029705562)
+2025-07-03 01:57:35,704 - INFO - Canal/Grupo: Biblioteca Esotérica (ID: 1472987312)
+2025-07-03 01:57:35,711 - INFO - Canal/Grupo: ACESSO INSTA BIO NO CANVA (ID: 2413596311)
+2025-07-03 01:57:35,716 - INFO - Canal/Grupo: Rede M. Apps (ID: 1793077451)
+2025-07-03 01:57:35,721 - INFO - Canal/Grupo: COMPARTILLY APP - 50 FERRAMENTAS PREMIUM | CANVA PRO | CHAT GPT | BAIXAR DESIGN | ENVATO ELEMENTS | CAPCUT (ID: 2042945800)
+2025-07-03 01:57:35,724 - INFO - Canal/Grupo: INEMA.NCIA (ID: 2414677686)
+2025-07-03 01:57:35,730 - INFO -   - Tópico: Tópico 683 (ID: 683)
+2025-07-03 01:57:35,736 - INFO -   - Tópico: Tópico 675 (ID: 675)
+2025-07-03 01:57:35,741 - INFO -   - Tópico: Tópico 664 (ID: 664)
+2025-07-03 01:57:35,744 - INFO -   - Tópico: Tópico 644 (ID: 644)
+2025-07-03 01:57:35,748 - INFO - Canal/Grupo: Faz com IA - [Canal oficial] (ID: 1566506391)
+2025-07-03 01:57:35,752 - INFO - Canal/Grupo: NodeMation By Nskha (ID: 1999012755)
+2025-07-03 01:57:35,755 - INFO - Canal/Grupo: Jornal Verità (ID: 1602272531)
+2025-07-03 01:57:35,767 - INFO - Canal/Grupo: 🧲 Jornada da Monetização: YouTube Magnético (ID: 1357293760)
+2025-07-03 01:57:35,791 - INFO - Canal/Grupo: A UNIDADE 🌍 (ID: 2253006378)
+2025-07-03 01:57:35,800 - INFO - Canal/Grupo: ACESSO CANVA LINK NA BIO (ID: 2162518688)
+2025-07-03 01:57:35,808 - INFO - Canal/Grupo: Spy Tools - NinjaBR (ID: 1870844617)
+2025-07-03 01:57:35,816 - INFO - Canal/Grupo: Poker Profit ClubGG Channel (ID: 1647027668)
+2025-07-03 01:57:35,825 - INFO - Canal/Grupo: Comunidade Grigoletti (ID: 1715197528)
+2025-07-03 01:57:35,835 - INFO - Canal/Grupo: ACESSO PÁG. DE VENDAS CANVA (ID: 2017023412)
+2025-07-03 01:57:35,845 - INFO - Canal/Grupo: AcervoDEV - Conhecimento Acessível (ID: 2494286912)
+2025-07-03 01:57:35,907 - INFO -   - Tópico: ✅️ ACERVODEV - Conhecimento Acessível Para Todos! 🚀
+
+Muita gente tinha vontade de entrar na comunidade, mas o medo de golpe fazia muitos ficarem com o pé atrás. 😢
+
+Agora chegou a hora de ver com os próprios olhos que aqui é diferente! ✔️😍
+
+🖥 TUTORIAL DE COMO ACESSAR:
+
+1. ESCOLHER CATEGORIA ( Ex: Programação, Hacking.. )
+
+2. PROCURAR CURSO ( Navegando pelo acervo ou usando a lupa )
+
+3. CLICAR NO NOME DO CURSO PARA ACESSAR  CONTEÚDO
+
+📌 Lembrando que esse acervo teste é apenas uma porcentagem que possuimos no acervo principal, ou seja não possui todos os cursos!
+
+📱 Ficou com alguma dúvida? Nosso suporte.
+
+© Problemas com DMCA? Clique aqui. (ID: 2297)
+2025-07-03 01:57:35,914 - INFO -   - Tópico: Tópico 2258 (ID: 2258)
+2025-07-03 01:57:35,926 - INFO - Canal/Grupo: MENTE GTO - Reflexões e Estratégias ⚡️ (ID: 1301211816)
+2025-07-03 01:57:35,931 - INFO - Canal/Grupo: Pratique a resolução de desafios de programação e arrebente na sua próxima entrevista - Algomania (ID: 2336411742)
+2025-07-03 01:57:35,937 - INFO - Canal/Grupo: Allison Lindsay PLO5 (ID: 1506299939)
+2025-07-03 01:57:35,942 - INFO - Canal/Grupo: Obstinados - "Trâfego Orgânico" (ID: 1685266569)
+2025-07-03 01:57:35,948 - INFO - Canal/Grupo: Plano Mestre 💻💰💡 (ID: 1464618609)
+2025-07-03 01:57:35,954 - INFO - Canal/Grupo: Faça Sua Primeira Venda em 24 Horas – Brunna Siqueira (ID: 2640318187)
+2025-07-03 01:57:35,960 - INFO - Canal/Grupo: A Era Da Máquina De Vendas – Brunna Siqueira (ID: 2690188174)
+2025-07-03 01:57:35,966 - INFO - Canal/Grupo: TIPS JADER FIORI (ID: 1954762236)
+2025-07-03 01:57:35,973 - INFO -   - Tópico: Tópico 430 (ID: 430)
+2025-07-03 01:57:35,978 - INFO -   - Tópico: Tópico 429 (ID: 429)
+2025-07-03 01:57:35,985 - INFO -   - Tópico: Tópico 428 (ID: 428)
+2025-07-03 01:57:35,991 - INFO -   - Tópico: Tópico 427 (ID: 427)
+2025-07-03 01:57:35,998 - INFO -   - Tópico: Tópico 426 (ID: 426)
+2025-07-03 01:57:36,002 - INFO -   - Tópico: Tópico 425 (ID: 425)
+2025-07-03 01:57:36,011 - INFO -   - Tópico: Tópico 424 (ID: 424)
+2025-07-03 01:57:36,022 - INFO -   - Tópico: Tópico 423 (ID: 423)
+2025-07-03 01:57:36,023 - INFO -   - Tópico: Tópico 422 (ID: 422)
+2025-07-03 01:57:36,026 - INFO -   - Tópico: Tópico 421 (ID: 421)
+2025-07-03 01:57:36,029 - INFO -   - Tópico: Tópico 420 (ID: 420)
+2025-07-03 01:57:36,032 - INFO -   - Tópico: Tópico 419 (ID: 419)
+2025-07-03 01:57:36,034 - INFO -   - Tópico: Tópico 418 (ID: 418)
+2025-07-03 01:57:36,037 - INFO -   - Tópico: Tópico 417 (ID: 417)
+2025-07-03 01:57:36,039 - INFO -   - Tópico: Tópico 416 (ID: 416)
+2025-07-03 01:57:36,041 - INFO -   - Tópico: Tópico 415 (ID: 415)
+2025-07-03 01:57:36,046 - INFO -   - Tópico: Tópico 414 (ID: 414)
+2025-07-03 01:57:36,048 - INFO -   - Tópico: Tópico 413 (ID: 413)
+2025-07-03 01:57:36,050 - INFO -   - Tópico: Tópico 412 (ID: 412)
+2025-07-03 01:57:36,053 - INFO -   - Tópico: Tópico 411 (ID: 411)
+2025-07-03 01:57:36,055 - INFO - Canal/Grupo: Escola de Automação (ID: 1732818660)
+2025-07-03 01:57:36,112 - INFO - Canal/Grupo: 🟢@elfo_digital - Conteúdos Gratuitos🧠💭 (ID: 1776860898)
+2025-07-03 01:57:36,118 - INFO -   - Tópico: Tópico 551 (ID: 551)
+2025-07-03 01:57:36,125 - INFO -   - Tópico: /start@YTsavebot (ID: 550)
+2025-07-03 01:57:36,132 - INFO -   - Tópico: Tópico 549 (ID: 549)
+2025-07-03 01:57:36,139 - INFO -   - Tópico: /start@GHClone3Bot (ID: 548)
+2025-07-03 01:57:36,146 - INFO -   - Tópico: Tópico 547 (ID: 547)
+2025-07-03 01:57:36,152 - INFO -   - Tópico: /start@TopSaverBot (ID: 546)
+2025-07-03 01:57:36,159 - INFO -   - Tópico: Tópico 545 (ID: 545)
+2025-07-03 01:57:36,167 - INFO -   - Tópico: Tópico 544 (ID: 544)
+2025-07-03 01:57:36,172 - INFO -   - Tópico: Tópico 543 (ID: 543)
+2025-07-03 01:57:36,176 - INFO -   - Tópico: /start@GHClone4Bot (ID: 542)
+2025-07-03 01:57:36,180 - INFO -   - Tópico: Tópico 541 (ID: 541)
+2025-07-03 01:57:36,184 - INFO -   - Tópico: Tópico 540 (ID: 540)
+2025-07-03 01:57:36,188 - INFO -   - Tópico: Fx? (ID: 538)
+2025-07-03 01:57:36,192 - INFO -   - Tópico: Aq n e GP de divulgação (ID: 537)
+2025-07-03 01:57:36,197 - INFO -   - Tópico: Me perdoe não sabia que minha divulgação te incomodava tanto (ID: 535)
+2025-07-03 01:57:36,202 - INFO -   - Tópico: Pqp (ID: 534)
+2025-07-03 01:57:36,206 - INFO -   - Tópico: ?? Não entendi a sua raiva (ID: 533)
+2025-07-03 01:57:36,211 - INFO -   - Tópico: Tópico 528 (ID: 528)
+2025-07-03 01:57:36,215 - INFO -   - Tópico: K (ID: 527)
+2025-07-03 01:57:36,241 - INFO -   - Tópico: ?😏 (ID: 526)
+2025-07-03 01:57:36,246 - INFO - Canal/Grupo: Explicações sobre coronavírus - Atila (ID: 1237328358)
+2025-07-03 01:57:36,251 - INFO - Canal/Grupo: CHAT Ana Tex (ID: 1493358523)
+2025-07-03 01:57:36,255 - INFO - Canal/Grupo: INEMA.Automacao (ID: 2246269738)
+2025-07-03 01:57:36,263 - INFO -   - Tópico: Tópico 4073 (ID: 4073)
+2025-07-03 01:57:36,265 - INFO -   - Tópico: Tópico 4062 (ID: 4062)
+2025-07-03 01:57:36,267 - INFO -   - Tópico: Tópico 4057 (ID: 4057)
+2025-07-03 01:57:36,270 - INFO -   - Tópico: Tópico 4056 (ID: 4056)
+2025-07-03 01:57:36,272 - INFO -   - Tópico: Tópico 4052 (ID: 4052)
+2025-07-03 01:57:36,276 - INFO -   - Tópico: Automacoes para o DeepSeek R1 (ID: 4051)
+2025-07-03 01:57:36,278 - INFO -   - Tópico: Tópico 4050 (ID: 4050)
+2025-07-03 01:57:36,281 - INFO - Canal/Grupo: FUTFANTASY - ROBÔ OVER GOLS (ID: 1263132653)
+2025-07-03 01:57:36,283 - INFO - Canal/Grupo: Intensivão do Poker Felipe Bueno (ID: 1404091790)
+2025-07-03 01:57:36,285 - INFO - Canal/Grupo: Metahackers ™ (ID: 1398518473)
+2025-07-03 01:57:36,287 - INFO - Canal/Grupo: Viveiros - Download (ID: 1443950623)
+2025-07-03 01:57:36,289 - INFO - Canal/Grupo: ♠️♦️ UNIÃO POKER ZONE ♣️♥️ (ID: 1977952823)
+2025-07-03 01:57:36,293 - INFO - Canal/Grupo: “Aproveite nossa oferta exclusiva para clientes especiais.” (ID: 2012646220)
+2025-07-03 01:57:36,296 - INFO - Canal/Grupo: Curso.ninja-saite.com (ID: 1916937673)
+2025-07-03 01:57:36,299 - INFO - Canal/Grupo: Stories para Enriquecer - Luana Carolina (ID: 2207124218)
+2025-07-03 01:57:36,301 - INFO - Canal/Grupo: LearnWorld - Cursos (ID: 1863930960)
+2025-07-03 01:57:36,304 - INFO - Canal/Grupo: Pula Muralha (ID: 1179568133)
+2025-07-03 01:57:36,306 - INFO - Canal/Grupo: Lista de Cursos - Inside Digital (ID: 1620704041)
+2025-07-03 01:57:36,309 - INFO - Canal/Grupo: Alertas de Trends Virais - Pedro Carvalho TikTok (ID: 1572047333)
+2025-07-03 01:57:36,311 - INFO - Canal/Grupo: Lays Rezende (ID: 2440662852)
+2025-07-03 01:57:36,313 - INFO - Canal/Grupo: Formação Copywriter 12k-Alexandre Viveiros (ID: 2077952119)
+2025-07-03 01:57:36,315 - INFO - Canal/Grupo: Reels Superpoderoso | Paulo Cuenca (ID: 1723996863)
+2025-07-03 01:57:36,317 - INFO - Canal/Grupo: Momento FLOW por Marcelo Müller (ID: 1389575311)
+2025-07-03 01:57:36,373 - INFO - Canal/Grupo: Crypto insiders 🥇🐳 (ID: 1576295349)
+2025-07-03 01:57:36,375 - INFO - Canal/Grupo: Creativerse - Cursos (ID: 1869064698)
+2025-07-03 01:57:36,377 - INFO - Canal/Grupo: RocketMaster - Alunos (ID: 1499045763)
+2025-07-03 01:57:36,379 - INFO - Canal/Grupo: Hormart Metodo 4S WordPress-Marcos Bertoleti-2023 (ID: 2185523156)
+2025-07-03 01:57:36,382 - INFO - Canal/Grupo: Codirect - Marca de Valor (ID: 1385488883)
+2025-07-03 01:57:36,411 - INFO - Canal/Grupo: Escola de Vendas e Copywriting 🖊️🧠💰 (ID: 1794078529)
+2025-07-03 01:57:36,415 - INFO - Canal/Grupo: Indico Descontos (ID: 1684986947)
+2025-07-03 01:57:36,419 - INFO - Canal/Grupo: PPPCLUBS/POKERBROS NETWORK (ID: 1217123587)
+2025-07-03 01:57:36,422 - INFO - Canal/Grupo: Hora de Codar (ID: 1698169166)
+2025-07-03 01:57:36,426 - INFO - Canal/Grupo: AirDrops e Criptomoedas 🆓 (ID: 1412277383)
+2025-07-03 01:57:36,429 - INFO - Canal/Grupo: Rei dos cursos (ID: 1748673789)
+2025-07-03 01:57:36,465 - INFO - Canal/Grupo: 🏆 FERCONTELLI - ROLETA 🏆 (ID: 2093161157)
+2025-07-03 01:57:36,468 - INFO - Canal/Grupo: Código Viral - Oney Araujo (ID: 2029537480)
+2025-07-03 01:57:36,471 - INFO - Canal/Grupo: Canal do Fred Costa (ID: 1236324263)
+2025-07-03 01:57:36,474 - INFO - Canal/Grupo: 💰 ROLETA FREE - FERCONTELLI 🥇 (ID: 1936093891)
+2025-07-03 01:57:36,477 - INFO - Canal/Grupo: Viver de Renda Cripto - Felipe Santana e Bruno Perini (ID: 2108623675)
+2025-07-03 01:57:36,482 - INFO - Canal/Grupo: “Aproveite nossa oferta exclusiva para clientes especiais.” (ID: 4195297026)
+2025-07-03 01:57:36,485 - INFO - Canal/Grupo: Plo5 Poker (ID: 1460404421)
+2025-07-03 01:57:36,488 - INFO - Canal/Grupo: UniCanva: Escola de Design com o Canva – Rob Boliver (ID: 2135790201)
+2025-07-03 01:57:36,490 - INFO - Canal/Grupo: Mestres AI - Tiago Lemos (ID: 1994603681)
+2025-07-03 01:57:36,494 - INFO - Canal/Grupo: CCN Pessoal Novo – Carlos, Leonardo (ID: 2041192576)
+2025-07-03 01:57:36,497 - INFO - Canal/Grupo: Curso de Poker - O Mais Completo do Brasil - Felipe Carmanhani (ID: 1864749072)
+2025-07-03 01:57:36,503 - INFO - Canal/Grupo: Hashtag Treinamentos - @DevWorldHub (ID: 1758893027)
+2025-07-03 01:57:36,506 - INFO - Canal/Grupo: Landing Page do Zero-Alef Miranda-2023 (ID: 2082345531)
+2025-07-03 01:57:36,509 - INFO - Canal/Grupo: B2X GROUP (ID: 1244516701)
+2025-07-03 01:57:36,512 - INFO - Canal/Grupo: Tiffany (vazado) (ID: 1806380884)
+2025-07-03 01:57:36,514 - INFO - Canal/Grupo: Arnaldo Junior - Trader (ID: 1314088491)
+2025-07-03 01:57:36,517 - INFO - Canal/Grupo: Afiliado Full Stack (ID: 1955694801)
+2025-07-03 01:57:36,519 - INFO - Canal/Grupo: ♠️♦️ UNIÃO POKER ZONE ♣️♥️ (ID: 955444679)
+2025-07-03 01:57:36,521 - INFO - Canal/Grupo: Tik Tok Ads Academy-Edu Maia-2022 (ID: 1989626482)
+2025-07-03 01:57:36,523 - INFO - Canal/Grupo: TURBO LEADS # 1 (ID: 1864103762)
+2025-07-03 01:57:36,527 - INFO - Canal/Grupo: Engenharia de Software (ID: 1877449273)
+2025-07-03 01:57:36,529 - INFO - Canal/Grupo: AMANDA SERVÌÇÕS BOT (ID: 1962340375)
+2025-07-03 01:57:36,532 - INFO - Canal/Grupo: Memória_360_CME_Renato_Alves-2022 (ID: 1962788821)
+2025-07-03 01:57:36,535 - INFO - Canal/Grupo: Putinha vazada @Packsmega (ID: 1801543679)
+2025-07-03 01:57:36,537 - INFO - Canal/Grupo: LOGO ANIMATION - Levy Motion (ID: 1978794349)
+2025-07-03 01:57:36,540 - INFO - Canal/Grupo: FO.CO Formação para Co-Produtores - Ana Paula Perci (ID: 1719977104)
+2025-07-03 01:57:36,542 - INFO - Canal/Grupo: Landing Canva (ID: 1852232639)
+2025-07-03 01:57:36,545 - INFO - Canal/Grupo: Master Criativos - Felipe Ferini (ID: 1837344595)
+2025-07-03 01:57:36,565 - INFO - Canal/Grupo: ABPLO - Omaníacos 😆 (ID: 1452951084)
+2025-07-03 01:57:36,568 - INFO - Canal/Grupo: ABPLO ♥️♣️♦️♠️ (ID: 1335413278)
+2025-07-03 01:57:36,571 - INFO - Canal/Grupo: Creativerse - Convite (ID: 1657314902)
+2025-07-03 01:57:36,640 - INFO - Canal/Grupo: SERGIO ~ FBS Bot do negociação Brasil 🇧🇷 🇧🇷 🪙 (ID: 1678496036)
+2025-07-03 01:57:36,644 - INFO - Canal/Grupo: Scarlett Jones (ID: 1763360711)
+2025-07-03 01:57:36,648 - INFO - Canal/Grupo: Asiáticas (ID: 1763474904)
+2025-07-03 01:57:36,651 - INFO - Canal/Grupo: Eletricista_Profissional-2022-Engehall (ID: 1709707496)
+2025-07-03 01:57:36,679 - INFO - Canal/Grupo: Fabrício Gonçalves bot mineração 🇧🇷📊(Plataforma para investidores milionários) (ID: 1655831196)
+2025-07-03 01:57:36,712 - INFO - Canal/Grupo: Comerclos para todors📊📈 (ID: 1202749852)
+2025-07-03 01:57:36,720 - INFO - Canal/Grupo: *THE ROCKETS* M.C UDIA (ID: 574965680)
+2025-07-03 01:57:36,728 - INFO - Canal/Grupo: Hackeando Tudo 2 0-Raiam Santos-2022 (ID: 1767619801)
+2025-07-03 01:57:36,733 - INFO - Canal/Grupo: Libras Intensive - Libras Academy (ID: 1618177277)
+2025-07-03 01:57:36,739 - INFO - Canal/Grupo: Kkcacheta (ID: 1778272963)
+2025-07-03 01:57:36,745 - INFO - Canal/Grupo: Fish Nunca Mais! (ID: 1290591390)
+2025-07-03 01:57:36,750 - INFO - Canal/Grupo: Android Hacking - GuardWeb (ID: 1569204689)
+2025-07-03 01:57:36,754 - INFO - Canal/Grupo: Melhor metatodo marketing digital do mundo (ID: 709148372)
+2025-07-03 01:57:36,759 - INFO - Canal/Grupo: ▶️ Ethical Hacking e Penetration Testing (ID: 1509536391)
+2025-07-03 01:57:36,762 - INFO - Canal/Grupo: Allison Lindsay-Mão do dia (ID: 639312591)
+2025-07-03 01:57:36,766 - INFO - Canal/Grupo: Profissao Gestora de Trafego - Ana Clara Neves Cardoso (ID: 1513078954)
+2025-07-03 01:57:36,769 - INFO - Canal/Grupo: PokerBotAI Net (ID: 1567917862)
+2025-07-03 01:57:36,773 - INFO - Canal/Grupo: 5- ChinesBravo (238025) (158113) (810287) (ID: 407989358)
+2025-07-03 01:57:36,778 - INFO - Canal/Grupo: CASA DAS FAMOSAS PRÉVIAS (ID: 1724157074)
+2025-07-03 01:57:36,780 - INFO - Canal/Grupo: Cursagram (ID: 1045967856)
+2025-07-03 01:57:36,783 - INFO - Canal/Grupo: Jogo Lucrativo (ID: 1358612767)
+2025-07-03 01:57:36,785 - INFO - Canal/Grupo: Leo in Fat Stacks (ID: 737185371)
+2025-07-03 01:57:36,789 - INFO - Canal/Grupo: Pokerdogs - Bodog Brasil (ID: 1460204019)
+2025-07-03 01:57:36,791 - INFO - Canal/Grupo: Jovem Grinder (ID: 1539828067)
+2025-07-03 01:57:36,794 - INFO - Canal/Grupo: Comunidade Reg Life (ID: 1478904508)
+2025-07-03 01:57:36,796 - INFO - Canal/Grupo: Comunidade Funnel Makers (ID: 1239978025)
+2025-07-03 01:57:36,799 - INFO - Canal/Grupo: ♠️♦️Liga Euforia Poker♥️♣️ (ID: 1394863031)
+2025-07-03 01:57:36,801 - INFO - Canal/Grupo: Maratona Elite Online (ID: 1404783408)
+2025-07-03 01:57:36,802 - INFO - Canal/Grupo: Jean Paulo - Job Content Academy (ID: 1463470382)
+2025-07-03 01:57:36,804 - INFO - Canal/Grupo: Mathews Azevedo (ID: 1489039431)
+2025-07-03 01:57:36,805 - INFO - Canal/Grupo: Gus/Bede/Shayne (ID: 527109951)
+2025-07-03 01:57:36,807 - INFO - Canal/Grupo: Test Period PPPoker Club id 670454 (ID: 1284238900)
+2025-07-03 01:57:36,808 - INFO - Canal/Grupo: Caminhada com o João (ID: 1468578844)
+2025-07-03 01:57:36,810 - INFO - Canal/Grupo: Test Period PPPoker Club id 670454 (ID: 368098570)
+2025-07-03 01:57:36,812 - INFO - Canal/Grupo: Test period Upoker (ID: 361884652)
+2025-07-03 01:57:36,814 - INFO - Canal/Grupo: ÁudioLivros - ÁudioBooks Gratuitos (ID: 1421984939)
+2025-07-03 01:57:36,835 - INFO - Canal/Grupo: (FREE) QaB - Consultoria de Trade Esportivo ⚽️🐶 (ID: 1189472445)
+2025-07-03 01:57:36,837 - INFO - Canal/Grupo: Seu Curso Online com Ana Martha Tex (ID: 1473063388)
+2025-07-03 01:57:36,839 - INFO - Canal/Grupo: Nerds de negócios (ID: 1375585807)
+2025-07-03 01:57:36,842 - INFO - Canal/Grupo: PPPORVA - VIP (ID: 1338102835)
+2025-07-03 01:57:36,843 - INFO - Canal/Grupo: Cerrado poker (ID: 393366342)
+2025-07-03 01:57:36,847 - INFO - Canal/Grupo: AUSTRALIAN UNION - PPPFISH (ID: 496378096)
+2025-07-03 01:57:36,849 - INFO - Canal/Grupo: RPUNION [channel eng] (ID: 1291300931)
+2025-07-03 01:57:36,851 - INFO - Canal/Grupo: Técnicas de Invasão (ID: 1040036603)
+2025-07-03 02:02:06,991 - INFO - Encerrando a aplicação...
+2025-07-03 02:02:07,095 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-07-03 02:02:07,096 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-07-03 02:02:07,110 - INFO - Desligando o worker...
+2025-07-03 02:02:07,496 - INFO - Worker thread finished.
+2025-07-03 02:05:17,695 - INFO - Worker thread started.
+2025-07-03 02:05:17,715 - INFO - Bem-vindo ao Telegram Scraper!
+2025-07-03 02:05:27,610 - INFO - Connecting to 149.154.175.53:443/TcpFull...
+2025-07-03 02:05:27,635 - INFO - Configurando credenciais...
+2025-07-03 02:05:27,728 - INFO - Connection to 149.154.175.53:443/TcpFull complete!
+2025-07-03 02:05:27,742 - INFO - Conectando ao Telegram...
+2025-07-03 02:05:28,997 - INFO - SUCESSO: Conectado com sucesso!
+2025-07-03 02:05:35,027 - INFO - Buscando lista de canais e grupos...
+2025-07-03 02:05:51,089 - INFO - Sleeping for 23s (0:00:23) on GetDialogsRequest flood wait
+2025-07-03 02:06:16,650 - INFO - Canais e Grupos disponíveis:
+2025-07-03 02:06:16,651 - INFO - Canal/Grupo: HARD COPY - Kishotenketsu (ID: 2162769672)
+2025-07-03 02:06:16,651 - INFO - Canal/Grupo: 1 - Robô de Leads - Adicione Membros no Telegram (ID: 1808506136)
+2025-07-03 02:06:16,651 - INFO - Canal/Grupo: radar (ID: 2370406148)
+2025-07-03 02:06:16,651 - INFO - Canal/Grupo: Consultas204 (ID: 2199888564)
+2025-07-03 02:06:16,653 - INFO - Canal/Grupo: NovaTech Hub [ Lista ] (ID: 2069902304)
+2025-07-03 02:06:17,760 - INFO -   - Tópico: 💥 Oferta Exclusiva: Apenas R$29,90! 💥
+
+Por só R$29,90 você entra no nosso Grupo VIP e libera o acesso ao Mago 🧙‍♂️, o bot que gera contas de ferramentas TOP do mercado!
+
+O que você recebe:
+
+🔑 Ferramentas como SEMrush, BigSpy, Freepik, ChatGPT-4 e +
+🤖 Automação para redes sociais
+🎓 Cursos e tutoriais atualizados
+💾 +1000GB de conteúdo exclusivo
+🎬 Plataformas de streaming como bônus
+
+Por que aproveitar?
+
+✅ Preço simbólico de R$29,90
+✅ Acesso instantâneo ao gerador Mago🧙‍♂️ 
+✅ Oferta por tempo limitado!
+
+⚠️ Clique abaixo e garanta sua vaga no grupo agora! (ID: 11011)
+2025-07-03 02:06:17,764 - INFO -   - Tópico: /cpf (ID: 10957)
+2025-07-03 02:06:17,767 - INFO -   - Tópico: /tel (ID: 10956)
+2025-07-03 02:06:17,770 - INFO -   - Tópico: /tel (ID: 10898)
+2025-07-03 02:06:17,774 - INFO -   - Tópico: 💥 Oferta Exclusiva: Apenas R$29,90! 💥
+
+Por só R$29,90 você entra no nosso Grupo VIP e libera o acesso ao Mago 🧙‍♂️, o bot que gera contas de ferramentas TOP do mercado!
+
+O que você recebe:
+
+🔑 Ferramentas como SEMrush, BigSpy, Freepik, ChatGPT-4 e +
+🤖 Automação para redes sociais
+🎓 Cursos e tutoriais atualizados
+💾 +1000GB de conteúdo exclusivo
+🎬 Plataformas de streaming como bônus
+
+Por que aproveitar?
+
+✅ Preço simbólico de R$29,90
+✅ Acesso instantâneo ao gerador Mago🧙‍♂️ 
+✅ Oferta por tempo limitado!
+
+⚠️ Clique abaixo e garanta sua vaga no grupo agora! (ID: 10629)
+2025-07-03 02:06:18,069 - INFO -   - Tópico: 🎥 GOOGLE VEO 3 + GEMINI 2.5 PRO – CONTA PRIVADA 🔥
+(Ativação na sua conta pessoal)
+
+🚀 Acesse o melhor da IA em vídeo e automação
+🎞️ Veo 3 – Geração de vídeos por IA em alta qualidade
+🧠 Gemini 2.5 Pro – Escrita, produtividade e automação
+☁️ 2TB no Google One + Flow e Whisk
+📦 Conta com 15 meses de duração
+🛠️ Ativação manual + entrega em até 24h úteis
+🛡️ Garantia de 30 dias
+
+Desbloqueie o poder total das ferramentas mais avançadas do Google! 💡 (ID: 10587)
+2025-07-03 02:06:18,087 - INFO -   - Tópico: 🎥 GOOGLE VEO 3 + GEMINI 2.5 PRO – CONTA PRIVADA 🔥
+(Ativação na sua conta pessoal)
+
+🚀 Acesse o melhor da IA em vídeo e automação
+🎞️ Veo 3 – Geração de vídeos por IA em alta qualidade
+🧠 Gemini 2.5 Pro – Escrita, produtividade e automação
+☁️ 2TB no Google One + Flow e Whisk
+📦 Conta com 15 meses de duração
+🛠️ Ativação manual + entrega em até 24h úteis
+🛡️ Garantia de 30 dias
+
+Desbloqueie o poder total das ferramentas mais avançadas do Google! 💡 (ID: 10561)
+2025-07-03 02:06:18,175 - INFO -   - Tópico: 📺 UniTV – Streaming Vitalício com Canais, Filmes e Séries!
+💥 Pague uma vez. Use pra sempre. Sem mensalidades!
+
+Cansado de pagar todo mês pra assistir o mesmo conteúdo?
+Com o UniTV, você libera um universo de entretenimento direto na sua TV, celular ou PC — com qualidade até 4K Ultra HD! 🎬🔥
+
+✨ O que você recebe:
+✅ Canais ao vivo (abertos e fechados)
+✅ Filmes, séries e desenhos atualizados
+✅ Reality shows e variedades
+✅ Compatível com Android, TV Box, Smart TV, TV Stick e PC
+
+🎁 Acesso vitalício com entrega automática e suporte no chat! (ID: 10514)
+2025-07-03 02:06:18,190 - INFO -   - Tópico: Canva equipes? Alguém.? (ID: 10506)
+2025-07-03 02:06:18,206 - INFO -   - Tópico: 🎥 GOOGLE VEO 3 + GEMINI 2.5 PRO – CONTA PRIVADA 🔥
+(Ativação na sua conta pessoal)
+
+🚀 Acesse o melhor da IA em vídeo e automação
+🎞️ Veo 3 – Geração de vídeos por IA em alta qualidade
+🧠 Gemini 2.5 Pro – Escrita, produtividade e automação
+☁️ 2TB no Google One + Flow e Whisk
+📦 Conta com 15 meses de duração
+🛠️ Ativação manual + entrega em até 24h úteis
+🛡️ Garantia de 30 dias
+
+Desbloqueie o poder total das ferramentas mais avançadas do Google! 💡 (ID: 10500)
+2025-07-03 02:06:18,216 - INFO - Canal/Grupo: RATEIO DE FERRAMENTAS ESPIONAGEM - ADHEART, ADMINER, DROPTOOL, OLHO DE DEUS, SEMRUSH, GURUKILLER, CHATGPT, DESIGN E+ 50 FERRAME (ID: 2050904769)
+2025-07-03 02:06:18,251 - INFO - Canal/Grupo: ONLY FANS FB 🔞 (ID: 2067785660)
+2025-07-03 02:06:18,261 - INFO - Canal/Grupo: MUNDO AUTOMATIK® (ID: 1775887965)
+2025-07-03 02:06:18,270 - INFO -   - Tópico: Tópico 228246 (ID: 228246)
+2025-07-03 02:06:18,280 - INFO - Canal/Grupo: INEMA.VIP (ID: 2405283087)
+2025-07-03 02:06:18,292 - INFO -   - Tópico: Tópico 11141 (ID: 11141)
+2025-07-03 02:06:18,303 - INFO -   - Tópico: Tópico 11140 (ID: 11140)
+2025-07-03 02:06:18,312 - INFO -   - Tópico: Tópico 11139 (ID: 11139)
+2025-07-03 02:06:18,327 - INFO -   - Tópico: Tópico 11137 (ID: 11137)
+2025-07-03 02:06:18,335 - INFO -   - Tópico: Tópico 11135 (ID: 11135)
+2025-07-03 02:06:18,340 - INFO -   - Tópico: Tópico 11125 (ID: 11125)
+2025-07-03 02:06:18,352 - INFO -   - Tópico: /myprojects (ID: 11123)
+2025-07-03 02:06:18,355 - INFO -   - Tópico: /myprojects (ID: 11116)
+2025-07-03 02:06:18,359 - INFO -   - Tópico: Tópico 11115 (ID: 11115)
+2025-07-03 02:06:18,362 - INFO -   - Tópico: Tópico 11114 (ID: 11114)
+2025-07-03 02:06:18,366 - INFO -   - Tópico: Tópico 11111 (ID: 11111)
+2025-07-03 02:06:18,368 - INFO -   - Tópico: Tópico 11102 (ID: 11102)
+2025-07-03 02:06:18,372 - INFO -   - Tópico: Tópico 11101 (ID: 11101)
+2025-07-03 02:06:18,374 - INFO -   - Tópico: Tópico 11099 (ID: 11099)
+2025-07-03 02:06:18,376 - INFO - Canal/Grupo: INEMA.N8N (ID: 2494913847)
+2025-07-03 02:06:18,378 - INFO -   - Tópico: Tópico 10862 (ID: 10862)
+2025-07-03 02:06:18,381 - INFO -   - Tópico: Tópico 10861 (ID: 10861)
+2025-07-03 02:06:18,384 - INFO -   - Tópico: Tópico 10860 (ID: 10860)
+2025-07-03 02:06:18,388 - INFO -   - Tópico: Tópico 10859 (ID: 10859)
+2025-07-03 02:06:18,391 - INFO -   - Tópico: Tópico 10858 (ID: 10858)
+2025-07-03 02:06:18,393 - INFO -   - Tópico: Tópico 10857 (ID: 10857)
+2025-07-03 02:06:18,395 - INFO -   - Tópico: Tópico 10856 (ID: 10856)
+2025-07-03 02:06:18,398 - INFO - Canal/Grupo: INEMA.MUSICAL (ID: 2286953019)
+2025-07-03 02:06:18,400 - INFO -   - Tópico: /start (ID: 1192)
+2025-07-03 02:06:18,403 - INFO -   - Tópico: /start (ID: 1191)
+2025-07-03 02:06:18,405 - INFO -   - Tópico: Tópico 1190 (ID: 1190)
+2025-07-03 02:06:18,407 - INFO -   - Tópico: Tópico 1189 (ID: 1189)
+2025-07-03 02:06:18,409 - INFO -   - Tópico: Tópico 1188 (ID: 1188)
+2025-07-03 02:06:18,411 - INFO -   - Tópico: Tópico 1186 (ID: 1186)
+2025-07-03 02:06:18,414 - INFO -   - Tópico: Tópico 1185 (ID: 1185)
+2025-07-03 02:06:18,416 - INFO -   - Tópico: /start (ID: 1184)
+2025-07-03 02:06:18,418 - INFO -   - Tópico: /start (ID: 1183)
+2025-07-03 02:06:18,420 - INFO -   - Tópico: /start (ID: 1182)
+2025-07-03 02:06:18,422 - INFO -   - Tópico: /start (ID: 1181)
+2025-07-03 02:06:18,424 - INFO -   - Tópico: Tópico 1180 (ID: 1180)
+2025-07-03 02:06:18,426 - INFO -   - Tópico: Tópico 1179 (ID: 1179)
+2025-07-03 02:06:18,429 - INFO -   - Tópico: Tópico 1178 (ID: 1178)
+2025-07-03 02:06:18,431 - INFO -   - Tópico: Tópico 1177 (ID: 1177)
+2025-07-03 02:06:18,435 - INFO -   - Tópico: Tópico 1176 (ID: 1176)
+2025-07-03 02:06:18,437 - INFO -   - Tópico: Tópico 1175 (ID: 1175)
+2025-07-03 02:06:18,438 - INFO -   - Tópico: Tópico 1174 (ID: 1174)
+2025-07-03 02:06:18,441 - INFO -   - Tópico: Tópico 1173 (ID: 1173)
+2025-07-03 02:06:18,443 - INFO -   - Tópico: Tópico 1172 (ID: 1172)
+2025-07-03 02:06:18,445 - INFO - Canal/Grupo: Ferramentas Espiãs PREMIUM (ID: 1961079095)
+2025-07-03 02:06:18,448 - INFO - Canal/Grupo: IA Coding Club (ID: 2478485661)
+2025-07-03 02:06:18,450 - INFO -   - Tópico: Tópico 26529 (ID: 26529)
+2025-07-03 02:06:18,452 - INFO -   - Tópico: Tópico 26524 (ID: 26524)
+2025-07-03 02:06:18,456 - INFO -   - Tópico: alguém de voces estão usando a evolution no easypanel? (ID: 26512)
+2025-07-03 02:06:18,458 - INFO -   - Tópico: Tópico 26511 (ID: 26511)
+2025-07-03 02:06:18,461 - INFO -   - Tópico: Tópico 26510 (ID: 26510)
+2025-07-03 02:06:18,463 - INFO -   - Tópico: Tópico 26509 (ID: 26509)
+2025-07-03 02:06:18,466 - INFO -   - Tópico: Tópico 26508 (ID: 26508)
+2025-07-03 02:06:18,471 - INFO -   - Tópico: Tópico 26507 (ID: 26507)
+2025-07-03 02:06:18,475 - INFO -   - Tópico: Tópico 26506 (ID: 26506)
+2025-07-03 02:06:18,479 - INFO -   - Tópico: Tópico 26505 (ID: 26505)
+2025-07-03 02:06:18,482 - INFO -   - Tópico: obrigada (ID: 26503)
+2025-07-03 02:06:18,485 - INFO -   - Tópico: ah ja resolvi rs (ID: 26502)
+2025-07-03 02:06:18,488 - INFO -   - Tópico: onde eu pego essa api...é a que cadastrei no documento? (ID: 26501)
+2025-07-03 02:06:18,491 - INFO -   - Tópico: Boa noite pessoal..alguem pode me ajudar
+fiz todo o processo e pede api key: (ID: 26500)
+2025-07-03 02:06:18,494 - INFO -   - Tópico: Tópico 26497 (ID: 26497)
+2025-07-03 02:06:18,498 - INFO -   - Tópico: Pog (ID: 26496)
+2025-07-03 02:06:18,502 - INFO -   - Tópico: o galera, para de usar um pouquinho ai pra parar de travar aqui kkkk (ID: 26494)
+2025-07-03 02:06:18,505 - INFO -   - Tópico: Tópico 26493 (ID: 26493)
+2025-07-03 02:06:18,509 - INFO -   - Tópico: Tópico 26492 (ID: 26492)
+2025-07-03 02:06:18,513 - INFO -   - Tópico: Tópico 26490 (ID: 26490)
+2025-07-03 02:06:18,518 - INFO - Canal/Grupo: AFILIADOS - InstaLead Softwares (ID: 1805936238)
+2025-07-03 02:06:18,521 - INFO - Canal/Grupo: CURSOS GRÁTIS (ID: 1901124458)
+2025-07-03 02:06:18,524 - INFO - Canal/Grupo: INEMA.IMAGENS (ID: 2466217981)
+2025-07-03 02:06:18,527 - INFO -   - Tópico: Tópico 1672 (ID: 1672)
+2025-07-03 02:06:18,532 - INFO -   - Tópico: Tópico 1671 (ID: 1671)
+2025-07-03 02:06:18,535 - INFO -   - Tópico: Tópico 1670 (ID: 1670)
+2025-07-03 02:06:18,538 - INFO -   - Tópico: Tópico 1669 (ID: 1669)
+2025-07-03 02:06:18,540 - INFO -   - Tópico: Tópico 1668 (ID: 1668)
+2025-07-03 02:06:18,542 - INFO -   - Tópico: Tópico 1667 (ID: 1667)
+2025-07-03 02:06:18,545 - INFO -   - Tópico: Tópico 1666 (ID: 1666)
+2025-07-03 02:06:18,547 - INFO -   - Tópico: Tópico 1665 (ID: 1665)
+2025-07-03 02:06:18,552 - INFO -   - Tópico: Tópico 1664 (ID: 1664)
+2025-07-03 02:06:18,556 - INFO -   - Tópico: Tópico 1663 (ID: 1663)
+2025-07-03 02:06:18,560 - INFO -   - Tópico: Tópico 1662 (ID: 1662)
+2025-07-03 02:06:18,563 - INFO -   - Tópico: Tópico 1661 (ID: 1661)
+2025-07-03 02:06:18,566 - INFO -   - Tópico: Tópico 1660 (ID: 1660)
+2025-07-03 02:06:18,569 - INFO -   - Tópico: Tópico 1659 (ID: 1659)
+2025-07-03 02:06:18,573 - INFO -   - Tópico: Tópico 1658 (ID: 1658)
+2025-07-03 02:06:18,576 - INFO -   - Tópico: Tópico 1657 (ID: 1657)
+2025-07-03 02:06:18,578 - INFO -   - Tópico: Tópico 1656 (ID: 1656)
+2025-07-03 02:06:18,581 - INFO -   - Tópico: Tópico 1655 (ID: 1655)
+2025-07-03 02:06:18,583 - INFO -   - Tópico: Tópico 1654 (ID: 1654)
+2025-07-03 02:06:18,587 - INFO -   - Tópico: Tópico 1653 (ID: 1653)
+2025-07-03 02:06:18,589 - INFO - Canal/Grupo: INEMA.AVATARES (ID: 2471285437)
+2025-07-03 02:06:18,590 - INFO -   - Tópico: Tópico 1217 (ID: 1217)
+2025-07-03 02:06:18,592 - INFO -   - Tópico: Tópico 1216 (ID: 1216)
+2025-07-03 02:06:18,594 - INFO -   - Tópico: Tópico 1215 (ID: 1215)
+2025-07-03 02:06:18,596 - INFO -   - Tópico: Tópico 1214 (ID: 1214)
+2025-07-03 02:06:18,599 - INFO -   - Tópico: Tópico 1213 (ID: 1213)
+2025-07-03 02:06:18,602 - INFO -   - Tópico: Tópico 1211 (ID: 1211)
+2025-07-03 02:06:18,604 - INFO -   - Tópico: Tópico 1210 (ID: 1210)
+2025-07-03 02:06:18,606 - INFO -   - Tópico: Tópico 1209 (ID: 1209)
+2025-07-03 02:06:18,609 - INFO -   - Tópico: Tópico 1208 (ID: 1208)
+2025-07-03 02:06:18,611 - INFO -   - Tópico: Tópico 1205 (ID: 1205)
+2025-07-03 02:06:18,613 - INFO -   - Tópico: Tópico 1202 (ID: 1202)
+2025-07-03 02:06:18,615 - INFO -   - Tópico: Tópico 1201 (ID: 1201)
+2025-07-03 02:06:18,617 - INFO -   - Tópico: Tópico 1200 (ID: 1200)
+2025-07-03 02:06:18,618 - INFO -   - Tópico: Tópico 1199 (ID: 1199)
+2025-07-03 02:06:18,622 - INFO -   - Tópico: Tópico 1198 (ID: 1198)
+2025-07-03 02:06:18,624 - INFO -   - Tópico: Tópico 1197 (ID: 1197)
+2025-07-03 02:06:18,625 - INFO -   - Tópico: Tópico 1196 (ID: 1196)
+2025-07-03 02:06:18,627 - INFO -   - Tópico: Tópico 1195 (ID: 1195)
+2025-07-03 02:06:18,629 - INFO -   - Tópico: Tópico 1194 (ID: 1194)
+2025-07-03 02:06:18,631 - INFO -   - Tópico: Tópico 1193 (ID: 1193)
+2025-07-03 02:06:18,633 - INFO - Canal/Grupo: INEMA.TIA (ID: 2422191575)
+2025-07-03 02:06:18,635 - INFO -   - Tópico: Tópico 969 (ID: 969)
+2025-07-03 02:06:18,637 - INFO -   - Tópico: Tópico 968 (ID: 968)
+2025-07-03 02:06:18,640 - INFO -   - Tópico: Tópico 967 (ID: 967)
+2025-07-03 02:06:18,642 - INFO -   - Tópico: Tópico 966 (ID: 966)
+2025-07-03 02:06:18,644 - INFO -   - Tópico: Tópico 965 (ID: 965)
+2025-07-03 02:06:18,646 - INFO -   - Tópico: Tópico 964 (ID: 964)
+2025-07-03 02:06:18,648 - INFO -   - Tópico: Tópico 963 (ID: 963)
+2025-07-03 02:06:18,650 - INFO -   - Tópico: Tópico 962 (ID: 962)
+2025-07-03 02:06:18,652 - INFO -   - Tópico: Tópico 961 (ID: 961)
+2025-07-03 02:06:18,653 - INFO -   - Tópico: Tópico 960 (ID: 960)
+2025-07-03 02:06:18,656 - INFO -   - Tópico: Tópico 959 (ID: 959)
+2025-07-03 02:06:18,658 - INFO -   - Tópico: Tópico 958 (ID: 958)
+2025-07-03 02:06:18,660 - INFO -   - Tópico: Tópico 957 (ID: 957)
+2025-07-03 02:06:18,724 - INFO -   - Tópico: Tópico 956 (ID: 956)
+2025-07-03 02:06:18,726 - INFO -   - Tópico: Tópico 955 (ID: 955)
+2025-07-03 02:06:18,729 - INFO -   - Tópico: Tópico 953 (ID: 953)
+2025-07-03 02:06:18,734 - INFO -   - Tópico: Tópico 952 (ID: 952)
+2025-07-03 02:06:18,736 - INFO -   - Tópico: Tópico 951 (ID: 951)
+2025-07-03 02:06:18,741 - INFO -   - Tópico: Tópico 950 (ID: 950)
+2025-07-03 02:06:18,744 - INFO -   - Tópico: Ola (ID: 946)
+2025-07-03 02:06:18,749 - INFO - Canal/Grupo: INEMA.Educ (ID: 2187166710)
+2025-07-03 02:06:18,752 - INFO -   - Tópico: Tópico 1907 (ID: 1907)
+2025-07-03 02:06:18,755 - INFO -   - Tópico: Tópico 1906 (ID: 1906)
+2025-07-03 02:06:18,759 - INFO -   - Tópico: Tópico 1905 (ID: 1905)
+2025-07-03 02:06:18,761 - INFO -   - Tópico: Tópico 1904 (ID: 1904)
+2025-07-03 02:06:18,762 - INFO -   - Tópico: Tópico 1903 (ID: 1903)
+2025-07-03 02:06:18,765 - INFO -   - Tópico: Tópico 1902 (ID: 1902)
+2025-07-03 02:06:18,769 - INFO -   - Tópico: Tópico 1901 (ID: 1901)
+2025-07-03 02:06:18,770 - INFO -   - Tópico: Tópico 1900 (ID: 1900)
+2025-07-03 02:06:18,772 - INFO -   - Tópico: Tópico 1899 (ID: 1899)
+2025-07-03 02:06:18,775 - INFO -   - Tópico: Tópico 1898 (ID: 1898)
+2025-07-03 02:06:18,777 - INFO -   - Tópico: Tópico 1897 (ID: 1897)
+2025-07-03 02:06:18,778 - INFO -   - Tópico: Tópico 1896 (ID: 1896)
+2025-07-03 02:06:18,782 - INFO -   - Tópico: Tópico 1895 (ID: 1895)
+2025-07-03 02:06:18,785 - INFO -   - Tópico: Tópico 1894 (ID: 1894)
+2025-07-03 02:06:18,787 - INFO -   - Tópico: Tópico 1893 (ID: 1893)
+2025-07-03 02:06:18,790 - INFO -   - Tópico: Tópico 1892 (ID: 1892)
+2025-07-03 02:06:18,792 - INFO -   - Tópico: Tópico 1891 (ID: 1891)
+2025-07-03 02:06:18,795 - INFO -   - Tópico: Tópico 1890 (ID: 1890)
+2025-07-03 02:06:18,797 - INFO -   - Tópico: Tópico 1889 (ID: 1889)
+2025-07-03 02:06:18,799 - INFO -   - Tópico: Tópico 1888 (ID: 1888)
+2025-07-03 02:06:18,802 - INFO - Canal/Grupo: INEMA.DEV (ID: 2389955773)
+2025-07-03 02:06:18,805 - INFO -   - Tópico: Tópico 2481 (ID: 2481)
+2025-07-03 02:06:18,806 - INFO -   - Tópico: Tópico 2480 (ID: 2480)
+2025-07-03 02:06:18,809 - INFO -   - Tópico: Tópico 2467 (ID: 2467)
+2025-07-03 02:06:18,811 - INFO -   - Tópico: Tópico 2466 (ID: 2466)
+2025-07-03 02:06:18,813 - INFO -   - Tópico: Tópico 2465 (ID: 2465)
+2025-07-03 02:06:18,817 - INFO -   - Tópico: /start@InviteMemberBot (ID: 2464)
+2025-07-03 02:06:18,819 - INFO -   - Tópico: Tópico 2463 (ID: 2463)
+2025-07-03 02:06:18,821 - INFO -   - Tópico: Tópico 2462 (ID: 2462)
+2025-07-03 02:06:18,823 - INFO -   - Tópico: Tópico 2461 (ID: 2461)
+2025-07-03 02:06:18,826 - INFO -   - Tópico: Tópico 2460 (ID: 2460)
+2025-07-03 02:06:18,828 - INFO -   - Tópico: Tópico 2459 (ID: 2459)
+2025-07-03 02:06:18,832 - INFO -   - Tópico: Tópico 2458 (ID: 2458)
+2025-07-03 02:06:18,834 - INFO -   - Tópico: Tópico 2456 (ID: 2456)
+2025-07-03 02:06:18,836 - INFO -   - Tópico: Tópico 2455 (ID: 2455)
+2025-07-03 02:06:18,839 - INFO -   - Tópico: Tópico 2454 (ID: 2454)
+2025-07-03 02:06:18,842 - INFO -   - Tópico: Tópico 2453 (ID: 2453)
+2025-07-03 02:06:18,845 - INFO -   - Tópico: Tópico 2452 (ID: 2452)
+2025-07-03 02:06:18,847 - INFO -   - Tópico: Tópico 2449 (ID: 2449)
+2025-07-03 02:06:18,848 - INFO -   - Tópico: /start@InviteMemberBot (ID: 2448)
+2025-07-03 02:06:18,852 - INFO -   - Tópico: Tópico 2444 (ID: 2444)
+2025-07-03 02:06:18,854 - INFO - Canal/Grupo: crIAs (ID: 1930476997)
+2025-07-03 02:06:18,855 - INFO - Canal/Grupo: Coder IA Grupo (ID: 2464906396)
+2025-07-03 02:06:18,914 - INFO -   - Tópico: Bem-vindo Samuel ao Grupo Coder IA!
+
+Aqui você já começa a explorar o poder da inteligência artificial e descobrir como criar ferramentas incríveis sem saber programar.
+
+📢 O Grupo VIP já está ativo! 
+Nele, você terá acesso a:
+✅ Ferramentas exclusivas e atualizadas.
+✅ Tutoriais práticos para aplicar IA no dia a dia.
+✅ As últimas novidades antes de todo mundo.
+
+Fique ligado – 🔍 Desbloqueie Novidades! Acesse Agora (ID: 15668)
+2025-07-03 02:06:18,927 - INFO - Canal/Grupo: ✨ NetDez Oficial | Internet Ilimitada 🚀 (ID: 2455739821)
+2025-07-03 02:06:18,941 - INFO - Canal/Grupo: n8n Brasil (ID: 1523488185)
+2025-07-03 02:06:18,957 - INFO -   - Tópico: Gente, preciso usar a info de um node tipo, uns 7 nodes dps, alguém sabe se tem como guardar ela? O n8n tá dando pau aparentemente pq é mt node (ID: 46965)
+2025-07-03 02:06:19,099 - INFO -   - Tópico: Galera boa tarde, me tirem uma dúvida, Eu consigo criar isso? 1. 🔁 Fluxo pronto do chatbot (ManyChat)
+ • Compra ou aluguel
+ • Bairro e faixa de preço
+ • Agendamento de visita
+ • Apresentação do corretor (CRECI)
+ • Envio de dados para planilha automática
+ 2. 📑 Google Sheets (CRM leve)
+ • Leads captados direto do bot
+ • Nome, WhatsApp, bairro, valor e data da visita
+ 3. 🧪 Ambiente de teste real
+ • Você simula o cliente
+ • Recebe tudo no seu WhatsApp e planilha
+ • Valida a experiência final
+ 4. 🧲 Script de vendas pronto
+ • Texto profissional para oferecer o sistema às imobiliárias
+ • Argumentos, benefícios e CTA
+ • Pode usar no WhatsApp, e-mail ou pessoalmente
+ 5. (Bônus) 💻 Mini landing page de apresentação (opcional)
+ • Demonstração + botão “Quero para minha imobiliária” sou novo aqui (ID: 46962)
+2025-07-03 02:06:19,109 - INFO -   - Tópico: Boa tarde pessoal, estou com um fluxo que está fazendo meu servidor cair direto, já aumente CPU e RAM mais de 3 vezes além de tentar diminuir o peso do fluxo, alguém tem alguma dica para fazer ele rodar por completo? (ID: 46959)
+2025-07-03 02:06:19,119 - INFO -   - Tópico: pessoal, alguem teve problema com o agendamento do n8n ? não funciona no horario correto, mesmo colocando TZ no docker compose, ativando o fluxo, etc... (ID: 46958)
+2025-07-03 02:06:19,134 - INFO -   - Tópico: Não consigo importar arquivos JSON , (ID: 46957)
+2025-07-03 02:06:19,153 - INFO -   - Tópico: Bom dia  senhores ! existe alguma limitação para importação de fluxos .jason no n8n dev ? instalei localmente na minah maquina pelo npx n8n (ID: 46956)
+2025-07-03 02:06:19,167 - INFO -   - Tópico: gente, alguém sabe se é possivel criar um modelo de IA que lê um g sheets e retorna informacao? (ID: 46953)
+2025-07-03 02:06:19,182 - INFO -   - Tópico: vou te recomendar uma outra, boa e bem barata, excelente custo x benefício: pesquise por cloudfanatic (ID: 46950)
+2025-07-03 02:06:19,199 - INFO -   - Tópico: Fala, pessoal!
+Gostaria de saber se é possível usar o n8n para publicar uma mesma postagem simultaneamente em várias redes sociais, como *WhatsApp, Twitter, Telegram, Facebook, entre outras.*
+Alguém já fez algo parecido ou recomenda uma ferramenta mais eficiente para esse tipo de automação? (ID: 46947)
+2025-07-03 02:06:19,211 - INFO -   - Tópico: acho que tem algo de errado com a minha conta, pq eu não consigo mais mudar a imagem e só aparece isso (ID: 46946)
+2025-07-03 02:06:19,226 - INFO -   - Tópico: realmente não aparece nada, que estranho (ID: 46945)
+2025-07-03 02:06:19,246 - INFO -   - Tópico: agora eu não consigo mais nem criar nada, não sei o que ta acontecendo co messa minha conta, as coisas na oracle são confusas demais (ID: 46942)
+2025-07-03 02:06:19,256 - INFO -   - Tópico: O mal que é ser leigo rs
+
+Vou tentar criar uma com AMD aqui
+
+Vlw (ID: 46941)
+2025-07-03 02:06:19,263 - INFO -   - Tópico: AMD 1gb tá funcionado então? (ID: 46939)
+2025-07-03 02:06:19,274 - INFO -   - Tópico: Única vps que está esgotada é a arm, de 24gb... As vps com 1vpc e 1gb de ram, vc cria normal. (ID: 46937)
+2025-07-03 02:06:19,285 - INFO -   - Tópico: Ai outro cara disse que eu deveria ter escolhido phoenix, e agora eu travei minha conta e não dá pra mudar (ID: 46935)
+2025-07-03 02:06:19,290 - INFO -   - Tópico: Na vdd no plano free são...
+
+2x vps 1gb
+1x vps até 24gb com processador arm. (ID: 46932)
+2025-07-03 02:06:19,298 - INFO -   - Tópico: Onde vejo os valores de 1gb da oracle? (ID: 46929)
+2025-07-03 02:06:19,307 - INFO -   - Tópico: Não consegui fazer nada além disso, pq simplesmente não dá pra digitar nada, trava (ID: 46927)
+2025-07-03 02:06:19,318 - INFO -   - Tópico: Esse é meu fluxo básico (ID: 46926)
+2025-07-03 02:06:19,325 - INFO - Canal/Grupo: GPCR Promo - Hardware e Tecnologia (ID: 1744305155)
+2025-07-03 02:06:19,342 - INFO - Canal/Grupo: 🤖 Biblioteca de Bots | Filmes e Séries (ID: 1451624128)
+2025-07-03 02:06:19,408 - INFO - Canal/Grupo: Guerreiros da LUZ chat 💜✨🛸 (ID: 1796043536)
+2025-07-03 02:06:19,420 - INFO - Canal/Grupo: INEMA.AGENTES (ID: 2433384436)
+2025-07-03 02:06:19,431 - INFO -   - Tópico: Tópico 2880 (ID: 2880)
+2025-07-03 02:06:19,442 - INFO -   - Tópico: Tópico 2879 (ID: 2879)
+2025-07-03 02:06:19,450 - INFO -   - Tópico: Tópico 2878 (ID: 2878)
+2025-07-03 02:06:19,458 - INFO -   - Tópico: Tópico 2877 (ID: 2877)
+2025-07-03 02:06:19,468 - INFO -   - Tópico: Tópico 2876 (ID: 2876)
+2025-07-03 02:06:19,479 - INFO -   - Tópico: Tópico 2875 (ID: 2875)
+2025-07-03 02:06:19,487 - INFO -   - Tópico: Tópico 2874 (ID: 2874)
+2025-07-03 02:06:19,493 - INFO -   - Tópico: Tópico 2873 (ID: 2873)
+2025-07-03 02:06:19,504 - INFO -   - Tópico: Tópico 2869 (ID: 2869)
+2025-07-03 02:06:19,509 - INFO -   - Tópico: Tópico 2868 (ID: 2868)
+2025-07-03 02:06:19,516 - INFO -   - Tópico: Tópico 2867 (ID: 2867)
+2025-07-03 02:06:19,523 - INFO -   - Tópico: Tópico 2866 (ID: 2866)
+2025-07-03 02:06:19,529 - INFO -   - Tópico: Tópico 2865 (ID: 2865)
+2025-07-03 02:06:19,534 - INFO -   - Tópico: Tópico 2864 (ID: 2864)
+2025-07-03 02:06:19,541 - INFO -   - Tópico: Tópico 2863 (ID: 2863)
+2025-07-03 02:06:19,547 - INFO -   - Tópico: Tópico 2862 (ID: 2862)
+2025-07-03 02:06:19,553 - INFO -   - Tópico: Tópico 2861 (ID: 2861)
+2025-07-03 02:06:19,559 - INFO -   - Tópico: Tópico 2860 (ID: 2860)
+2025-07-03 02:06:19,565 - INFO -   - Tópico: Tópico 2859 (ID: 2859)
+2025-07-03 02:06:19,569 - INFO -   - Tópico: Tópico 2858 (ID: 2858)
+2025-07-03 02:06:19,837 - INFO - Canal/Grupo: 𝗙𝗢𝗥𝗡𝗘𝗖𝗘𝗗𝗢𝗥𝗘𝗦 𝗗𝗥𝗢𝗣 𝗕𝗥𝗔𝗦𝗜𝗟 (ID: 1689170705)
+2025-07-03 02:06:19,896 - INFO - Canal/Grupo: 𝗜𝗙𝗢𝗢𝗗 𝗗𝗢𝗦 𝗦𝗧𝗥𝗘𝗔𝗠𝗜𝗡𝗚𝗦 (ID: 2020415034)
+2025-07-03 02:06:19,961 - INFO -   - Tópico: Alguém saiu do grupo... 😕
+
+🕊Adeus! @leoleao4.
+
+Infelizmente, nem todos chegam ao resultado que querem. Muitas vezes, isso acontece pela falta de ação ou desistência no meio do caminho. Mas é importante lembrar: quem fica e continua, sempre tem mais chances de crescer e conseguir o que quer. 🚀
+
+Por isso, temos nosso grupo VIP, para quem está pronto pra ir além e conquistar resultados de verdade.
+
+Desejamos sucesso a quem saiu, mas se você quer mesmo chegar lá, continue aqui e se precisar, o grupo VIP está de portas abertas. 😉
+
+O sucesso está a um passo, só depende de você! (ID: 17826)
+2025-07-03 02:06:20,059 - INFO -   - Tópico: 🚨 ATUALIZAÇÃO NO SISTEMA
+Tudo no jeito. Sem enrolação.
+
+🌀 PLACA COMPLETA ATIVADA
+Agora puxando info direto da PRF
+ • Histórico de emplacamentos
+ • Dados relevantes
+
+🌀 Bases de fotos 100%
+Consulta de fotos por dados básicos tá de volta mais rápida e precisa do que nunca.
+
+🌀 Módulo CNPJ PRO no ar
+Consulta completa puxando tudo que realmente importa
+
+🌀 Sistema redondo, otimizado, rápido.
+Só chegar e usar. Tá tudo liberado.
+
+Adquira agora seu plano e tenha acesso as novidades👇
+@blackconsultaasbot (ID: 17794)
+2025-07-03 02:06:20,136 - INFO -   - Tópico: 🔎 PLANO DE CONSULTAS GRÁTIS PARA GRUPOS – BLACK CONSULTAS!
+
+🤝 Isso mesmo! Seu grupo pode ter 1 ano gratuito sem cobranças adicionais!
+
+✔️Como ativar:
+1️⃣Adicione o bot @blackconsultaasbot ao grupo e dê admin (exceto permissão para dar admin).
+2️⃣Use o comando /free e pronto! Plano ativado com todas as bases comuns disponíveis
+3️⃣O grupo precisa ter no mínimo 200 membros.
+
+✅ Nada de cobranças
+⚙️ 100% gratuito por 1 ano!
+
+🟩Ative agora com: /free
+
+✅Bot: @blackconsultaasbot (ID: 17786)
+2025-07-03 02:06:20,143 - INFO -   - Tópico: Это бот для работы с актуальными моделями нейросетей в Telegram. Чтобы задать вопрос, просто напишите его.
+
+Команды
+/start - перезапуск
+/mode - выбрать нейросеть
+/profile - профиль пользователя
+/pay - купить подписку
+/reset - сброс контекста
+/img - генерация изображений
+/help - помощь
+/ask - задать вопрос (в группах)
+
+Наш Telegram-канал про технологии: NN
+
+Пользовательское соглашение 
+Политика конфиденциальности
+Реквизиты (ID: 17775)
+2025-07-03 02:06:20,151 - INFO -   - Tópico: Hey there FORNERAJA, and welcome to 𝗜𝗙𝗢𝗢𝗗 𝗗𝗢𝗦 𝗦𝗧𝗥𝗘𝗔𝗠𝗜𝗡𝗚𝗦! How are you? (ID: 17770)
+2025-07-03 02:06:20,261 - INFO -   - Tópico: 👋Olá, FORNERAJA Seja bem vindo(a)! ao grupo  gratuito da 𝗖𝗩𝗢 𝗗𝗜𝗚𝗜𝗧𝗔𝗟!
+
+👾 Venha conhecer os conteúdos exclusivos no GRUPO VIP (ID: 17769)
+2025-07-03 02:06:20,281 - INFO - Canal/Grupo: INEMA.VISION (ID: 2356666932)
+2025-07-03 02:06:20,297 - INFO -   - Tópico: Tópico 1522 (ID: 1522)
+2025-07-03 02:06:20,319 - INFO -   - Tópico: Tópico 1521 (ID: 1521)
+2025-07-03 02:06:20,333 - INFO -   - Tópico: Tópico 1520 (ID: 1520)
+2025-07-03 02:06:20,354 - INFO -   - Tópico: Tópico 1519 (ID: 1519)
+2025-07-03 02:06:20,369 - INFO -   - Tópico: Tópico 1517 (ID: 1517)
+2025-07-03 02:06:20,385 - INFO -   - Tópico: Tópico 1516 (ID: 1516)
+2025-07-03 02:06:20,401 - INFO -   - Tópico: Tópico 1515 (ID: 1515)
+2025-07-03 02:06:20,411 - INFO -   - Tópico: Tópico 1514 (ID: 1514)
+2025-07-03 02:06:20,422 - INFO -   - Tópico: Tópico 1513 (ID: 1513)
+2025-07-03 02:06:20,431 - INFO -   - Tópico: Tópico 1512 (ID: 1512)
+2025-07-03 02:06:20,441 - INFO -   - Tópico: Tópico 1511 (ID: 1511)
+2025-07-03 02:06:20,451 - INFO -   - Tópico: Tópico 1510 (ID: 1510)
+2025-07-03 02:06:20,461 - INFO -   - Tópico: Tópico 1509 (ID: 1509)
+2025-07-03 02:06:20,472 - INFO -   - Tópico: Tópico 1508 (ID: 1508)
+2025-07-03 02:06:20,481 - INFO -   - Tópico: Tópico 1507 (ID: 1507)
+2025-07-03 02:06:20,491 - INFO -   - Tópico: Tópico 1506 (ID: 1506)
+2025-07-03 02:06:20,502 - INFO -   - Tópico: Tópico 1505 (ID: 1505)
+2025-07-03 02:06:20,512 - INFO -   - Tópico: Tópico 1504 (ID: 1504)
+2025-07-03 02:06:20,523 - INFO -   - Tópico: Tópico 1503 (ID: 1503)
+2025-07-03 02:06:20,535 - INFO -   - Tópico: Tópico 1502 (ID: 1502)
+2025-07-03 02:06:20,543 - INFO - Canal/Grupo: INEMA.CPA (ID: 2390939966)
+2025-07-03 02:06:20,556 - INFO -   - Tópico: Tópico 1451 (ID: 1451)
+2025-07-03 02:06:20,562 - INFO -   - Tópico: Tópico 1450 (ID: 1450)
+2025-07-03 02:06:20,569 - INFO -   - Tópico: Tópico 1449 (ID: 1449)
+2025-07-03 02:06:20,580 - INFO -   - Tópico: Tópico 1448 (ID: 1448)
+2025-07-03 02:06:20,581 - INFO -   - Tópico: Tópico 1447 (ID: 1447)
+2025-07-03 02:06:20,583 - INFO -   - Tópico: Tópico 1446 (ID: 1446)
+2025-07-03 02:06:20,586 - INFO -   - Tópico: Tópico 1445 (ID: 1445)
+2025-07-03 02:06:20,588 - INFO -   - Tópico: Tópico 1443 (ID: 1443)
+2025-07-03 02:06:20,590 - INFO -   - Tópico: Tópico 1442 (ID: 1442)
+2025-07-03 02:06:20,591 - INFO -   - Tópico: Tópico 1441 (ID: 1441)
+2025-07-03 02:06:20,593 - INFO -   - Tópico: Tópico 1440 (ID: 1440)
+2025-07-03 02:06:20,595 - INFO -   - Tópico: Tópico 1435 (ID: 1435)
+2025-07-03 02:06:20,598 - INFO -   - Tópico: Tópico 1434 (ID: 1434)
+2025-07-03 02:06:20,600 - INFO -   - Tópico: Tópico 1433 (ID: 1433)
+2025-07-03 02:06:20,603 - INFO -   - Tópico: Tópico 1432 (ID: 1432)
+2025-07-03 02:06:20,604 - INFO -   - Tópico: Tópico 1431 (ID: 1431)
+2025-07-03 02:06:20,606 - INFO -   - Tópico: Tópico 1430 (ID: 1430)
+2025-07-03 02:06:20,610 - INFO -   - Tópico: Tópico 1429 (ID: 1429)
+2025-07-03 02:06:20,612 - INFO -   - Tópico: Tópico 1428 (ID: 1428)
+2025-07-03 02:06:20,616 - INFO -   - Tópico: Tópico 1427 (ID: 1427)
+2025-07-03 02:06:20,619 - INFO - Canal/Grupo: INEMA.ROBOT (ID: 2412734678)
+2025-07-03 02:06:20,621 - INFO -   - Tópico: Tópico 1859 (ID: 1859)
+2025-07-03 02:06:20,623 - INFO -   - Tópico: Tópico 1858 (ID: 1858)
+2025-07-03 02:06:20,624 - INFO -   - Tópico: Tópico 1857 (ID: 1857)
+2025-07-03 02:06:20,626 - INFO -   - Tópico: Tópico 1856 (ID: 1856)
+2025-07-03 02:06:20,628 - INFO -   - Tópico: Tópico 1855 (ID: 1855)
+2025-07-03 02:06:20,630 - INFO -   - Tópico: Tópico 1853 (ID: 1853)
+2025-07-03 02:06:20,631 - INFO -   - Tópico: Tópico 1852 (ID: 1852)
+2025-07-03 02:06:20,634 - INFO -   - Tópico: Tópico 1851 (ID: 1851)
+2025-07-03 02:06:20,637 - INFO -   - Tópico: Tópico 1850 (ID: 1850)
+2025-07-03 02:06:20,638 - INFO -   - Tópico: Tópico 1849 (ID: 1849)
+2025-07-03 02:06:20,640 - INFO -   - Tópico: Tópico 1848 (ID: 1848)
+2025-07-03 02:06:20,642 - INFO -   - Tópico: Tópico 1847 (ID: 1847)
+2025-07-03 02:06:20,645 - INFO -   - Tópico: Tópico 1846 (ID: 1846)
+2025-07-03 02:06:20,646 - INFO -   - Tópico: Tópico 1845 (ID: 1845)
+2025-07-03 02:06:20,648 - INFO -   - Tópico: Tópico 1844 (ID: 1844)
+2025-07-03 02:06:20,649 - INFO -   - Tópico: Tópico 1843 (ID: 1843)
+2025-07-03 02:06:20,652 - INFO -   - Tópico: Tópico 1842 (ID: 1842)
+2025-07-03 02:06:20,653 - INFO -   - Tópico: Tópico 1841 (ID: 1841)
+2025-07-03 02:06:20,656 - INFO -   - Tópico: Tópico 1840 (ID: 1840)
+2025-07-03 02:06:20,657 - INFO -   - Tópico: Tópico 1839 (ID: 1839)
+2025-07-03 02:06:20,659 - INFO - Canal/Grupo: INEMA.Make (ID: 2277358326)
+2025-07-03 02:06:20,661 - INFO -   - Tópico: Tópico 9622 (ID: 9622)
+2025-07-03 02:06:20,662 - INFO -   - Tópico: Tópico 9621 (ID: 9621)
+2025-07-03 02:06:20,664 - INFO -   - Tópico: Tópico 9593 (ID: 9593)
+2025-07-03 02:06:20,667 - INFO -   - Tópico: Tópico 9592 (ID: 9592)
+2025-07-03 02:06:20,669 - INFO -   - Tópico: Tópico 9591 (ID: 9591)
+2025-07-03 02:06:20,670 - INFO -   - Tópico: Tópico 9590 (ID: 9590)
+2025-07-03 02:06:20,673 - INFO -   - Tópico: Tópico 9589 (ID: 9589)
+2025-07-03 02:06:20,674 - INFO -   - Tópico: Tópico 9588 (ID: 9588)
+2025-07-03 02:06:20,676 - INFO -   - Tópico: Tópico 9587 (ID: 9587)
+2025-07-03 02:06:20,678 - INFO -   - Tópico: Tópico 9581 (ID: 9581)
+2025-07-03 02:06:20,679 - INFO -   - Tópico: Tópico 9580 (ID: 9580)
+2025-07-03 02:06:20,681 - INFO -   - Tópico: Tópico 9579 (ID: 9579)
+2025-07-03 02:06:20,685 - INFO -   - Tópico: boa noite, aonde consigo os video aula do make? novo aqui (ID: 9576)
+2025-07-03 02:06:20,687 - INFO -   - Tópico: Tópico 9575 (ID: 9575)
+2025-07-03 02:06:20,690 - INFO -   - Tópico: Tópico 9574 (ID: 9574)
+2025-07-03 02:06:20,692 - INFO -   - Tópico: Tópico 9572 (ID: 9572)
+2025-07-03 02:06:20,695 - INFO -   - Tópico: Tópico 9571 (ID: 9571)
+2025-07-03 02:06:20,698 - INFO - Canal/Grupo: INEMA.VIDEOS (ID: 2307181433)
+2025-07-03 02:06:20,700 - INFO -   - Tópico: Tópico 2329 (ID: 2329)
+2025-07-03 02:06:20,702 - INFO -   - Tópico: Tópico 2328 (ID: 2328)
+2025-07-03 02:06:20,705 - INFO -   - Tópico: Tópico 2327 (ID: 2327)
+2025-07-03 02:06:20,707 - INFO -   - Tópico: Tópico 2325 (ID: 2325)
+2025-07-03 02:06:20,710 - INFO -   - Tópico: Tópico 2324 (ID: 2324)
+2025-07-03 02:06:20,712 - INFO -   - Tópico: Tópico 2323 (ID: 2323)
+2025-07-03 02:06:20,714 - INFO -   - Tópico: Tópico 2322 (ID: 2322)
+2025-07-03 02:06:20,717 - INFO -   - Tópico: Tópico 2321 (ID: 2321)
+2025-07-03 02:06:20,719 - INFO -   - Tópico: Tópico 2320 (ID: 2320)
+2025-07-03 02:06:20,722 - INFO -   - Tópico: Tópico 2319 (ID: 2319)
+2025-07-03 02:06:20,723 - INFO -   - Tópico: Tópico 2318 (ID: 2318)
+2025-07-03 02:06:20,725 - INFO -   - Tópico: Tópico 2317 (ID: 2317)
+2025-07-03 02:06:20,728 - INFO -   - Tópico: Tópico 2316 (ID: 2316)
+2025-07-03 02:06:20,731 - INFO -   - Tópico: Tópico 2315 (ID: 2315)
+2025-07-03 02:06:20,733 - INFO -   - Tópico: Tópico 2314 (ID: 2314)
+2025-07-03 02:06:20,735 - INFO -   - Tópico: Tópico 2313 (ID: 2313)
+2025-07-03 02:06:20,737 - INFO -   - Tópico: Tópico 2312 (ID: 2312)
+2025-07-03 02:06:20,739 - INFO -   - Tópico: Tópico 2311 (ID: 2311)
+2025-07-03 02:06:20,742 - INFO -   - Tópico: Tópico 2310 (ID: 2310)
+2025-07-03 02:06:20,744 - INFO -   - Tópico: Tópico 2309 (ID: 2309)
+2025-07-03 02:06:20,747 - INFO - Canal/Grupo: » Cursos Drive Online Oficial - DrivedoDinheiro - dvd | GP (ID: 1465356677)
+2025-07-03 02:06:20,750 - INFO -   - Tópico: essa mulher é muito boa! já to dentro da coleta (ID: 35727)
+2025-07-03 02:06:20,753 - INFO -   - Tópico: Bora pessoal 🚀 (ID: 35712)
+2025-07-03 02:06:20,755 - INFO -   - Tópico: Curso Marca Pessoal Tay Dantas - COLETA ATIVA
+Entre no grupo para participar:
+
+https://t.me/+wD5Q6CzN3eo1MzAx (ID: 35710)
+2025-07-03 02:06:20,759 - INFO -   - Tópico: Queria o Financiamento Pro, alguém tem? (ID: 35695)
+2025-07-03 02:06:20,762 - INFO - Canal/Grupo: INEMA.IA (ID: 2238677701)
+2025-07-03 02:06:20,766 - INFO -   - Tópico: Tópico 2726 (ID: 2726)
+2025-07-03 02:06:20,770 - INFO -   - Tópico: Tópico 2725 (ID: 2725)
+2025-07-03 02:06:20,772 - INFO -   - Tópico: Tópico 2724 (ID: 2724)
+2025-07-03 02:06:20,776 - INFO -   - Tópico: Tópico 2723 (ID: 2723)
+2025-07-03 02:06:20,778 - INFO -   - Tópico: Tópico 2722 (ID: 2722)
+2025-07-03 02:06:20,781 - INFO -   - Tópico: Tópico 2721 (ID: 2721)
+2025-07-03 02:06:20,784 - INFO -   - Tópico: Tópico 2720 (ID: 2720)
+2025-07-03 02:06:20,787 - INFO -   - Tópico: Tópico 2719 (ID: 2719)
+2025-07-03 02:06:20,789 - INFO -   - Tópico: Tópico 2718 (ID: 2718)
+2025-07-03 02:06:20,791 - INFO -   - Tópico: Tópico 2717 (ID: 2717)
+2025-07-03 02:06:20,795 - INFO -   - Tópico: Tópico 2716 (ID: 2716)
+2025-07-03 02:06:20,797 - INFO -   - Tópico: Tópico 2715 (ID: 2715)
+2025-07-03 02:06:20,801 - INFO -   - Tópico: Tópico 2714 (ID: 2714)
+2025-07-03 02:06:20,803 - INFO -   - Tópico: Tópico 2713 (ID: 2713)
+2025-07-03 02:06:20,805 - INFO -   - Tópico: Tópico 2712 (ID: 2712)
+2025-07-03 02:06:20,810 - INFO -   - Tópico: Tópico 2711 (ID: 2711)
+2025-07-03 02:06:20,812 - INFO -   - Tópico: Tópico 2710 (ID: 2710)
+2025-07-03 02:06:20,816 - INFO -   - Tópico: Tópico 2709 (ID: 2709)
+2025-07-03 02:06:20,817 - INFO -   - Tópico: Tópico 2708 (ID: 2708)
+2025-07-03 02:06:20,819 - INFO -   - Tópico: Tópico 2707 (ID: 2707)
+2025-07-03 02:06:20,821 - INFO - Canal/Grupo: Comunidade Penin (ID: 1446184660)
+2025-07-03 02:06:20,823 - INFO - Canal/Grupo: INEMA.INFRA (ID: 2491219310)
+2025-07-03 02:06:20,826 - INFO -   - Tópico: Tópico 972 (ID: 972)
+2025-07-03 02:06:20,827 - INFO -   - Tópico: Tópico 971 (ID: 971)
+2025-07-03 02:06:20,832 - INFO -   - Tópico: Tópico 970 (ID: 970)
+2025-07-03 02:06:20,833 - INFO -   - Tópico: Tópico 969 (ID: 969)
+2025-07-03 02:06:20,835 - INFO -   - Tópico: Tópico 968 (ID: 968)
+2025-07-03 02:06:20,837 - INFO -   - Tópico: Tópico 967 (ID: 967)
+2025-07-03 02:06:20,838 - INFO -   - Tópico: Tópico 966 (ID: 966)
+2025-07-03 02:06:20,841 - INFO -   - Tópico: Tópico 964 (ID: 964)
+2025-07-03 02:06:20,843 - INFO -   - Tópico: Tópico 963 (ID: 963)
+2025-07-03 02:06:20,844 - INFO -   - Tópico: Tópico 962 (ID: 962)
+2025-07-03 02:06:20,845 - INFO -   - Tópico: Tópico 961 (ID: 961)
+2025-07-03 02:06:20,847 - INFO -   - Tópico: Tópico 960 (ID: 960)
+2025-07-03 02:06:20,850 - INFO -   - Tópico: Tópico 959 (ID: 959)
+2025-07-03 02:06:20,851 - INFO -   - Tópico: Tópico 958 (ID: 958)
+2025-07-03 02:06:20,854 - INFO -   - Tópico: Tópico 957 (ID: 957)
+2025-07-03 02:06:20,855 - INFO -   - Tópico: Tópico 956 (ID: 956)
+2025-07-03 02:06:20,856 - INFO -   - Tópico: Tópico 955 (ID: 955)
+2025-07-03 02:06:20,860 - INFO -   - Tópico: Tópico 954 (ID: 954)
+2025-07-03 02:06:20,862 - INFO -   - Tópico: Tópico 953 (ID: 953)
+2025-07-03 02:06:20,864 - INFO -   - Tópico: Tópico 952 (ID: 952)
+2025-07-03 02:06:20,866 - INFO - Canal/Grupo: INEMA.LLMs (ID: 2463916523)
+2025-07-03 02:06:20,869 - INFO -   - Tópico: Tópico 2157 (ID: 2157)
+2025-07-03 02:06:20,871 - INFO -   - Tópico: Tópico 2156 (ID: 2156)
+2025-07-03 02:06:20,872 - INFO -   - Tópico: Tópico 2155 (ID: 2155)
+2025-07-03 02:06:20,874 - INFO -   - Tópico: Tópico 2154 (ID: 2154)
+2025-07-03 02:06:20,875 - INFO -   - Tópico: Tópico 2153 (ID: 2153)
+2025-07-03 02:06:20,878 - INFO -   - Tópico: Tópico 2152 (ID: 2152)
+2025-07-03 02:06:20,879 - INFO -   - Tópico: Tópico 2151 (ID: 2151)
+2025-07-03 02:06:20,881 - INFO -   - Tópico: Tópico 2150 (ID: 2150)
+2025-07-03 02:06:20,882 - INFO -   - Tópico: Tópico 2149 (ID: 2149)
+2025-07-03 02:06:20,886 - INFO -   - Tópico: Tópico 2147 (ID: 2147)
+2025-07-03 02:06:20,888 - INFO -   - Tópico: Tópico 2146 (ID: 2146)
+2025-07-03 02:06:20,889 - INFO -   - Tópico: Tópico 2145 (ID: 2145)
+2025-07-03 02:06:20,891 - INFO -   - Tópico: /Vendas (ID: 2144)
+2025-07-03 02:06:20,893 - INFO -   - Tópico: /Vendas (ID: 2143)
+2025-07-03 02:06:20,894 - INFO -   - Tópico: /Vendas (ID: 2142)
+2025-07-03 02:06:20,896 - INFO -   - Tópico: Tópico 2141 (ID: 2141)
+2025-07-03 02:06:20,899 - INFO -   - Tópico: Tópico 2140 (ID: 2140)
+2025-07-03 02:06:20,901 - INFO -   - Tópico: Tópico 2139 (ID: 2139)
+2025-07-03 02:06:20,903 - INFO -   - Tópico: Tópico 2138 (ID: 2138)
+2025-07-03 02:06:20,904 - INFO -   - Tópico: Tópico 2137 (ID: 2137)
+2025-07-03 02:06:20,907 - INFO - Canal/Grupo: INEMA.MKT (ID: 2484989243)
+2025-07-03 02:06:20,909 - INFO -   - Tópico: Tópico 2237 (ID: 2237)
+2025-07-03 02:06:20,910 - INFO -   - Tópico: Tópico 2236 (ID: 2236)
+2025-07-03 02:06:20,912 - INFO -   - Tópico: Tópico 2235 (ID: 2235)
+2025-07-03 02:06:20,915 - INFO -   - Tópico: Tópico 2234 (ID: 2234)
+2025-07-03 02:06:20,917 - INFO -   - Tópico: Tópico 2233 (ID: 2233)
+2025-07-03 02:06:20,918 - INFO -   - Tópico: Tópico 2232 (ID: 2232)
+2025-07-03 02:06:20,920 - INFO -   - Tópico: Tópico 2231 (ID: 2231)
+2025-07-03 02:06:20,922 - INFO -   - Tópico: Tópico 2230 (ID: 2230)
+2025-07-03 02:06:20,924 - INFO -   - Tópico: Tópico 2229 (ID: 2229)
+2025-07-03 02:06:20,930 - INFO -   - Tópico: Tópico 2228 (ID: 2228)
+2025-07-03 02:06:20,937 - INFO -   - Tópico: Tópico 2227 (ID: 2227)
+2025-07-03 02:06:20,940 - INFO -   - Tópico: Tópico 2226 (ID: 2226)
+2025-07-03 02:06:20,943 - INFO -   - Tópico: Tópico 2225 (ID: 2225)
+2025-07-03 02:06:20,947 - INFO -   - Tópico: Tópico 2224 (ID: 2224)
+2025-07-03 02:06:20,951 - INFO -   - Tópico: Tópico 2223 (ID: 2223)
+2025-07-03 02:06:20,955 - INFO -   - Tópico: Tópico 2222 (ID: 2222)
+2025-07-03 02:06:20,958 - INFO -   - Tópico: Tópico 2220 (ID: 2220)
+2025-07-03 02:06:20,961 - INFO -   - Tópico: Tópico 2219 (ID: 2219)
+2025-07-03 02:06:20,968 - INFO -   - Tópico: Tópico 2218 (ID: 2218)
+2025-07-03 02:06:20,974 - INFO -   - Tópico: Tópico 2217 (ID: 2217)
+2025-07-03 02:06:20,979 - INFO - Canal/Grupo: Cupons e Promoções - Mr Zoreta (ID: 1712667311)
+2025-07-03 02:06:21,037 - INFO - Canal/Grupo: 👑 King Of Marketing 💰 (ID: 1958381983)
+2025-07-03 02:06:21,083 - INFO -   - Tópico: 🎁 ATUALIZAÇÃO!
+
+Como prometido, agora suportamos 3 sites:
+
+✔️  Freepik • Baixar Design • Vecteezy
+
+❔ Como usar: Entre no site, pegue o link envie aqui no grupo e aguarde seu arquivo!
+
+✔️  5 downloads GRÁTIS por dia
+
+Use !limite para ver quantos restam.
+
+Aproveitem e se gostou, manda no seu grupo, pro seu amigo e até pro seu cachorro deixa mais pessoas aproveitarem!  🤣 (ID: 16898)
+2025-07-03 02:06:21,089 - INFO -   - Tópico: 🎁 ATUALIZAÇÃO!
+
+Como prometido, agora suportamos 3 sites:
+
+✔️  Freepik • Baixar Design • Vecteezy
+
+❔ Como usar: Entre no site, pegue o link envie aqui no grupo e aguarde seu arquivo!
+
+✔️  5 downloads GRÁTIS por dia
+
+Use !limite para ver quantos restam.
+
+Aproveitem e se gostou, manda no seu grupo, pro seu amigo e até pro seu cachorro deixa mais pessoas aproveitarem!  🤣 (ID: 16897)
+2025-07-03 02:06:21,095 - INFO -   - Tópico: 🎁 ATUALIZAÇÃO!
+
+Como prometido, agora suportamos 3 sites:
+
+✔️  Freepik • Baixar Design • Vecteezy
+
+❔ Como usar: Entre no site, pegue o link envie aqui no grupo e aguarde seu arquivo!
+
+✔️  5 downloads GRÁTIS por dia
+
+Use !limite para ver quantos restam.
+
+Aproveitem e se gostou, manda no seu grupo, pro seu amigo e até pro seu cachorro deixa mais pessoas aproveitarem!  🤣 (ID: 16896)
+2025-07-03 02:06:21,101 - INFO -   - Tópico: 🎁 ATUALIZAÇÃO!
+
+Como prometido, agora suportamos 3 sites:
+
+✔️  Freepik • Baixar Design • Vecteezy
+
+❔ Como usar: Entre no site, pegue o link envie aqui no grupo e aguarde seu arquivo!
+
+✔️  5 downloads GRÁTIS por dia
+
+Use !limite para ver quantos restam.
+
+Aproveitem e se gostou, manda no seu grupo, pro seu amigo e até pro seu cachorro deixa mais pessoas aproveitarem!  🤣 (ID: 16891)
+2025-07-03 02:06:21,106 - INFO -   - Tópico: 🎁 ATUALIZAÇÃO!
+
+Como prometido, agora suportamos 3 sites:
+
+✔️  Freepik • Baixar Design • Vecteezy
+
+❔ Como usar: Entre no site, pegue o link envie aqui no grupo e aguarde seu arquivo!
+
+✔️  5 downloads GRÁTIS por dia
+
+Use !limite para ver quantos restam.
+
+Aproveitem e se gostou, manda no seu grupo, pro seu amigo e até pro seu cachorro deixa mais pessoas aproveitarem!  🤣 (ID: 16890)
+2025-07-03 02:06:21,111 - INFO -   - Tópico: 🎁 ATUALIZAÇÃO!
+
+Como prometido, agora suportamos 3 sites:
+
+✔️  Freepik • Baixar Design • Vecteezy
+
+❔ Como usar: Entre no site, pegue o link envie aqui no grupo e aguarde seu arquivo!
+
+✔️  5 downloads GRÁTIS por dia
+
+Use !limite para ver quantos restam.
+
+Aproveitem e se gostou, manda no seu grupo, pro seu amigo e até pro seu cachorro deixa mais pessoas aproveitarem!  🤣 (ID: 16889)
+2025-07-03 02:06:21,224 - INFO -   - Tópico: ⚠️ Novidade incrível no ar!
+
+Agora você pode baixar arquivos PREMIUM do Freepik totalmente GRÁTIS! 😯
+
+É só entrar no grupo pelo botão abaixo, enviar o link do arquivo que deseja e o bot vai te entregar o arquivo dentro do grupo. Simples assim! 📁
+
+✔️ Cada usuário pode baixar até 5 arquivos por dia
+
+🆓 Sem pagar nada, 100% gratuito!
+
+Curtiu? Indica pra um amigo e bora aproveitar juntos! 😍👇 (ID: 16888)
+2025-07-03 02:06:21,237 - INFO -   - Tópico: ⚠️ Novidade incrível no ar!
+
+Agora você pode baixar arquivos PREMIUM do Freepik totalmente GRÁTIS! 😯
+
+É só entrar no grupo pelo botão abaixo, enviar o link do arquivo que deseja e o bot vai te entregar o arquivo dentro do grupo. Simples assim! 📁
+
+✔️ Cada usuário pode baixar até 5 arquivos por dia
+
+🆓 Sem pagar nada, 100% gratuito!
+
+Curtiu? Indica pra um amigo e bora aproveitar juntos! 😍👇 (ID: 16887)
+2025-07-03 02:06:21,246 - INFO -   - Tópico: A lenda da liberando pra geral “lá ele” método de graça pra criar vídeos veo3 ilimitado (ID: 16886)
+2025-07-03 02:06:21,257 - INFO -   - Tópico: https://www.instagram.com/spyhacker.pro?igsh=cWxmendqcGlseWE4 (ID: 16885)
+2025-07-03 02:06:21,269 - INFO -   - Tópico: ⚠️ Novidade incrível no ar!
+
+Agora você pode baixar arquivos PREMIUM do Freepik totalmente GRÁTIS! 😯
+
+É só entrar no grupo pelo botão abaixo, enviar o link do arquivo que deseja e o bot vai te entregar o arquivo dentro do grupo. Simples assim! 📁
+
+✔️ Cada usuário pode baixar até 5 arquivos por dia
+
+🆓 Sem pagar nada, 100% gratuito!
+
+Curtiu? Indica pra um amigo e bora aproveitar juntos! 😍👇 (ID: 16884)
+2025-07-03 02:06:21,274 - INFO -   - Tópico: https://t.me/superlinksbr
+
+https://t.me/mgflixgratis
+
+Quer coisas de graça?
+Entra varios links de packs grátis (ID: 16881)
+2025-07-03 02:06:21,280 - INFO -   - Tópico: oiie pessoal, se alguém tiver receita 'marcos maluf cpa20' para compartilhar comigo agradecerei imensamente! tinha no drive mas caiu, eu estava em período de provas da facul e vacilei em não salvar antes. (ID: 16879)
+2025-07-03 02:06:21,285 - INFO -   - Tópico: Bom dia alguém tem o curso do pedro sobral ai? (ID: 16860)
+2025-07-03 02:06:21,290 - INFO -   - Tópico: Vendo conta Tik tok 100k+ seguidores.. (ID: 16856)
+2025-07-03 02:06:21,294 - INFO -   - Tópico: Acadmeia? (ID: 16854)
+2025-07-03 02:06:21,299 - INFO -   - Tópico: De treino (ID: 16853)
+2025-07-03 02:06:21,304 - INFO -   - Tópico: Alguém tem planilha (ID: 16852)
+2025-07-03 02:06:21,380 - INFO -   - Tópico: ⚠️ VAGAS ENCERRANDO
+
+Temos apenas 7 vagas para o Perplexity Pro Anual! Adquiram antes que encerre, acesse @DevWorldSBot para garantir sua vaga.
+
+🙂 O que uma assinatura PRO te beneficia? 👇
+✔️ GPT-4.5 – O novo modelo mais poderoso da OpenAI.
+✔️ Claude 3.7 Sonnet – A IA que promete superar o ChatGPT o3 em programação com sua cadeia de pensamento!
+✔️ Grok-2 (breve Grok-3) – A tecnologia de Elon Musk para desafios complexos.
+✔️ Llama 3 – O modelo open-source da Meta, ultra eficiente.
+✔️ DeepSeek R1 – Com capacidade de "pensar" este é o especialista ideal para solução de problemas.
+✔️ Sonar Large – IA exclusiva da Perplexity, turbinada para buscas.
+
+➕ E MAIS:
+✨ Geração de imagens com DALL-E 3, Playground v3 e FLUX 1!
+
+❌ No site oficial, assinar durante 1 ano o Perplexity Pro, custa R$1.375,00 + Impostos.
+💵 No @DevWorldSBot, o preço cai para R$247,00 são MAIS de 80% DE DESCONTO. 😱🔥
+
+⚠️ Acesse o @DevWorldSBot agora mesmo, escolha a opção Perplexity e garanta sua vaga!!!
+
+✉️ Vagas ENCERRANDO assine antes que acabe🔥 (ID: 16851)
+2025-07-03 02:06:21,392 - INFO - Canal/Grupo: Betina Rudolph - Mentoria Digital - Copia (ID: 2144024114)
+2025-07-03 02:06:21,405 - INFO - Canal/Grupo: Escola da Automação - Thales (ID: 2153965019)
+2025-07-03 02:06:21,412 - INFO - Canal/Grupo: Fórmula da Produtividade - Ana Jords (ID: 2114099862)
+2025-07-03 02:06:21,419 - INFO - Canal/Grupo: Mentoria Conversão Extrema 2023 - Tiago Tessmann (ID: 2135868479)
+2025-07-03 02:06:21,426 - INFO - Canal/Grupo: Formação em Social Media (Completo) - Icaro de Carvalho (ID: 1973882516)
+2025-07-03 02:06:21,433 - INFO - Canal/Grupo: Curso de Figma (ID: 1944067527)
+2025-07-03 02:06:21,441 - INFO - Canal/Grupo: INEMA.TDS (ID: 2174331656)
+2025-07-03 02:06:21,447 - INFO -   - Tópico: Tópico 3665 (ID: 3665)
+2025-07-03 02:06:21,499 - INFO - Canal/Grupo: 3D 👉🏻 5D - Novo Mundo - Matrix Escape (ID: 1948975492)
+2025-07-03 02:06:21,512 - INFO - Canal/Grupo: INEMA.ADULTO (ID: 2429706589)
+2025-07-03 02:06:21,524 - INFO -   - Tópico: Tópico 3499 (ID: 3499)
+2025-07-03 02:06:21,536 - INFO -   - Tópico: Tópico 3495 (ID: 3495)
+2025-07-03 02:06:21,547 - INFO -   - Tópico: Tópico 3491 (ID: 3491)
+2025-07-03 02:06:21,562 - INFO -   - Tópico: /start@InviteMemberBot (ID: 3490)
+2025-07-03 02:06:21,574 - INFO -   - Tópico: /start (ID: 3489)
+2025-07-03 02:06:21,590 - INFO -   - Tópico: Tópico 3488 (ID: 3488)
+2025-07-03 02:06:21,605 - INFO -   - Tópico: Tópico 3487 (ID: 3487)
+2025-07-03 02:06:21,610 - INFO -   - Tópico: Tópico 3486 (ID: 3486)
+2025-07-03 02:06:21,616 - INFO -   - Tópico: Tópico 3485 (ID: 3485)
+2025-07-03 02:06:21,621 - INFO -   - Tópico: Tópico 3484 (ID: 3484)
+2025-07-03 02:06:21,626 - INFO -   - Tópico: Tópico 3483 (ID: 3483)
+2025-07-03 02:06:21,632 - INFO -   - Tópico: Tópico 3482 (ID: 3482)
+2025-07-03 02:06:21,638 - INFO -   - Tópico: Tópico 3481 (ID: 3481)
+2025-07-03 02:06:21,644 - INFO -   - Tópico: Tópico 3480 (ID: 3480)
+2025-07-03 02:06:21,652 - INFO -   - Tópico: /start@InviteMemberBot (ID: 3479)
+2025-07-03 02:06:21,657 - INFO -   - Tópico: Tópico 3478 (ID: 3478)
+2025-07-03 02:06:21,662 - INFO -   - Tópico: Tópico 3477 (ID: 3477)
+2025-07-03 02:06:21,667 - INFO -   - Tópico: Tópico 3476 (ID: 3476)
+2025-07-03 02:06:21,673 - INFO -   - Tópico: Tópico 3475 (ID: 3475)
+2025-07-03 02:06:21,678 - INFO -   - Tópico: Tópico 3474 (ID: 3474)
+2025-07-03 02:06:21,683 - INFO - Canal/Grupo: OGRO PRO OFICIAL (ID: 1160877521)
+2025-07-03 02:06:21,695 - INFO - Canal/Grupo: 🔥 Diego Araújo | Grabovoi Na Prática (ID: 1431906062)
+2025-07-03 02:06:21,705 - INFO - Canal/Grupo: Layer Laranjade (Versão pirata) (ID: 2725202835)
+2025-07-03 02:06:21,717 - INFO -   - Tópico: Tópico 345 (ID: 345)
+2025-07-03 02:06:21,723 - INFO -   - Tópico: Tópico 344 (ID: 344)
+2025-07-03 02:06:21,730 - INFO -   - Tópico: Tópico 343 (ID: 343)
+2025-07-03 02:06:21,736 - INFO -   - Tópico: Tópico 342 (ID: 342)
+2025-07-03 02:06:21,744 - INFO -   - Tópico: Tópico 341 (ID: 341)
+2025-07-03 02:06:21,751 - INFO -   - Tópico: Tópico 340 (ID: 340)
+2025-07-03 02:06:21,761 - INFO -   - Tópico: Tópico 339 (ID: 339)
+2025-07-03 02:06:21,766 - INFO -   - Tópico: Tópico 338 (ID: 338)
+2025-07-03 02:06:21,769 - INFO -   - Tópico: Tópico 337 (ID: 337)
+2025-07-03 02:06:21,775 - INFO -   - Tópico: Tópico 336 (ID: 336)
+2025-07-03 02:06:21,779 - INFO -   - Tópico: Tópico 335 (ID: 335)
+2025-07-03 02:06:21,783 - INFO -   - Tópico: Tópico 324 (ID: 324)
+2025-07-03 02:06:21,789 - INFO -   - Tópico: Tópico 323 (ID: 323)
+2025-07-03 02:06:21,792 - INFO -   - Tópico: Tópico 310 (ID: 310)
+2025-07-03 02:06:21,797 - INFO -   - Tópico: Tópico 309 (ID: 309)
+2025-07-03 02:06:21,802 - INFO -   - Tópico: Tópico 306 (ID: 306)
+2025-07-03 02:06:21,806 - INFO -   - Tópico: Tópico 304 (ID: 304)
+2025-07-03 02:06:21,811 - INFO -   - Tópico: Tópico 303 (ID: 303)
+2025-07-03 02:06:21,816 - INFO -   - Tópico: Tópico 302 (ID: 302)
+2025-07-03 02:06:21,821 - INFO -   - Tópico: Tópico 301 (ID: 301)
+2025-07-03 02:06:21,824 - INFO - Canal/Grupo: Programador Viking (ID: 1481869075)
+2025-07-03 02:06:21,829 - INFO - Canal/Grupo: Cursogratiis (ID: 1654648955)
+2025-07-03 02:06:21,834 - INFO - Canal/Grupo: Pedro Sobral - Canal dos Subidos (ID: 1448387167)
+2025-07-03 02:06:21,838 - INFO - Canal/Grupo: Dicas da Ana Tex (ID: 1483167703)
+2025-07-03 02:06:21,875 - INFO - Canal/Grupo: 🥷1-Ferramentas Premium SPY NinjaBR Adminer Adheart Semrush Gurukiller PiPiADS BigSpy DROPTOOL CHATGPT 4 PLUS VoiceMaker ADSEREA (ID: 2120619556)
+2025-07-03 02:06:21,902 - INFO - Canal/Grupo: LIVROS DE PSICOLOGIA, PSICANÁLISE, PEDAGOGIA E FILOSOFIA! 📚⏳ (ID: 1362823704)
+2025-07-03 02:06:21,909 - INFO - Canal/Grupo: Studios Monkey - Top Editores Brasil (ID: 1234117731)
+2025-07-03 02:06:21,922 - INFO -   - Tópico: Obrigado Daniel pela informação.
+Embora não tenha sido a que eu esperava, mas ao menos fico sabendo.  Grato. (ID: 59862)
+2025-07-03 02:06:21,927 - INFO -   - Tópico: Estamos removendo links e pacotes sem relevância! Com poucos downloads. (ID: 59861)
+2025-07-03 02:06:21,935 - INFO -   - Tópico: Peço ao Daniel Cardoso Monkey que troque o link do grupo e bole um codigo de validação contra essa pratica. acabei de receber essa denuncia. (ID: 59857)
+2025-07-03 02:06:21,945 - INFO -   - Tópico: ESSE LINK É ILEGAL e quem entrou por ele siaba, esse serviço é pago, não gratuito! Caso você não tenha comprado o seu acesso ao Pack o mesmo não terá suporte algum. (ID: 59856)
+2025-07-03 02:06:21,954 - INFO -   - Tópico: pessoal!!!  Quem aqui acessou por esse link? (ID: 59855)
+2025-07-03 02:06:21,964 - INFO -   - Tópico: Tô numa gripe danada! Por isso suporte está demorando mais que previsto nos últimos dias. E tem coisa que somente eu consigo resolver. Em breve estarei 100% e irei atender todos. (ID: 59854)
+2025-07-03 02:06:21,974 - INFO -   - Tópico: Preciso de um Freela para animar um logotipo! chamar no privado! (ID: 59849)
+2025-07-03 02:06:21,980 - INFO -   - Tópico: Bom dia, instalei o atomx seguindo o tutorial, ele ate aparece na aba extensões, porem quando clico não abre nada, alguem sabe como resolver? (ID: 59848)
+2025-07-03 02:06:21,987 - INFO -   - Tópico: O meu está dando isso , já chamei o suporte e nada de alguém responder (ID: 59846)
+2025-07-03 02:06:21,994 - INFO -   - Tópico: Tópico 59845 (ID: 59845)
+2025-07-03 02:06:22,001 - INFO -   - Tópico: Alguém teria o link novo de acesso do Pack do editor 4.0 (ID: 59844)
+2025-07-03 02:06:22,011 - INFO -   - Tópico: Boa noite, instalei o atomx seguindo o tutorial, ele ate aparece na aba extensões, porem quando clico não abre nada, alguem sabe como resolver? (ID: 59841)
+2025-07-03 02:06:22,020 - INFO -   - Tópico: Proprietario: Daniel Cardoso Monkey (ID: 59840)
+2025-07-03 02:06:22,026 - INFO -   - Tópico: Esse seria o unico meio de suporte (ID: 59839)
+2025-07-03 02:06:22,035 - INFO -   - Tópico: como sou apenas um adm aqui do telegram, nao tenho acesso a usuarios para tentar ajudar; (ID: 59838)
+2025-07-03 02:06:22,039 - INFO -   - Tópico: Horário de Suporte:
+
+Segunda a Sexta: das 9h00 às 18h00
+Sábado Domingo e Feriados: Fechado
+Canais de Suporte:
+
+WhatsApp: (38) 98858-1098
+E-mail: contato@studiosmonkey.com.br
+Tempo de Resposta: A depender da fila e Horário (ID: 59837)
+2025-07-03 02:06:22,044 - INFO -   - Tópico: Usuário certo e senha tbm , já troquei se navegador,  já tentei acessa em outro PC,  pelo meu celular e da a mesma coisa (ID: 59836)
+2025-07-03 02:06:22,048 - INFO -   - Tópico: Está assim (ID: 59835)
+2025-07-03 02:06:22,056 - INFO -   - Tópico: Tópico 59834 (ID: 59834)
+2025-07-03 02:06:22,059 - INFO -   - Tópico: Chamei, mas ninguém responde! (ID: 59833)
+2025-07-03 02:06:22,064 - INFO - Canal/Grupo: TCS SPY - PORTAL (ID: 2429087738)
+2025-07-03 02:06:22,096 - INFO - Canal/Grupo: TecnoArt (Promoções) 🖥️⚡ (ID: 1493914605)
+2025-07-03 02:06:22,104 - INFO - Canal/Grupo: Vamos Automatizar (ID: 1580661617)
+2025-07-03 02:06:22,166 - INFO - Canal/Grupo: 🎯🔎 SolluSaaS - Automação e IA🎓💡 (ID: 2319689627)
+2025-07-03 02:06:22,179 - INFO -   - Tópico: Tópico 564 (ID: 564)
+2025-07-03 02:06:22,200 - INFO -   - Tópico: Tópico 563 (ID: 563)
+2025-07-03 02:06:22,214 - INFO -   - Tópico: Tópico 562 (ID: 562)
+2025-07-03 02:06:22,226 - INFO -   - Tópico: Tópico 561 (ID: 561)
+2025-07-03 02:06:22,236 - INFO -   - Tópico: Tópico 558 (ID: 558)
+2025-07-03 02:06:22,246 - INFO -   - Tópico: Tópico 557 (ID: 557)
+2025-07-03 02:06:22,255 - INFO -   - Tópico: Tópico 556 (ID: 556)
+2025-07-03 02:06:22,261 - INFO -   - Tópico: Precisa de um servidor de HOSPEDAGEM WEB confiável e seguro, para colocar seus domínios, configurar seus emails e subir seu Site? 
+Minha recomendação é uma só: 
+
+https://kangaroohost.com.br/central/aff.php?aff=24 (ID: 555)
+2025-07-03 02:06:22,268 - INFO -   - Tópico: Tópico 554 (ID: 554)
+2025-07-03 02:06:22,274 - INFO -   - Tópico: Tópico 540 (ID: 540)
+2025-07-03 02:06:22,279 - INFO -   - Tópico: Tópico 532 (ID: 532)
+2025-07-03 02:06:22,287 - INFO -   - Tópico: Tópico 523 (ID: 523)
+2025-07-03 02:06:22,299 - INFO -   - Tópico: Tópico 507 (ID: 507)
+2025-07-03 02:06:22,308 - INFO -   - Tópico: "Eu estou estudando NoCode/LowCode... Eu deveria aprender Python?" 
+
+COM CERTEZA! 
+
+A linguagem Python é fácil de aprender, muito parecida com o JSON que usamos muito nas automações e nos ajuda a evoluir rapidamente dentro do universo das automações, até porque automação não é só Make e N8N e um programador Python, mesmo que Junior, pode fazer automações MUITO MAIS AVANÇADAS, com pouquíssimas linhas de código. 
+
+Quer aprender Python de um jeito simples, GRATUITO e divertido? 
+
+Faça como eu: instale o Mimo e dedique 30 minutos por dia. 
+
+Em 3 ou 4 meses vocês já serão capazes de criar scripts Python realmente significativos para suas automações. 
+
+Sim, eu ESTOU ESTUDANDO PYTHON e digo: é simples! 
+
+https://getmimo.com/invite/jcqopz (ID: 493)
+2025-07-03 02:06:22,312 - INFO -   - Tópico: Tópico 492 (ID: 492)
+2025-07-03 02:06:22,317 - INFO -   - Tópico: Aprenda a delegar. 
+Aprenda a fazer parcerias.
+Aprenda a focar no que realmente importa! (ID: 490)
+2025-07-03 02:06:22,320 - INFO -   - Tópico: Tópico 482 (ID: 482)
+2025-07-03 02:06:22,323 - INFO -   - Tópico: Tópico 481 (ID: 481)
+2025-07-03 02:06:22,326 - INFO -   - Tópico: Tópico 480 (ID: 480)
+2025-07-03 02:06:22,330 - INFO -   - Tópico: Tópico 477 (ID: 477)
+2025-07-03 02:06:22,333 - INFO - Canal/Grupo: Escola do Sutil Conhecimento (ID: 2311885997)
+2025-07-03 02:06:22,336 - INFO -   - Tópico: Tópico 10810 (ID: 10810)
+2025-07-03 02:06:22,340 - INFO - Canal/Grupo: Contas Com Saldo Recargapay Para Pagamentos (ID: 1733354090)
+2025-07-03 02:06:22,390 - INFO - Canal/Grupo: webguild - українська IT-спільнота 🇺🇦 (ID: 1583102419)
+2025-07-03 02:06:22,394 - INFO - Canal/Grupo: Tiger Eye | Cursos (ID: 2169688662)
+2025-07-03 02:06:22,398 - INFO - Canal/Grupo: O Primo Rico (ID: 1188384738)
+2025-07-03 02:06:22,402 - INFO - Canal/Grupo: Extreme Cursos (ID: 1785959351)
+2025-07-03 02:06:22,407 - INFO - Canal/Grupo: Comunidade Jon Fortuna (ID: 2624431019)
+2025-07-03 02:06:22,411 - INFO -   - Tópico: Tópico 4040 (ID: 4040)
+2025-07-03 02:06:22,414 - INFO -   - Tópico: Boa tarde galera!
+Pra quem se interessar!
+Segue CapCut Pro para Desktop gratuito https://www.capcut.com/capcut_pc_web/fission_receive?code=tsVT6l04333761&lng=pt-BR (ID: 4039)
+2025-07-03 02:06:22,417 - INFO -   - Tópico: Vende tudo não tem nada de graça (ID: 4036)
+2025-07-03 02:06:22,421 - INFO -   - Tópico: eu acho o google studio muito lenta e aqui tambem da muitos erros, porem é o que tem hoje, então paciencia é a palavra da hora, tentar, e tentar que uma hora funciona. ou alguem sabe de alguma ia para gerar audio sem limites de caracteres? (ID: 4035)
+2025-07-03 02:06:22,425 - INFO -   - Tópico: Alguém pode me passar os prompts dessa aula:
+
+https://youtu.be/8uzJoYb5czY?si=_KLwWsLRqD7MLn1O (ID: 4034)
+2025-07-03 02:06:22,430 - INFO -   - Tópico: Eu uso o VIDU.. quando acaba os créditos é só usar um email provisório... (ID: 4031)
+2025-07-03 02:06:22,436 - INFO -   - Tópico: Pixverse mas são poucos crédito ao dia (ID: 4029)
+2025-07-03 02:06:22,442 - INFO -   - Tópico: Quais as melhores ferramentas de preferência gratuita para gerar movimento nas imagens? O Veo2 não ta rolando mais (ID: 4028)
+2025-07-03 02:06:22,446 - INFO -   - Tópico: Já tentei de tudo nesse Google Studio...não quer gerar mesmo e tenho crédito pra gastar (ID: 4027)
+2025-07-03 02:06:22,455 - INFO -   - Tópico: Meu canal está dando sempre que eu posto um vídeo novo, revisão em até 24 horas...e as vizualizaçoes dele caíram muito o que será que está acontecendo e o que eu posso fazer? Vc pode me ajudar por favor? (ID: 4025)
+2025-07-03 02:06:22,461 - INFO -   - Tópico: Tópico 4024 (ID: 4024)
+2025-07-03 02:06:22,466 - INFO -   - Tópico: Tópico 4023 (ID: 4023)
+2025-07-03 02:06:22,473 - INFO -   - Tópico: Como faço pra obter os prompts? (ID: 4020)
+2025-07-03 02:06:22,479 - INFO -   - Tópico: Boa noite (ID: 4019)
+2025-07-03 02:06:22,486 - INFO -   - Tópico: Galera o Jon Fortuna liberou uma nova ia de gravar vozes, algum pode enviar o link? (ID: 4018)
+2025-07-03 02:06:22,492 - INFO -   - Tópico: Tópico 4017 (ID: 4017)
+2025-07-03 02:06:22,500 - INFO -   - Tópico: Tópico 4015 (ID: 4015)
+2025-07-03 02:06:22,505 - INFO -   - Tópico: Cria o botão no cava (ID: 4014)
+2025-07-03 02:06:22,511 - INFO -   - Tópico: bom dia gente, alguem tem botão de inscreva-se? eu so achei em inglês (ID: 4008)
+2025-07-03 02:06:22,517 - INFO -   - Tópico: Boa noite, acabei de fazer um video e funcionou bem (ID: 4006)
+2025-07-03 02:06:22,522 - INFO - Canal/Grupo: Inside Digital - Cursos (ID: 1128986451)
+2025-07-03 02:06:22,529 - INFO - Canal/Grupo: VERDADE REVELADA - Neemias & Jemima Gomes (ID: 1340574612)
+2025-07-03 02:06:22,535 - INFO - Canal/Grupo: Android Security & Malware (ID: 1164747047)
+2025-07-03 02:06:22,539 - INFO - Canal/Grupo: INEMA.Prompts (ID: 2494987106)
+2025-07-03 02:06:22,543 - INFO -   - Tópico: Tópico 3898 (ID: 3898)
+2025-07-03 02:06:22,548 - INFO -   - Tópico: Tópico 3882 (ID: 3882)
+2025-07-03 02:06:22,553 - INFO -   - Tópico: Tópico 3866 (ID: 3866)
+2025-07-03 02:06:22,556 - INFO - Canal/Grupo: Turma #5 - O Caminho da Ascensão (ID: 2036825093)
+2025-07-03 02:06:22,562 - INFO - Canal/Grupo: Vibe Dev: Comunidade de Micro-SaaS para Devs 🚀 (ID: 2082346078)
+2025-07-03 02:06:22,570 - INFO - Canal/Grupo: Packs VIP | Chat (ID: 1862049146)
+2025-07-03 02:06:22,804 - INFO - Canal/Grupo: 𝐕𝐈𝐏 | 𝐉𝐄𝐒𝐓𝐄𝐑 𝐏𝐀𝐂𝐊𝐒 (ID: 1935667401)
+2025-07-03 02:06:22,809 - INFO - Canal/Grupo: Vip Ju Oliveira ☕️ (ID: 1201305537)
+2025-07-03 02:06:22,811 - INFO - Canal/Grupo: Cripto Rodrigo Souza Pro (ID: 1209765125)
+2025-07-03 02:06:22,814 - INFO - Canal/Grupo: ÚLTIMA CHAMADA (ID: 1274680420)
+2025-07-03 02:06:22,819 - INFO - Canal/Grupo: Manual de Birras e Mau Comportamento (ID: 1816021848)
+2025-07-03 02:06:22,851 - INFO - Canal/Grupo: X Cursos Web - Downloads 💎 (ID: 1303952272)
+2025-07-03 02:06:22,853 - INFO - Canal/Grupo: HUBAI.IO ️ (ID: 1718227373)
+2025-07-03 02:06:22,857 - INFO - Canal/Grupo: Canal do Sheiik 🚀 (ID: 1224255131)
+2025-07-03 02:06:22,860 - INFO - Canal/Grupo: Marcelo Braggion | Copy Daily Plus (ID: 1553949419)
+2025-07-03 02:06:22,863 - INFO - Canal/Grupo: Comunidade ZDG (ID: 1510327718)
+2025-07-03 02:06:22,866 - INFO - Canal/Grupo: AI Central - Trick tips and more (ID: 1832709321)
+2025-07-03 02:06:22,868 - INFO - Canal/Grupo: { access #D.er } (ID: 1947816371)
+2025-07-03 02:06:22,871 - INFO - Canal/Grupo: Blackbox Ads | FREE (ID: 2409564102)
+2025-07-03 02:06:22,874 - INFO - Canal/Grupo: Abraham (Canal Oficial) (ID: 1894347150)
+2025-07-03 02:06:22,876 - INFO - Canal/Grupo: CANAL SANDECO (ID: 1207550207)
+2025-07-03 02:06:22,879 - INFO - Canal/Grupo: Comunidade Grátis - Gabriel Digital - Google Ads/Design (ID: 2089706382)
+2025-07-03 02:06:22,911 - INFO -   - Tópico: 🚫 O membro @Nanayaw_JuniorJunior foi silenciado por 30 minutos por compartilhar um link. (ID: 3094)
+2025-07-03 02:06:22,921 - INFO -   - Tópico: 🎥 Inscreva-se no nosso canal no YouTube!
+👉 https://www.youtube.com/@GabrielLuizDigital (ID: 3092)
+2025-07-03 02:06:22,940 - INFO -   - Tópico: 🚫 O membro @jorkosakyan190195 foi silenciado por 30 minutos por compartilhar um link. (ID: 3091)
+2025-07-03 02:06:22,961 - INFO -   - Tópico: 🚫 O membro @SSHG3Tech foi silenciado por 30 minutos por compartilhar um link. (ID: 3089)
+2025-07-03 02:06:22,982 - INFO -   - Tópico: 🎥 Inscreva-se no nosso canal no YouTube!
+👉 https://www.youtube.com/@GabrielLuizDigital (ID: 3087)
+2025-07-03 02:06:22,999 - INFO -   - Tópico: 🎥 Inscreva-se no nosso canal no YouTube!
+👉 https://www.youtube.com/@GabrielLuizDigital (ID: 3085)
+2025-07-03 02:06:23,020 - INFO -   - Tópico: 🎥 Inscreva-se no nosso canal no YouTube!
+👉 https://www.youtube.com/@GabrielLuizDigital (ID: 3084)
+2025-07-03 02:06:23,041 - INFO -   - Tópico: 🎥 Inscreva-se no nosso canal no YouTube!
+👉 https://www.youtube.com/@GabrielLuizDigital (ID: 3080)
+2025-07-03 02:06:23,050 - INFO -   - Tópico: Tópico 2945 (ID: 2945)
+2025-07-03 02:06:23,060 - INFO -   - Tópico: Tópico 2944 (ID: 2944)
+2025-07-03 02:06:23,071 - INFO -   - Tópico: Tópico 2936 (ID: 2936)
+2025-07-03 02:06:23,082 - INFO -   - Tópico: Tópico 626 (ID: 626)
+2025-07-03 02:06:23,094 - INFO -   - Tópico: Tópico 1 (ID: 1)
+2025-07-03 02:06:23,109 - INFO - Canal/Grupo: Comunidade de Tráfego do Mineiro no Telegram 💡 (ID: 1329340117)
+2025-07-03 02:06:23,122 - INFO - Canal/Grupo: Vida Lendária (ID: 1329719041)
+2025-07-03 02:06:23,133 - INFO - Canal/Grupo: Negócios em Mente - Chat GPT | Negócios | IAs | Marketing Digital (ID: 1487155520)
+2025-07-03 02:06:23,147 - INFO - Canal/Grupo: Comunidade gabesleal (ID: 2467757439)
+2025-07-03 02:06:23,156 - INFO - Canal/Grupo: RP Union Poker - SUPREMA, PPPOKER, X-Poker, CLUB GG , Poker Bros (ID: 1372783132)
+2025-07-03 02:06:23,166 - INFO - Canal/Grupo: Segredo dos Consignados (ID: 1646494056)
+2025-07-03 02:06:23,180 - INFO - Canal/Grupo: Jony Lan do Marketing ao Digital e a Inteligência Artificial (ID: 1448056455)
+2025-07-03 02:06:23,202 - INFO - Canal/Grupo: Mestre Lucas Centini ∴ (ID: 1266792532)
+2025-07-03 02:06:23,210 - INFO - Canal/Grupo: Carol Capel (ID: 1304526142)
+2025-07-03 02:06:23,266 - INFO - Canal/Grupo: Sabedoria é Poder 🔮 by ameninaveneno 🦋 | Q+Anons | Revelação | Justiça | WWG1WGA | Gados Despertados | Transição Planetária | (ID: 1471021851)
+2025-07-03 02:06:23,272 - INFO - Canal/Grupo: Canal - Marcelo Segredo (ID: 1366958123)
+2025-07-03 02:06:23,281 - INFO - Canal/Grupo: CARTAO INVESTIMENTOS PIX (ID: 2132512506)
+2025-07-03 02:06:23,288 - INFO - Canal/Grupo: Notion Money Method (ID: 2029705562)
+2025-07-03 02:06:23,293 - INFO - Canal/Grupo: Biblioteca Esotérica (ID: 1472987312)
+2025-07-03 02:06:23,299 - INFO - Canal/Grupo: ACESSO INSTA BIO NO CANVA (ID: 2413596311)
+2025-07-03 02:06:23,306 - INFO - Canal/Grupo: Rede M. Apps (ID: 1793077451)
+2025-07-03 02:06:23,312 - INFO - Canal/Grupo: COMPARTILLY APP - 50 FERRAMENTAS PREMIUM | CANVA PRO | CHAT GPT | BAIXAR DESIGN | ENVATO ELEMENTS | CAPCUT (ID: 2042945800)
+2025-07-03 02:06:23,319 - INFO - Canal/Grupo: INEMA.NCIA (ID: 2414677686)
+2025-07-03 02:06:23,324 - INFO -   - Tópico: Tópico 683 (ID: 683)
+2025-07-03 02:06:23,332 - INFO -   - Tópico: Tópico 675 (ID: 675)
+2025-07-03 02:06:23,336 - INFO -   - Tópico: Tópico 664 (ID: 664)
+2025-07-03 02:06:23,342 - INFO -   - Tópico: Tópico 644 (ID: 644)
+2025-07-03 02:06:23,348 - INFO - Canal/Grupo: Faz com IA - [Canal oficial] (ID: 1566506391)
+2025-07-03 02:06:23,352 - INFO - Canal/Grupo: NodeMation By Nskha (ID: 1999012755)
+2025-07-03 02:06:23,358 - INFO - Canal/Grupo: Jornal Verità (ID: 1602272531)
+2025-07-03 02:06:23,371 - INFO - Canal/Grupo: 🧲 Jornada da Monetização: YouTube Magnético (ID: 1357293760)
+2025-07-03 02:06:23,400 - INFO - Canal/Grupo: A UNIDADE 🌍 (ID: 2253006378)
+2025-07-03 02:06:23,409 - INFO - Canal/Grupo: ACESSO CANVA LINK NA BIO (ID: 2162518688)
+2025-07-03 02:06:23,420 - INFO - Canal/Grupo: Spy Tools - NinjaBR (ID: 1870844617)
+2025-07-03 02:06:23,428 - INFO - Canal/Grupo: Poker Profit ClubGG Channel (ID: 1647027668)
+2025-07-03 02:06:23,438 - INFO - Canal/Grupo: Comunidade Grigoletti (ID: 1715197528)
+2025-07-03 02:06:23,449 - INFO - Canal/Grupo: ACESSO PÁG. DE VENDAS CANVA (ID: 2017023412)
+2025-07-03 02:06:23,458 - INFO - Canal/Grupo: AcervoDEV - Conhecimento Acessível (ID: 2494286912)
+2025-07-03 02:06:23,528 - INFO -   - Tópico: ✅️ ACERVODEV - Conhecimento Acessível Para Todos! 🚀
+
+Muita gente tinha vontade de entrar na comunidade, mas o medo de golpe fazia muitos ficarem com o pé atrás. 😢
+
+Agora chegou a hora de ver com os próprios olhos que aqui é diferente! ✔️😍
+
+🖥 TUTORIAL DE COMO ACESSAR:
+
+1. ESCOLHER CATEGORIA ( Ex: Programação, Hacking.. )
+
+2. PROCURAR CURSO ( Navegando pelo acervo ou usando a lupa )
+
+3. CLICAR NO NOME DO CURSO PARA ACESSAR  CONTEÚDO
+
+📌 Lembrando que esse acervo teste é apenas uma porcentagem que possuimos no acervo principal, ou seja não possui todos os cursos!
+
+📱 Ficou com alguma dúvida? Nosso suporte.
+
+© Problemas com DMCA? Clique aqui. (ID: 2297)
+2025-07-03 02:06:23,538 - INFO -   - Tópico: Tópico 2258 (ID: 2258)
+2025-07-03 02:06:23,552 - INFO - Canal/Grupo: MENTE GTO - Reflexões e Estratégias ⚡️ (ID: 1301211816)
+2025-07-03 02:06:23,558 - INFO - Canal/Grupo: Pratique a resolução de desafios de programação e arrebente na sua próxima entrevista - Algomania (ID: 2336411742)
+2025-07-03 02:06:23,567 - INFO - Canal/Grupo: Allison Lindsay PLO5 (ID: 1506299939)
+2025-07-03 02:06:23,582 - INFO - Canal/Grupo: Obstinados - "Trâfego Orgânico" (ID: 1685266569)
+2025-07-03 02:06:23,595 - INFO - Canal/Grupo: Plano Mestre 💻💰💡 (ID: 1464618609)
+2025-07-03 02:06:23,610 - INFO - Canal/Grupo: Faça Sua Primeira Venda em 24 Horas – Brunna Siqueira (ID: 2640318187)
+2025-07-03 02:06:23,630 - INFO - Canal/Grupo: A Era Da Máquina De Vendas – Brunna Siqueira (ID: 2690188174)
+2025-07-03 02:06:23,642 - INFO - Canal/Grupo: TIPS JADER FIORI (ID: 1954762236)
+2025-07-03 02:06:23,652 - INFO -   - Tópico: Tópico 430 (ID: 430)
+2025-07-03 02:06:23,664 - INFO -   - Tópico: Tópico 429 (ID: 429)
+2025-07-03 02:06:23,670 - INFO -   - Tópico: Tópico 428 (ID: 428)
+2025-07-03 02:06:23,678 - INFO -   - Tópico: Tópico 427 (ID: 427)
+2025-07-03 02:06:23,684 - INFO -   - Tópico: Tópico 426 (ID: 426)
+2025-07-03 02:06:23,691 - INFO -   - Tópico: Tópico 425 (ID: 425)
+2025-07-03 02:06:23,701 - INFO -   - Tópico: Tópico 424 (ID: 424)
+2025-07-03 02:06:23,709 - INFO -   - Tópico: Tópico 423 (ID: 423)
+2025-07-03 02:06:23,713 - INFO -   - Tópico: Tópico 422 (ID: 422)
+2025-07-03 02:06:23,716 - INFO -   - Tópico: Tópico 421 (ID: 421)
+2025-07-03 02:06:23,719 - INFO -   - Tópico: Tópico 420 (ID: 420)
+2025-07-03 02:06:23,721 - INFO -   - Tópico: Tópico 419 (ID: 419)
+2025-07-03 02:06:23,723 - INFO -   - Tópico: Tópico 418 (ID: 418)
+2025-07-03 02:06:23,727 - INFO -   - Tópico: Tópico 417 (ID: 417)
+2025-07-03 02:06:23,729 - INFO -   - Tópico: Tópico 416 (ID: 416)
+2025-07-03 02:06:23,732 - INFO -   - Tópico: Tópico 415 (ID: 415)
+2025-07-03 02:06:23,736 - INFO -   - Tópico: Tópico 414 (ID: 414)
+2025-07-03 02:06:23,739 - INFO -   - Tópico: Tópico 413 (ID: 413)
+2025-07-03 02:06:23,740 - INFO -   - Tópico: Tópico 412 (ID: 412)
+2025-07-03 02:06:23,742 - INFO -   - Tópico: Tópico 411 (ID: 411)
+2025-07-03 02:06:23,746 - INFO - Canal/Grupo: Escola de Automação (ID: 1732818660)
+2025-07-03 02:06:23,795 - INFO - Canal/Grupo: 🟢@elfo_digital - Conteúdos Gratuitos🧠💭 (ID: 1776860898)
+2025-07-03 02:06:23,802 - INFO -   - Tópico: Tópico 551 (ID: 551)
+2025-07-03 02:06:23,808 - INFO -   - Tópico: /start@YTsavebot (ID: 550)
+2025-07-03 02:06:23,815 - INFO -   - Tópico: Tópico 549 (ID: 549)
+2025-07-03 02:06:23,823 - INFO -   - Tópico: /start@GHClone3Bot (ID: 548)
+2025-07-03 02:06:23,829 - INFO -   - Tópico: Tópico 547 (ID: 547)
+2025-07-03 02:06:23,836 - INFO -   - Tópico: /start@TopSaverBot (ID: 546)
+2025-07-03 02:06:23,842 - INFO -   - Tópico: Tópico 545 (ID: 545)
+2025-07-03 02:06:23,852 - INFO -   - Tópico: Tópico 544 (ID: 544)
+2025-07-03 02:06:23,857 - INFO -   - Tópico: Tópico 543 (ID: 543)
+2025-07-03 02:06:23,860 - INFO -   - Tópico: /start@GHClone4Bot (ID: 542)
+2025-07-03 02:06:23,865 - INFO -   - Tópico: Tópico 541 (ID: 541)
+2025-07-03 02:06:23,869 - INFO -   - Tópico: Tópico 540 (ID: 540)
+2025-07-03 02:06:23,873 - INFO -   - Tópico: Fx? (ID: 538)
+2025-07-03 02:06:23,877 - INFO -   - Tópico: Aq n e GP de divulgação (ID: 537)
+2025-07-03 02:06:23,883 - INFO -   - Tópico: Me perdoe não sabia que minha divulgação te incomodava tanto (ID: 535)
+2025-07-03 02:06:23,888 - INFO -   - Tópico: Pqp (ID: 534)
+2025-07-03 02:06:23,893 - INFO -   - Tópico: ?? Não entendi a sua raiva (ID: 533)
+2025-07-03 02:06:23,898 - INFO -   - Tópico: Tópico 528 (ID: 528)
+2025-07-03 02:06:23,903 - INFO -   - Tópico: K (ID: 527)
+2025-07-03 02:06:23,929 - INFO -   - Tópico: ?😏 (ID: 526)
+2025-07-03 02:06:23,936 - INFO - Canal/Grupo: Explicações sobre coronavírus - Atila (ID: 1237328358)
+2025-07-03 02:06:23,943 - INFO - Canal/Grupo: CHAT Ana Tex (ID: 1493358523)
+2025-07-03 02:06:23,950 - INFO - Canal/Grupo: INEMA.Automacao (ID: 2246269738)
+2025-07-03 02:06:23,957 - INFO -   - Tópico: Tópico 4073 (ID: 4073)
+2025-07-03 02:06:23,961 - INFO -   - Tópico: Tópico 4062 (ID: 4062)
+2025-07-03 02:06:23,963 - INFO -   - Tópico: Tópico 4057 (ID: 4057)
+2025-07-03 02:06:23,967 - INFO -   - Tópico: Tópico 4056 (ID: 4056)
+2025-07-03 02:06:23,970 - INFO -   - Tópico: Tópico 4052 (ID: 4052)
+2025-07-03 02:06:23,973 - INFO -   - Tópico: Automacoes para o DeepSeek R1 (ID: 4051)
+2025-07-03 02:06:23,975 - INFO -   - Tópico: Tópico 4050 (ID: 4050)
+2025-07-03 02:06:23,979 - INFO - Canal/Grupo: FUTFANTASY - ROBÔ OVER GOLS (ID: 1263132653)
+2025-07-03 02:06:23,981 - INFO - Canal/Grupo: Intensivão do Poker Felipe Bueno (ID: 1404091790)
+2025-07-03 02:06:23,984 - INFO - Canal/Grupo: Metahackers ™ (ID: 1398518473)
+2025-07-03 02:06:23,986 - INFO - Canal/Grupo: Viveiros - Download (ID: 1443950623)
+2025-07-03 02:06:23,989 - INFO - Canal/Grupo: ♠️♦️ UNIÃO POKER ZONE ♣️♥️ (ID: 1977952823)
+2025-07-03 02:06:23,992 - INFO - Canal/Grupo: “Aproveite nossa oferta exclusiva para clientes especiais.” (ID: 2012646220)
+2025-07-03 02:06:23,996 - INFO - Canal/Grupo: Curso.ninja-saite.com (ID: 1916937673)
+2025-07-03 02:06:23,999 - INFO - Canal/Grupo: Stories para Enriquecer - Luana Carolina (ID: 2207124218)
+2025-07-03 02:06:24,002 - INFO - Canal/Grupo: LearnWorld - Cursos (ID: 1863930960)
+2025-07-03 02:06:24,004 - INFO - Canal/Grupo: Pula Muralha (ID: 1179568133)
+2025-07-03 02:06:24,006 - INFO - Canal/Grupo: Lista de Cursos - Inside Digital (ID: 1620704041)
+2025-07-03 02:06:24,009 - INFO - Canal/Grupo: Alertas de Trends Virais - Pedro Carvalho TikTok (ID: 1572047333)
+2025-07-03 02:06:24,012 - INFO - Canal/Grupo: Lays Rezende (ID: 2440662852)
+2025-07-03 02:06:24,014 - INFO - Canal/Grupo: Formação Copywriter 12k-Alexandre Viveiros (ID: 2077952119)
+2025-07-03 02:06:24,018 - INFO - Canal/Grupo: Reels Superpoderoso | Paulo Cuenca (ID: 1723996863)
+2025-07-03 02:06:24,020 - INFO - Canal/Grupo: Momento FLOW por Marcelo Müller (ID: 1389575311)
+2025-07-03 02:06:24,081 - INFO - Canal/Grupo: Crypto insiders 🥇🐳 (ID: 1576295349)
+2025-07-03 02:06:24,084 - INFO - Canal/Grupo: Creativerse - Cursos (ID: 1869064698)
+2025-07-03 02:06:24,086 - INFO - Canal/Grupo: RocketMaster - Alunos (ID: 1499045763)
+2025-07-03 02:06:24,089 - INFO - Canal/Grupo: Hormart Metodo 4S WordPress-Marcos Bertoleti-2023 (ID: 2185523156)
+2025-07-03 02:06:24,092 - INFO - Canal/Grupo: Codirect - Marca de Valor (ID: 1385488883)
+2025-07-03 02:06:24,124 - INFO - Canal/Grupo: Escola de Vendas e Copywriting 🖊️🧠💰 (ID: 1794078529)
+2025-07-03 02:06:24,130 - INFO - Canal/Grupo: Indico Descontos (ID: 1684986947)
+2025-07-03 02:06:24,135 - INFO - Canal/Grupo: PPPCLUBS/POKERBROS NETWORK (ID: 1217123587)
+2025-07-03 02:06:24,140 - INFO - Canal/Grupo: Hora de Codar (ID: 1698169166)
+2025-07-03 02:06:24,144 - INFO - Canal/Grupo: AirDrops e Criptomoedas 🆓 (ID: 1412277383)
+2025-07-03 02:06:24,148 - INFO - Canal/Grupo: Rei dos cursos (ID: 1748673789)
+2025-07-03 02:06:24,191 - INFO - Canal/Grupo: 🏆 FERCONTELLI - ROLETA 🏆 (ID: 2093161157)
+2025-07-03 02:06:24,194 - INFO - Canal/Grupo: Código Viral - Oney Araujo (ID: 2029537480)
+2025-07-03 02:06:24,201 - INFO - Canal/Grupo: Canal do Fred Costa (ID: 1236324263)
+2025-07-03 02:06:24,205 - INFO - Canal/Grupo: 💰 ROLETA FREE - FERCONTELLI 🥇 (ID: 1936093891)
+2025-07-03 02:06:24,209 - INFO - Canal/Grupo: Viver de Renda Cripto - Felipe Santana e Bruno Perini (ID: 2108623675)
+2025-07-03 02:06:24,217 - INFO - Canal/Grupo: “Aproveite nossa oferta exclusiva para clientes especiais.” (ID: 4195297026)
+2025-07-03 02:06:24,222 - INFO - Canal/Grupo: Plo5 Poker (ID: 1460404421)
+2025-07-03 02:06:24,229 - INFO - Canal/Grupo: UniCanva: Escola de Design com o Canva – Rob Boliver (ID: 2135790201)
+2025-07-03 02:06:24,234 - INFO - Canal/Grupo: Mestres AI - Tiago Lemos (ID: 1994603681)
+2025-07-03 02:06:24,238 - INFO - Canal/Grupo: CCN Pessoal Novo – Carlos, Leonardo (ID: 2041192576)
+2025-07-03 02:06:24,243 - INFO - Canal/Grupo: Curso de Poker - O Mais Completo do Brasil - Felipe Carmanhani (ID: 1864749072)
+2025-07-03 02:06:24,248 - INFO - Canal/Grupo: Hashtag Treinamentos - @DevWorldHub (ID: 1758893027)
+2025-07-03 02:06:24,253 - INFO - Canal/Grupo: Landing Page do Zero-Alef Miranda-2023 (ID: 2082345531)
+2025-07-03 02:06:24,258 - INFO - Canal/Grupo: B2X GROUP (ID: 1244516701)
+2025-07-03 02:06:24,261 - INFO - Canal/Grupo: Tiffany (vazado) (ID: 1806380884)
+2025-07-03 02:06:24,263 - INFO - Canal/Grupo: Arnaldo Junior - Trader (ID: 1314088491)
+2025-07-03 02:06:24,268 - INFO - Canal/Grupo: Afiliado Full Stack (ID: 1955694801)
+2025-07-03 02:06:24,271 - INFO - Canal/Grupo: ♠️♦️ UNIÃO POKER ZONE ♣️♥️ (ID: 955444679)
+2025-07-03 02:06:24,275 - INFO - Canal/Grupo: Tik Tok Ads Academy-Edu Maia-2022 (ID: 1989626482)
+2025-07-03 02:06:24,277 - INFO - Canal/Grupo: TURBO LEADS # 1 (ID: 1864103762)
+2025-07-03 02:06:24,281 - INFO - Canal/Grupo: Engenharia de Software (ID: 1877449273)
+2025-07-03 02:06:24,283 - INFO - Canal/Grupo: AMANDA SERVÌÇÕS BOT (ID: 1962340375)
+2025-07-03 02:06:24,287 - INFO - Canal/Grupo: Memória_360_CME_Renato_Alves-2022 (ID: 1962788821)
+2025-07-03 02:06:24,290 - INFO - Canal/Grupo: Putinha vazada @Packsmega (ID: 1801543679)
+2025-07-03 02:06:24,292 - INFO - Canal/Grupo: LOGO ANIMATION - Levy Motion (ID: 1978794349)
+2025-07-03 02:06:24,295 - INFO - Canal/Grupo: FO.CO Formação para Co-Produtores - Ana Paula Perci (ID: 1719977104)
+2025-07-03 02:06:24,299 - INFO - Canal/Grupo: Landing Canva (ID: 1852232639)
+2025-07-03 02:06:24,302 - INFO - Canal/Grupo: Master Criativos - Felipe Ferini (ID: 1837344595)
+2025-07-03 02:06:24,323 - INFO - Canal/Grupo: ABPLO - Omaníacos 😆 (ID: 1452951084)
+2025-07-03 02:06:24,326 - INFO - Canal/Grupo: ABPLO ♥️♣️♦️♠️ (ID: 1335413278)
+2025-07-03 02:06:24,328 - INFO - Canal/Grupo: Creativerse - Convite (ID: 1657314902)
+2025-07-03 02:06:24,413 - INFO - Canal/Grupo: SERGIO ~ FBS Bot do negociação Brasil 🇧🇷 🇧🇷 🪙 (ID: 1678496036)
+2025-07-03 02:06:24,420 - INFO - Canal/Grupo: Scarlett Jones (ID: 1763360711)
+2025-07-03 02:06:24,425 - INFO - Canal/Grupo: Asiáticas (ID: 1763474904)
+2025-07-03 02:06:24,431 - INFO - Canal/Grupo: Eletricista_Profissional-2022-Engehall (ID: 1709707496)
+2025-07-03 02:06:24,461 - INFO - Canal/Grupo: Fabrício Gonçalves bot mineração 🇧🇷📊(Plataforma para investidores milionários) (ID: 1655831196)
+2025-07-03 02:06:24,490 - INFO - Canal/Grupo: Comerclos para todors📊📈 (ID: 1202749852)
+2025-07-03 02:06:24,499 - INFO - Canal/Grupo: *THE ROCKETS* M.C UDIA (ID: 574965680)
+2025-07-03 02:06:24,506 - INFO - Canal/Grupo: Hackeando Tudo 2 0-Raiam Santos-2022 (ID: 1767619801)
+2025-07-03 02:06:24,511 - INFO - Canal/Grupo: Libras Intensive - Libras Academy (ID: 1618177277)
+2025-07-03 02:06:24,518 - INFO - Canal/Grupo: Kkcacheta (ID: 1778272963)
+2025-07-03 02:06:24,530 - INFO - Canal/Grupo: Fish Nunca Mais! (ID: 1290591390)
+2025-07-03 02:06:24,536 - INFO - Canal/Grupo: Android Hacking - GuardWeb (ID: 1569204689)
+2025-07-03 02:06:24,540 - INFO - Canal/Grupo: Melhor metatodo marketing digital do mundo (ID: 709148372)
+2025-07-03 02:06:24,544 - INFO - Canal/Grupo: ▶️ Ethical Hacking e Penetration Testing (ID: 1509536391)
+2025-07-03 02:06:24,548 - INFO - Canal/Grupo: Allison Lindsay-Mão do dia (ID: 639312591)
+2025-07-03 02:06:24,553 - INFO - Canal/Grupo: Profissao Gestora de Trafego - Ana Clara Neves Cardoso (ID: 1513078954)
+2025-07-03 02:06:24,557 - INFO - Canal/Grupo: PokerBotAI Net (ID: 1567917862)
+2025-07-03 02:06:24,562 - INFO - Canal/Grupo: 5- ChinesBravo (238025) (158113) (810287) (ID: 407989358)
+2025-07-03 02:06:24,568 - INFO - Canal/Grupo: CASA DAS FAMOSAS PRÉVIAS (ID: 1724157074)
+2025-07-03 02:06:24,571 - INFO - Canal/Grupo: Cursagram (ID: 1045967856)
+2025-07-03 02:06:24,574 - INFO - Canal/Grupo: Jogo Lucrativo (ID: 1358612767)
+2025-07-03 02:06:24,576 - INFO - Canal/Grupo: Leo in Fat Stacks (ID: 737185371)
+2025-07-03 02:06:24,581 - INFO - Canal/Grupo: Pokerdogs - Bodog Brasil (ID: 1460204019)
+2025-07-03 02:06:24,583 - INFO - Canal/Grupo: Jovem Grinder (ID: 1539828067)
+2025-07-03 02:06:24,588 - INFO - Canal/Grupo: Comunidade Reg Life (ID: 1478904508)
+2025-07-03 02:06:24,590 - INFO - Canal/Grupo: Comunidade Funnel Makers (ID: 1239978025)
+2025-07-03 02:06:24,592 - INFO - Canal/Grupo: ♠️♦️Liga Euforia Poker♥️♣️ (ID: 1394863031)
+2025-07-03 02:06:24,594 - INFO - Canal/Grupo: Maratona Elite Online (ID: 1404783408)
+2025-07-03 02:06:24,595 - INFO - Canal/Grupo: Jean Paulo - Job Content Academy (ID: 1463470382)
+2025-07-03 02:06:24,600 - INFO - Canal/Grupo: Mathews Azevedo (ID: 1489039431)
+2025-07-03 02:06:24,602 - INFO - Canal/Grupo: Gus/Bede/Shayne (ID: 527109951)
+2025-07-03 02:06:24,604 - INFO - Canal/Grupo: Test Period PPPoker Club id 670454 (ID: 1284238900)
+2025-07-03 02:06:24,606 - INFO - Canal/Grupo: Caminhada com o João (ID: 1468578844)
+2025-07-03 02:06:24,608 - INFO - Canal/Grupo: Test Period PPPoker Club id 670454 (ID: 368098570)
+2025-07-03 02:06:24,609 - INFO - Canal/Grupo: Test period Upoker (ID: 361884652)
+2025-07-03 02:06:24,612 - INFO - Canal/Grupo: ÁudioLivros - ÁudioBooks Gratuitos (ID: 1421984939)
+2025-07-03 02:06:24,637 - INFO - Canal/Grupo: (FREE) QaB - Consultoria de Trade Esportivo ⚽️🐶 (ID: 1189472445)
+2025-07-03 02:06:24,639 - INFO - Canal/Grupo: Seu Curso Online com Ana Martha Tex (ID: 1473063388)
+2025-07-03 02:06:24,643 - INFO - Canal/Grupo: Nerds de negócios (ID: 1375585807)
+2025-07-03 02:06:24,645 - INFO - Canal/Grupo: PPPORVA - VIP (ID: 1338102835)
+2025-07-03 02:06:24,649 - INFO - Canal/Grupo: Cerrado poker (ID: 393366342)
+2025-07-03 02:06:24,652 - INFO - Canal/Grupo: AUSTRALIAN UNION - PPPFISH (ID: 496378096)
+2025-07-03 02:06:24,656 - INFO - Canal/Grupo: RPUNION [channel eng] (ID: 1291300931)
+2025-07-03 02:06:24,659 - INFO - Canal/Grupo: Técnicas de Invasão (ID: 1040036603)
+2025-07-03 02:06:24,661 - INFO - Extração de canais e grupos concluída.
+2025-07-03 02:08:06,370 - INFO - Worker thread started.
+2025-07-03 02:08:06,386 - INFO - Bem-vindo ao Telegram Scraper!
+2025-07-03 02:09:05,384 - INFO - Got difference for channel 2389955773 updates
+2025-07-03 02:09:08,888 - INFO - Encerrando a aplicação...
+2025-07-03 02:09:08,970 - INFO - Worker thread finished.
+2025-07-03 02:09:09,001 - INFO - Desligando o worker...
+2025-07-03 02:15:28,233 - INFO - Worker thread started.
+2025-07-03 02:15:28,253 - INFO - Bem-vindo ao Telegram Scraper!
+2025-07-03 02:15:31,033 - INFO - Got difference for channel 2199888564 updates
+2025-07-03 02:15:31,178 - INFO - Got difference for channel 2370406148 updates
+2025-07-03 02:15:35,904 - INFO - Encerrando a aplicação...
+2025-07-03 02:15:36,112 - INFO - Disconnecting from 149.154.175.53:443/TcpFull...
+2025-07-03 02:15:36,114 - INFO - Disconnection from 149.154.175.53:443/TcpFull complete!
+2025-07-03 02:15:36,212 - INFO - Desligando o worker...

@@ -1,7 +1,7 @@
 scraping:
   channels: []
-  continuous_scraping: false
-  download_media: false
+  continuous_scraping: true
+  download_media: true
   interval_seconds: 300
   message_limit: 100
 telegram:

@@ -1,12 +1,12 @@
 import sys
 import os
-
-# Adiciona o diretório 'src' ao caminho de busca do Python
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "src")))
-
-# Importa os módulos necessários
-from gui.main import TelegramScraperGUI
 import tkinter as tk
+
+# Adiciona o diretório 'src' ao sys.path para que as importações funcionem
+# quando o script é executado diretamente.
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "src")))
+
+from gui.main import TelegramScraperGUI
 
 if __name__ == "__main__":
     root = tk.Tk()
