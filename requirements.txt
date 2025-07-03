@@ -2,3 +2,4 @@ telethon
 aiohttp
 asyncio
 pandas
+pyyaml

@@ -179,9 +179,6 @@ class TelegramScraper:
     async def process_message(
         self, message, channel_id, channel_name, topic_id=None, topic_name=None
     ):
-        # Aqui você implementaria a lógica para processar e salvar as mensagens
-        # Incluirá a criação de pastas baseadas em channel_name e topic_name
-
         # Sanitizar nomes antes de usar em caminhos de arquivo
         sanitized_channel_name = sanitize_name(channel_name)
         sanitized_topic_name = sanitize_name(topic_name) if topic_name else None
@@ -193,6 +190,7 @@ class TelegramScraper:
         save_dir = os.path.join(*path_parts)
         os.makedirs(save_dir, exist_ok=True)
 
+        # Salvar texto da mensagem
         file_name = f"message_{message.id}.txt"
         file_path = os.path.join(save_dir, file_name)
 
@@ -205,6 +203,30 @@ class TelegramScraper:
 
         print(f"Mensagem {message.id} salva em {file_path}")
         logger.info(f"Mensagem {message.id} salva em {file_path}")
+
+        # --- NOVO: Download de arquivos/documentos anexados ---
+        if self.config_manager.get("scraping.download_media", False):
+            # Verifica se a mensagem tem mídia/documento
+            if hasattr(message, "document") and message.document:
+                # Obtém o nome do arquivo
+                file_name = None
+                for attr in getattr(message.document, "attributes", []):
+                    if hasattr(attr, "file_name"):
+                        file_name = attr.file_name
+                        break
+                if not file_name:
+                    # Nome genérico se não encontrar
+                    file_name = f"document_{message.id}"
+                # Caminho completo para salvar
+                file_path = os.path.join(save_dir, file_name)
+                # Baixa o arquivo
+                try:
+                    await message.download_media(file_path)
+                    print(f"Arquivo {file_name} baixado em {file_path}")
+                    logger.info(f"Arquivo {file_name} baixado em {file_path}")
+                except Exception as e:
+                    print(f"Erro ao baixar arquivo {file_name}: {e}")
+                    logger.error(f"Erro ao baixar arquivo {file_name}: {e}")
 
     def export_data(self, channel_id):
         print(f"Exportando dados do canal {channel_id}")
